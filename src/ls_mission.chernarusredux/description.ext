@@ -1,0 +1,75 @@
+#include "Config_Wiki.hpp"
+#include "infiSTAR_AdminMenu.hpp"
+#include "ACEX_Fortify_Presets.hpp"
+#include "scripts\achievements_config.hpp"
+
+
+cba_settings_hasSettingsFile = 1;
+respawn = "BASE";
+respawnButton = 1;
+respawnOnStart = -1;
+corpseManagerMode = 1;
+corpseLimit = 0;
+corpseRemovalMinTime = 190;
+corpseRemovalMaxTime = 300;
+wreckManagerMode = 1;
+wreckLimit = 0;
+wreckRemovalMinTime = 190;
+wreckRemovalMaxTime = 300;
+minPlayerDistance = 500;
+
+
+//Discord info
+class CfgDiscordRichPresence {
+    applicationID="701911038626627664";					// Provided by discord
+    defaultDetails="May the Force be with you!";		// Upper text
+    defaultState="discord.com/invite/zTVvYMC";			// Lower text
+    defaultLargeImageKey="sfrp";						// Large image
+    defaultLargeImageText="Arma 3 The Last Stand RP";	// Large image hover text
+    defaultSmallImageKey="arma3";						// Small image
+    defaultSmallImageText="Arma 3";						// Small image hover text
+    useTimeElapsed=1;									// Show time elapsed since the player connected (1 - true, 0 - false)
+};
+
+
+class PayCheck
+{
+	DeathPenalty = 15; //Штраф в процентах, сколько денег будет списываться при смерти
+	LoopTime = 1200; //Интервал в секундах, после завершения которого, на счет поступит выплата
+	Amount = 50; //Количество начисляемых CR
+	AdminRegularCheck = 1; //Если 1, то системка будет регулярно проверять, не получил ли кто либо несанкционированный доступ к панели и если получил, то заберет его
+	AdminUIDs[] = //Список UID с доступом к панели с функционалом начисления/списания CR
+	{
+		"76561198057238748"//Host (Creator)
+		,"76561198288271495"//KapayJl (Tech)
+		,"76561198041211224"//Flin (Tech)
+		,"76561198022475274"//Grim (Tech)
+		,"76561198079947268"//Shepard (Curator)
+		,"76561198006688545"//Dark (BSO)
+		,"76561198121927537"//Morket (Jedi)
+		,"76561198092314817"//Zander (Neutral)
+		,"76561198031361413"//KID (Neutral Event)
+		,"76561198102983006"//Joker (Neutral Event)
+	};
+};
+
+
+class CfgRemoteExec
+{
+	// List of script functions allowed to be sent from client via remoteExec
+	class Functions
+	{
+		// States remoteExec: 0-off, 1-enabled, taking into account the white list, 2-enabled, however, ignoring whitelists (by default because of backwards compatibility)
+		mode = 2;
+		// The ability to send jeep messages: 0-disabled, 1-enabled (default)
+		jip = 1;
+
+		class vcm_serverask { allowedTargets = 0;jip = 1; };
+		class VCM_PublicScript { allowedTargets = 0;jip = 1; };
+		class BIS_fnc_debugConsoleExec { allowedTargets = 0;jip = 1; };
+		class SpawnScript { allowedTargets = 0;jip = 1; };
+		class enableSimulationGlobal { allowedTargets = 0;jip = 1; };
+		class VCM_fnc_KnowAbout { allowedTargets = 0;jip = 1; };
+		class ASN_fnc_controlPanel { allowedTargets = 2;};
+	};
+};
