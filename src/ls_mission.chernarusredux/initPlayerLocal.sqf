@@ -9,10 +9,19 @@
 
 [] spawn SWOP_FIX;
 
+[] execVM "scripts\rank.sqf";
+
+[] execVM "scripts\base_info.sqf"; 
+
+[] execVM "scripts\intro_text.sqf"; 
+
+[] execVM "scripts\restart_anonce.sqf";
+
 [] execVM "onplayerconnected.sqf";
 
 ["InitializePlayer", [player]] call BIS_fnc_dynamicGroups;
 
+titleText ["<t color='#00ff5f' size='4'>Загрузка информации</t><br/><t size='2'>Ожидайте...</t>", "BLACK FADED", 0.4, true, true];
 enableSaving [false,false];
 
 z6_notSuck = [player] spawn 
