@@ -58,6 +58,13 @@ arsARF = [] spawn
 	[_box, _arsenal] call ace_arsenal_fnc_initBox;
 };
 
+arsDEC = [] spawn
+{
+	_box = ars_dec;
+	_arsenal = ["SWLA_115th_SL_Uniform","SWLA_115th_ARC_Vest","SWLA_115th_P1_Helmet","SWLA_115th_Cadet_Uniform","SWLA_115th_Trooper_Uniform","SWLB_CEE_Engineer_Vest_NCO","SWLA_115th_ARF_Helmet","SWLB_CEE_Force_Recon_Officer","SWLB_CEE_ARF_Vest","SWLA_115th_Dave_Helmet","104_Uniform_Horus","104_Camo_Plate_Horus","104_HelmetP15_Horus","JP_CDV_Quantos","104_Uniform_Quantos","104_HelmetP1_ARF_Quantos","JP_Heavy_CDV_SOB","SWLB_clone_arc_backpack","SWLB_clone_backpack","SWLB_CEE_Recon_RTO_Backpack","SWLB_clone_backpack_RTO","SWLB_clone_backpack_heavy","JLTS_Clone_jumppack","ARF_Uniform_Reason","ARF_helmet_Reason","ARF_Helmet_Acklay_1","ARF_Uniform_Acklay_1","ARF_Camo_Acklay_1","JPy_CDV_Ackla","JP_NoCDV_Acklay","JLTS_DC15S","JLTS_DC15A_ugl_plastic","JLTS_DC15A_plastic","RD501_westar_m5","RD501_westar_m5_gl","JLTS_DW32S","SWLW_GL","RD501_DC_15a_MRP","RD501_DC_15a_GL_MRP","212th_DLT19D","212th_DC15XM","RD501_DC_15a_LE","RD501_DC_15a_mod_0_rifle","LS_Z6","JLTS_DC17SA","SWLW_PLX1","SWLW_rps6_disposable","SWLW_PLX1_AA","ACE_Clacker","ACE_IR_Strobe_Item","ACE_wirecutter","ACE_DefusalKit","JLTS_riot_shield_item","ACE_EntrenchingTool","SWLB_clone_nvg","SWLB_CEE_P1_Rangefinder","SW_halfshield_Mag","swop_mag_flashbang","SWOP_BCCKtermimploder_G","OPTRE_M2_Smoke","OPTRE_M8_Flare_Green","OPTRE_M8_Flare"];
+	[_box, _arsenal] call ace_arsenal_fnc_initBox;
+};
+
 // -- Жиды и подсосы
 
 arsZulu = [] spawn 
