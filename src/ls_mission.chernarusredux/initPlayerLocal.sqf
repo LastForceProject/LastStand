@@ -63,8 +63,6 @@ RC_ARC_power = [player] spawn
 	}
 };
 
-// штамп лох;
-
 UsableUniformsJump = ["SWOP_Reb_f_WW_Chewbacca1_CombatUniform","SWOP_Reb_f_WW_Chewbacca3_CombatUniform","SWOP_Reb_f_WW_Chewbacca5_CombatUniform"];
 player setVariable ["Last_Jump", 0, true];
 player addAction ["<t color='#00FF00'>Прыгнуть</t>", "[] execVM 'scripts\fn_jump.sqf'", [], 6, false, true,"User11","((vehicle player == player) && (uniform player in UsableUniformsJump))"];
