@@ -26,7 +26,6 @@ jobs:
       run: |
         sudo apt-get install liblzo2-2 libvorbis0a libvorbisfile3 libvorbisenc2 libogg0 libuchardet0
         which rsync
-
     - name: Install and Build Mikero
       uses: SCHTAMP/mikero-install@v1
       with:
@@ -46,5 +45,3 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
-        
-    
