@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=194;
+		nextID=212;
 	};
 	class Camera
 	{
-		pos[]={11888.033,252.36461,12772.923};
-		dir[]={0.76784682,-0.58090645,-0.27053195};
-		up[]={0.54805285,0.81382161,-0.19309162};
-		aside[]={-0.33234963,2.7888891e-006,-0.9432897};
+		pos[]={12089.979,190.355,12619.713};
+		dir[]={0.12403265,-0.63203287,0.76510465};
+		up[]={0.10116161,0.77478766,0.62403375};
+		aside[]={0.98723805,2.9631465e-006,-0.16004714};
 	};
 };
 binarizationWanted=0;
@@ -483,6 +483,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -514,25 +533,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
 				};
 			};
 		};
@@ -9209,18 +9209,17 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12092.318,159.6859,12661.495};
-						angles[]={0,0.26179981,0};
+						position[]={12092.318,159.68619,12661.495};
+						angles[]={0,0.2617994,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						name="arsDEC";
+						name="ars_dec";
 					};
 					id=4696;
 					type="repammobox2";
-					atlOffset=-0.00028991699;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9404,7 +9403,7 @@ class Mission
 				};
 			};
 			id=2576;
-			atlOffset=0.00053405762;
+			atlOffset=0.0005645752;
 		};
 		class Item4
 		{
@@ -31887,7 +31886,7 @@ class Mission
 			};
 			id=4767;
 			type="Land_Communication_F";
-			atlOffset=0.0022735596;
+			atlOffset=0.0023040771;
 		};
 		class Item250
 		{
@@ -31921,84 +31920,84 @@ class Mission
 			};
 			id=4776;
 			type="O_T_APC_Tracked_02_cannon_ghex_F";
-			atlOffset=0.084838867;
+			atlOffset=0.08480835;
 		};
 		class Item252
 		{
 			dataType="Layer";
 			name="Headquarters #B";
 			id=4868;
-			atlOffset=-0.040557861;
+			atlOffset=51.549999;
 		};
 		class Item253
 		{
 			dataType="Layer";
 			name="Fuel Dump #B";
 			id=4903;
-			atlOffset=-0.0013580322;
+			atlOffset=51.549999;
 		};
 		class Item254
 		{
 			dataType="Layer";
 			name="Mortar Pit #B";
 			id=4931;
-			atlOffset=-0.0008392334;
+			atlOffset=51.549999;
 		};
 		class Item255
 		{
 			dataType="Layer";
 			name="Field Radar #O";
 			id=5037;
-			atlOffset=-0.045257568;
+			atlOffset=51.549999;
 		};
 		class Item256
 		{
 			dataType="Layer";
 			name="Field HQ #O";
 			id=5146;
-			atlOffset=-0.00054931641;
+			atlOffset=51.549999;
 		};
 		class Item257
 		{
 			dataType="Layer";
 			name="Field Barracks #O2";
 			id=5260;
-			atlOffset=-0.006362915;
+			atlOffset=51.549999;
 		};
 		class Item258
 		{
 			dataType="Layer";
 			name="Base Objects";
 			id=5320;
-			atlOffset=-0.015670776;
+			atlOffset=51.549999;
 		};
 		class Item259
 		{
 			dataType="Layer";
 			name="UAV Terminal #B";
 			id=5344;
-			atlOffset=-0.0010528564;
+			atlOffset=51.549999;
 		};
 		class Item260
 		{
 			dataType="Layer";
 			name="Artillery Radar #O";
 			id=5373;
-			atlOffset=-0.001159668;
+			atlOffset=51.549999;
 		};
 		class Item261
 		{
 			dataType="Layer";
 			name="Anti-Air Radar #B";
 			id=5397;
-			atlOffset=0.0070495605;
+			atlOffset=51.549999;
 		};
 		class Item262
 		{
 			dataType="Layer";
 			name="Concrete Tower Checkpoint #B";
 			id=5430;
-			atlOffset=-0.0073394775;
+			atlOffset=51.549999;
 		};
 		class Item263
 		{
@@ -32015,7 +32014,7 @@ class Mission
 			};
 			id=5441;
 			type="Land_RepairDepot_01_green_F";
-			atlOffset=0.20085144;
+			atlOffset=0.20083618;
 		};
 	};
 };

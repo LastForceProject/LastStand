@@ -7,8 +7,6 @@ arsRS = [] spawn
 	[_box, _arsenal] call ace_arsenal_fnc_initBox;
 };
 
-//comment
-
 arsCG = [] spawn 
 {
 	_box = ars_cg;

@@ -77,7 +77,7 @@ sleep 15; // Время до начала титров
 _role1 = "Добро пожаловать на The Last Stand RP";
 _role1names = [profileName];
 _role2 = "Игровой проект Last Force Project";
-_role2names = ["Thanks to: KapayJI, SWLS, wRaiz, Flin."];
+_role2names = ["Thanks to: KapayJI, SWLS, wRaiz, Flin <t size='0.70' align='right' color='#ff0000'>SCHTAMP.</t>"];
 _role3 = "Посетите нашу группу VK";
 _role3names = ["vk.com/arma3lfp"];
 _role4 = "Присоединяйтесь к Discord";
@@ -118,7 +118,7 @@ sleep 65;
 for "_i" from 1 to 14 do 
 {
 	[
-		"<t color='#000000' font='TahomaB' size = '.7'>Напоминаем,<br/>что рестарты происходят<br/>в автоматическом режиме<br/>в <t color='#8B0000' font='TahomaB' size = '.8'>02:00</t> и <t color='#8B0000' font='TahomaB' size = '.8'>09:00</t> по МСК</t>",
+		"<t color='#ffffff' font='TahomaB' size = '.7'>Напоминаем,<br/>что рестарты происходят<br/>в автоматическом режиме<br/>в <t color='#8B0000' font='TahomaB' size = '.8'>02:00</t> и <t color='#8B0000' font='TahomaB' size = '.8'>09:00</t> по МСК</t>",
 		[safezoneX + safezoneW - 0.8,0.50], -1, 10 
 	] spawn BIS_fnc_dynamicText
 };
