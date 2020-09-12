@@ -1,0 +1,31 @@
+name: Dispatch Build
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Mikero Depends
+      run: |
+        sudo apt-get install liblzo2-2 libvorbis0a libvorbisfile3 libvorbisenc2 libogg0 libuchardet0
+        which rsync
+    - name: Install and Build Mikero
+      uses: SCHTAMP/mikero-install@v1
+      with:
+        path: src
+        build-path: ./dist
+        
+    - uses: actions/upload-artifact@v2
+      with:
+        name: map-${{ github.sha }}
+        path: dist/*.pbo
