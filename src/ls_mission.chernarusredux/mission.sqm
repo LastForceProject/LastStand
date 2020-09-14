@@ -8,7 +8,7 @@ class EditorData
 	toggles=554;
 	class ItemIDProvider
 	{
-		nextID=5652;
+		nextID=5672;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=320;
+		nextID=338;
 	};
 	class Camera
 	{
-		pos[]={12289.571,176.474,12606.648};
-		dir[]={0.65126812,-0.69708902,-0.30025563};
-		up[]={0.63310254,0.71689713,-0.29187852};
-		aside[]={-0.41872209,6.4593041e-007,-0.90821719};
+		pos[]={11958.245,209.93044,12729.4};
+		dir[]={0.41343611,-0.67858016,0.6073277};
+		up[]={0.38189784,0.73442632,0.56100476};
+		aside[]={0.82671905,5.7916623e-007,-0.56279171};
 	};
 };
 binarizationWanted=0;
@@ -102,13 +102,15 @@ addons[]=
 	"A3_Props_F_Enoch_Military_Camps",
 	"ls_laat_2",
 	"RD501_patch_warden_tank",
-	"RD501_patch_bantha"
+	"RD501_patch_bantha",
+	"A3_Structures_F_Exp_Commercial_Addons",
+	"A3_Structures_F_Exp_Civilian_Accessories"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=60;
+		items=62;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -485,6 +487,20 @@ class AddonsMetaData
 			className="ls_laat_2";
 			name="ls_laat_2";
 		};
+		class Item60
+		{
+			className="A3_Structures_F_Exp_Commercial";
+			name="Arma 3 Apex - Commercial Buildings";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item61
+		{
+			className="A3_Structures_F_Exp_Civilian";
+			name="Arma 3 Apex - Civilian Buildings";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=10121883;
@@ -507,25 +523,6 @@ class CustomAttributes
 	{
 		name="Multiplayer";
 		class Attribute0
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
-				};
-			};
-		};
-		class Attribute1
 		{
 			property="RespawnTemplates";
 			expression="true";
@@ -558,6 +555,25 @@ class CustomAttributes
 							};
 						};
 					};
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
 				};
 			};
 		};
@@ -618,7 +634,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=271;
+		items=282;
 		class Item0
 		{
 			dataType="Layer";
@@ -33858,6 +33874,231 @@ class Mission
 			id=5649;
 			type="RD501_bantha_501st_MkI";
 			atlOffset=0.12390137;
+		};
+		class Item271
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={12012.58,163.96518,12808.748};
+				angles[]={0,4.7647491,0};
+			};
+			areaSize[]={10,0,5};
+			flags=1;
+			id=5652;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=1.1260223;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item272
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12019.936,160.10487,12803.533};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5657;
+			type="Land_Addon_01_ruins_F";
+			atlOffset=0.03704834;
+		};
+		class Item273
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11996.195,161.00325,12809.662};
+				angles[]={0,3.4732387,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5658;
+			type="Land_Addon_04_ruins_F";
+			atlOffset=0.060516357;
+		};
+		class Item274
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12010.14,160.35938,12809.095};
+				angles[]={0,1.8849779,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5659;
+			type="Land_Addon_03_ruins_F";
+			atlOffset=0.087036133;
+		};
+		class Item275
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12007.5,160.30205,12799.354};
+				angles[]={0,5.0265708,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5660;
+			type="Land_Addon_03_ruins_F";
+			atlOffset=-0.00062561035;
+		};
+		class Item276
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12008.532,159.80563,12806.077};
+				angles[]={0,5.026556,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5663;
+			type="Land_Addon_05_ruins_F";
+			atlOffset=0.077056885;
+		};
+		class Item277
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12010.252,160.08141,12803.126};
+				angles[]={0,5.0091023,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5667;
+			type="Land_Addon_01_ruins_F";
+			atlOffset=0.067626953;
+		};
+		class Item278
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12005.652,160.08139,12804.525};
+				angles[]={0,5.0091023,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5668;
+			type="Land_Addon_01_ruins_F";
+			atlOffset=0.075439453;
+		};
+		class Item279
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12022.577,161.00568,12799.898};
+				angles[]={0,1.9024265,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5669;
+			type="Land_Addon_04_ruins_F";
+			atlOffset=0.00025939941;
+		};
+		class Item280
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12017.081,160.96657,12813.528};
+				angles[]={5.7302814,6.1776495,0.79699588};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5670;
+			type="Land_FireEscape_01_short_F";
+			atlOffset=-1.5930023;
+		};
+		class Item281
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12018.739,162.56502,12806.712};
+				angles[]={3.7175529,0,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5671;
+			type="Land_FireEscape_01_short_F";
+			atlOffset=-0.0084533691;
 		};
 	};
 };
