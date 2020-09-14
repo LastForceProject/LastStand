@@ -25,5 +25,6 @@ class Curators
         ,"76561198307319806"//Demetrio Castel (Event)
         ,"76561198033904243"//Jisai (Donate_Zeus)
         ,"76561198139144056"//Farsight (Event)
+	
 	};
 };
