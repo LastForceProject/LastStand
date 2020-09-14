@@ -4,7 +4,7 @@
 
 [] execVM "scripts\hideobject.sqf";
 
-//[] execVM "scripts\thermalvision.sqf";
+[] execVM "scripts\thermalvision.sqf";
 
 [] execVM "scripts\arsenals.sqf";
 
