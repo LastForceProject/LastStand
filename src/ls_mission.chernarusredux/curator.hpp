@@ -19,6 +19,7 @@ class Curators
         ,"76561198182854197"//YokaEnenra (Event)
         ,"76561198374549023"//BlackEagle (Event)
         ,"76561198307319806"//Demetrio Castel (Event)
+        ,"76561198328556853"//Nikindor (Event)
         ,"76561198195478551"//Mergen (Neutral Curator)
         ,"76561198139144056"//Farsight (Neutral)
         ,"76561198227583576"//Filin (Neutal)
