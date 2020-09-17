@@ -8,7 +8,7 @@ class EditorData
 	toggles=554;
 	class ItemIDProvider
 	{
-		nextID=5693;
+		nextID=5704;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=374;
+		nextID=410;
 	};
 	class Camera
 	{
-		pos[]={12136.283,187.63263,12641.884};
-		dir[]={0.75268036,-0.64177471,-0.1469989};
-		up[]={0.62987924,0.76689231,-0.12301587};
-		aside[]={-0.19168113,8.9457899e-008,-0.98146331};
+		pos[]={12054.62,174.30894,12700.953};
+		dir[]={-0.76771605,-0.57669091,-0.27979144};
+		up[]={-0.54187024,0.81690371,-0.19748074};
+		aside[]={-0.34245434,-1.3027457e-006,0.93966359};
 	};
 };
 binarizationWanted=0;
@@ -630,7 +630,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=295;
+		items=296;
 		class Item0
 		{
 			dataType="Layer";
@@ -1871,7 +1871,7 @@ class Mission
 			name="GAR Base";
 			class Entities
 			{
-				items=63;
+				items=64;
 				class Item0
 				{
 					dataType="Object";
@@ -3365,7 +3365,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={12127.992,159.70618,12649.722};
-						angles[]={0,0.2617994,0};
+						angles[]={0,3.0368729,0};
 					};
 					side="Empty";
 					flags=4;
@@ -4917,9 +4917,50 @@ class Mission
 						nAttributes=1;
 					};
 				};
+				class Item63
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={12122.691,159.74194,12651.661};
+						angles[]={0,0.5410521,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						name="ars_501";
+					};
+					id=5694;
+					type="repammobox2";
+					atlOffset=0.035766602;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
 			};
 			id=2576;
-			atlOffset=-0.002456665;
+			atlOffset=0.016647339;
 		};
 		class Item4
 		{
@@ -30354,7 +30395,7 @@ class Mission
 			};
 			id=5689;
 			type="Land_BagFence_Corner_F";
-			atlOffset=0.0089874268;
+			atlOffset=0.0090332031;
 		};
 		class Item292
 		{
@@ -30396,6 +30437,21 @@ class Mission
 			text="Ангар #2";
 			type="JLTS_loc_shield";
 			id=5692;
+		};
+		class Item295
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12121.758,162.9868,12646.23};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5693;
+			type="LS_Flag_501";
 		};
 	};
 };
