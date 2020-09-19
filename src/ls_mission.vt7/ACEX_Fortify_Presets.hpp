@@ -13,7 +13,8 @@ class ACEX_Fortify_Presets {
 				{"Land_HBarrierTower_F", 25},
 				{"Land_BagBunker_Large_F", 25},
 				{"Land_HBarrier_5_F", 15},
-				{"Land_Cargo_Patrol_V3_F", 20}
+				{"Land_Cargo_Patrol_V3_F", 20},
+					{"Land_BagBunker_Small_F", 15}
 		};
     };
 };
