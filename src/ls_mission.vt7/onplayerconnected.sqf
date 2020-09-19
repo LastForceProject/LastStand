@@ -55,7 +55,7 @@ switch (playerSide) do
 		_dayTime = [daytime] call BIS_fnc_timeToString;
 		[
 			[
-			["Планета: Лон'Кан, База ВАР","size = '0.7'"],
+			["Планета: Марктет I, База ВАР","size = '0.7'"],
 			["","<br/>"],
 			["Местное время: ","size = '0.7'"],
 			[str _dayTime,"size = '0.7'"],
@@ -70,7 +70,7 @@ switch (playerSide) do
 		_dayTime = [daytime] call BIS_fnc_timeToString;
 		[
 			[
-			["Планета: Лон'Кан, Неизвестное место","size = '0.7'"],
+			["Планета: Марктет I, Неизвестное место","size = '0.7'"],
 			["","<br/>"],
 			["Местное время: ","size = '0.7'"],
 			[str _dayTime,"size = '0.7'"],
