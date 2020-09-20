@@ -30,5 +30,6 @@ class Curators
 	,"76561198144015474"//Kelt(Event)
 	,"76561198875651107"//Kasl(Event)
         ,"76561198247446122"//AveMatria(Event)
+		,"76561199028516754"//Desire (Mapper)
 	};
 };
