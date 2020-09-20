@@ -12,7 +12,6 @@ class Curators
         ,"76561198121927537"//Morket (Jedi)
         ,"76561198209489483"//PO (Event)
         ,"76561198253231135"//BKA (Event)
-        ,"76561198024177091"//Rage (Event)
         ,"76561198106601977"//Ximik (Event)
         ,"76561198166050664"//Foxxy (Event)
         ,"76561199071806700"//Warthog (Event)
