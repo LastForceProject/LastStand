@@ -22,13 +22,14 @@ class Curators
         ,"76561198195478551"//Mergen (Neutral Curator)
         ,"76561198139144056"//Farsight (Neutral)
         ,"76561198227583576"//Filin (Neutal)
-	,"76561198092314817"//Zander (Gray)
+	    ,"76561198092314817"//Zander (Gray)
         ,"76561198102983006"//Joker (Gray)
         ,"76561198351130485"//Bybylyka (Gray)
         ,"76561198033904243"//Jisai (Donate_Zeus)
-	,"76561198144015474"//Kelt(Event)
-	,"76561198875651107"//Kasl(Event)
+	    ,"76561198144015474"//Kelt(Event)
+	    ,"76561198875651107"//Kasl(Event)
         ,"76561198247446122"//AveMatria(Event)
 		,"76561199028516754"//Desire (Mapper)
+		,"76561198084192447"//Irai(EventJD)
 	};
 };
