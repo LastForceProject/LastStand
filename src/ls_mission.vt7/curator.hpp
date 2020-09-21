@@ -31,5 +31,6 @@ class Curators
         ,"76561198247446122"//AveMatria(Event)
 		,"76561199028516754"//Desire (Mapper)
 		,"76561198084192447"//Irai(EventJD)
+		,"76561197960287930"//KID(Gray)
 	};
 };
