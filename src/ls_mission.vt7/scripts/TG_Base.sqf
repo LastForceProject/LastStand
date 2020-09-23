@@ -15,7 +15,6 @@ h = [] spawn {
 		_isValid = !(parseNumber _text isEqualTo 0) || (count (_text splitString "0123456789.-") isEqualTo 0); 
 		if (_isValid) then {
 			_obj = cursorObject;
-
 			_success = false;
 			_number = parseNumber _text;
 			switch (true) do {
