@@ -145,7 +145,7 @@ ace_ui_weaponNameBackground = true;
 ace_ui_zeroing = true;
 
 // ACE Карта
-force force ace_map_BFT_Enabled = false;
+force force ace_map_BFT_Enabled = true;
 force force ace_map_BFT_HideAiGroups = true;
 force force ace_map_BFT_Interval = 30;
 force force ace_map_BFT_ShowPlayerNames = false;
@@ -155,7 +155,7 @@ force force ace_map_mapIllumination = false;
 force force ace_map_mapLimitZoom = false;
 force force ace_map_mapShake = false;
 force force ace_map_mapShowCursorCoordinates = true;
-force force ace_markers_moveRestriction = -1;
+force force ace_markers_moveRestriction = 2;
 
 // ACE Логистика
 force force ace_cargo_enable = true;
