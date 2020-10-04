@@ -1,0 +1,13 @@
+([0,0] nearestObject 2134466) hideObject true; // Дом
+([0,0] nearestObject 2134494) hideObject true; // Дом
+([0,0] nearestObject 2134482) hideObject true; // Дом
+([0,0] nearestObject 2134451) hideObject true; // Дом
+([0,0] nearestObject 2134452) hideObject true; // Дом
+([0,0] nearestObject 2134469) hideObject true; // Дом
+([0,0] nearestObject 2134467) hideObject true; // Дом
+([0,0] nearestObject 2134470) hideObject true; // Дом
+([0,0] nearestObject 2134468) hideObject true; // Дом
+([0,0] nearestObject 2134440) hideObject true; // Дом
+([0,0] nearestObject 2134450) hideObject true; // Дом
+([0,0] nearestObject 2131577) hideObject true; // Дом
+([0,0] nearestObject 2131576) hideObject true; // Дом
