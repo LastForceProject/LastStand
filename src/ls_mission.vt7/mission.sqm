@@ -8,7 +8,7 @@ class EditorData
 	toggles=514;
 	class ItemIDProvider
 	{
-		nextID=3572;
+		nextID=3574;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={261.10999,64.045334,6346.8521};
-		dir[]={0.68667841,-0.64399916,-0.33747888};
-		up[]={0.57801741,0.76498157,-0.28407323};
-		aside[]={-0.44111022,-8.9994865e-007,-0.8975513};
+		pos[]={935.4137,28.799944,3841.4607};
+		dir[]={-0.12185942,-0.68626809,0.71706891};
+		up[]={-0.11497672,0.72734886,0.67656839};
+		aside[]={0.98586631,1.0011718e-008,0.16753909};
 	};
 };
 binarizationWanted=0;
@@ -799,7 +799,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -854,7 +854,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -906,7 +906,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1121;
+		items=1122;
 		class Item0
 		{
 			dataType="Logic";
@@ -45809,6 +45809,37 @@ class Mission
 			b=60;
 			id=3571;
 			atlOffset=2.2969649;
+		};
+		class Item1121
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={931.84436,3.9977229,3859.6836};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=3573;
+					type="B_Survivor_F";
+					atlOffset=1.6689301e-006;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=3572;
+			atlOffset=1.6689301e-006;
 		};
 	};
 };
