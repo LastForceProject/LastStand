@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=522;
+	toggles=1546;
 	class ItemIDProvider
 	{
-		nextID=4226;
+		nextID=4228;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=428;
+		nextID=452;
 	};
 	class Camera
 	{
-		pos[]={9472.9961,83.841949,3638.4517};
-		dir[]={0.66696256,-0.69994825,-0.25549579};
-		up[]={0.65365523,0.71416658,-0.25039703};
-		aside[]={-0.3577311,3.3830293e-007,-0.93384725};
+		pos[]={2542.2139,87.814262,5893.4614};
+		dir[]={-0.70623833,-0.61269885,0.35475659};
+		up[]={-0.54751605,0.79030639,0.27502748};
+		aside[]={0.44887397,-4.748581e-007,0.89360672};
 	};
 };
 binarizationWanted=0;
@@ -150,7 +150,8 @@ addons[]=
 	"3as_UTAT",
 	"3as_arc_170",
 	"3as_Z95_base",
-	"RD501_patch_fast_infantry_transport"
+	"RD501_patch_fast_infantry_transport",
+	"RD501_patch_Delta"
 };
 class AddonsMetaData
 {
@@ -866,7 +867,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=578;
+		items=580;
 		class Item0
 		{
 			dataType="Logic";
@@ -29523,7 +29524,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9565.4746,11.464075,3641.4663};
-				angles[]={0,5.0530005,-0};
+				angles[]={0,5.0530005,0};
 			};
 			side="Empty";
 			flags=5;
@@ -29532,7 +29533,7 @@ class Mission
 			};
 			id=4219;
 			type="Land_Antena";
-			atlOffset=-0.22565103;
+			atlOffset=-0.22565126;
 		};
 		class Item572
 		{
@@ -29540,7 +29541,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9622.7363,14.184551,3619.7217};
-				angles[]={0,1.953408,-0};
+				angles[]={0,1.953408,0};
 			};
 			side="Empty";
 			flags=5;
@@ -29549,7 +29550,7 @@ class Mission
 			};
 			id=4220;
 			type="Land_Antena";
-			atlOffset=-0.33348751;
+			atlOffset=-0.33348799;
 		};
 		class Item573
 		{
@@ -29612,7 +29613,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9604.8525,10.731167,3560.5088};
-				angles[]={0,5.090271,-0};
+				angles[]={0,5.090271,0};
 			};
 			side="Empty";
 			flags=5;
@@ -29621,7 +29622,7 @@ class Mission
 			};
 			id=4222;
 			type="Land_Antena";
-			atlOffset=-0.88136125;
+			atlOffset=-0.8813616;
 		};
 		class Item575
 		{
@@ -29629,7 +29630,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9545.6074,10.242193,3581.1431};
-				angles[]={0,1.9241289,-0};
+				angles[]={0,1.9241289,0};
 			};
 			side="Empty";
 			flags=5;
@@ -29646,7 +29647,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9555.8652,10.119044,3608.2114};
-				angles[]={0,1.9524257,-0};
+				angles[]={0,1.9524257,0};
 			};
 			side="Empty";
 			flags=5;
@@ -29655,7 +29656,7 @@ class Mission
 			};
 			id=4224;
 			type="Land_Antena";
-			atlOffset=-0.22092408;
+			atlOffset=-0.22092372;
 		};
 		class Item577
 		{
@@ -29663,7 +29664,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9610.7666,12.737048,3588.2883};
-				angles[]={0,1.9524257,-0};
+				angles[]={0,1.9524257,0};
 			};
 			side="Empty";
 			flags=5;
@@ -29672,7 +29673,45 @@ class Mission
 			};
 			id=4225;
 			type="Land_Antena";
-			atlOffset=-0.91099703;
+			atlOffset=-0.91099715;
+		};
+		class Item578
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2589.1919,6.3414688,6130.4331};
+				angles[]={0.022671828,3.8002801,6.219655};
+			};
+			side="Empty";
+			class Attributes
+			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=4226;
+			type="RD501_delta_7a_Mk2_blue";
+			atlOffset=0.37799883;
+		};
+		class Item579
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2578.999,6.3541923,6137.5146};
+				angles[]={0.01741047,3.7998605,6.261097};
+			};
+			side="Empty";
+			class Attributes
+			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=4227;
+			type="RD501_delta_7a_Mk2_blue";
+			atlOffset=0.39494705;
 		};
 	};
 };
