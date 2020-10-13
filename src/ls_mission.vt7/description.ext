@@ -75,3 +75,56 @@ class CfgRemoteExec
 		class ASN_fnc_controlPanel { allowedTargets = 2;};
 	};
 };
+
+class CfgSounds
+{
+	sounds[] = {};
+	class AT_TE_help_start
+	{
+		name = "AT_TE_help_start";
+		sound[] = { "automissions\at_te_help_start.ogg", 1, 1, 100 };
+		titles[] = {};
+	};
+	class LATT_sup_start
+	{
+		name = "LATT_sup_start";
+		sound[] = { "automissions\latt_sup_start.ogg", 1, 1, 100 };
+		titles[] = {};
+	};
+	class clear_enemyPresence_start
+	{
+		name = "clear_enemyPresence_start";
+		sound[] = { "automissions\clear_enemypresence_start.ogg", 1, 1, 100 };
+		titles[] = {};
+	};
+	class clear_enemyPresence_heliSpawn
+	{
+		name = "clear_enemyPresence_heliSpawn";
+		sound[] = { "automissions\clear_enemypresence_helispawn.ogg", 1, 1, 100 };
+		titles[] = {};
+	};
+	class clear_enemyPresence_lastUnit
+	{
+		name = "clear_enemyPresence_lastUnit";
+		sound[] = { "automissions\clear_enemypresence_lastunit.ogg", 1, 1, 100 };
+		titles[] = {};
+	};
+	class mission_start_music
+	{
+		name = "mission_start_music";
+		sound[] = { "automissions\mission_start_music.ogg", 1, 1, 100 };
+		titles[] = {};
+	};
+	class emp_plr
+	{
+		name = "emp_plr";
+		sound[] = { "automissions\emp_plr.ogg", 1, 1, 100 };
+		titles[] = {};
+	};
+	class emp_sound
+    {
+		name = "emp_sound";
+		sound[] = {"automissions\emp_sound.ogg", db+40, 1};
+		titles[]={};
+    };
+};
