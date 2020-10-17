@@ -8,6 +8,7 @@ class Curators
 		,"76561198072246605"//SCHTAMP (Tech)
 		,"76561198288271495"//KapayJl (Tech)
 		,"76561198166050664"//Foxxy (EventCurator)
+		,"76561199028516754"//Desire (Tech)
 		,"76561198182854197"//YokaEnenra (Event)     
         ,"76561198209489483"//PO(Event)
         ,"76561198106601977"//Ximik (Event)
