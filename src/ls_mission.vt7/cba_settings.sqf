@@ -779,6 +779,9 @@ diwako_dui_radar_trackingColor = [0.93,0.26,0.93,1];
 diwako_dui_reset_ui_pos = false;
 diwako_dui_use_layout_editor = false;
 
+force diwako_dui_nametags_enabled = false;
+
+
 // dzn Artillery Illumination
 force force dzn_Flares_H_Color = [1,1,1];
 force force dzn_Flares_H_Deviation = 25;
@@ -832,3 +835,4 @@ force force vet_unflipping_time = 15;
 force force vet_unflipping_unit_man_limit = 1;
 force force vet_unflipping_unit_mass_limit = 100000;
 force force vet_unflipping_vehicle_mass_limit = 100000;
+
