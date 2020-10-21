@@ -244,13 +244,13 @@ class AirSpawn
 		},
 		{
 			"ARC-170",
-			"RD_501_ARC_170_MK2",
+			"RD501_ARC_170_MKII",
 			"laat_count_spawn_4",
 			2
 		},
 		{
 			"Y-WING",
-			"RD501_Y_wing_Mk2",
+			"RD501_Y_wing_MkII",
 			"laat_count_spawn_5",
 			2
 		},
