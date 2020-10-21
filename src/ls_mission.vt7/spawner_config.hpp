@@ -118,9 +118,16 @@ class MainSpawn
 			"gui_spawner\images\vehicles\aa.paa"
 		},
 		{
+			"Машина технического обслуживания ""Варден""",
+			"RD501_warden_tank_field",
+			"vehicle_count_spawn_16",
+			2,
+			"gui_spawner\images\vehicles\aa.paa"
+		},
+		{
 			"Легкий транспорт RTT",
 			"3as_RTT",
-			"laat_bso_count_spawn",
+			"vehicle_count_spawn_17",
 			1,
 			"gui_spawner\images\vehicles\rtt.paa"
 		}
@@ -188,10 +195,28 @@ class AirSpawn
 			1
 		},
 		{
-			"LAAT/I (Gunship | Muunilinst 10)",
-			"ls_laat_ab",
+			"ARC-170",
+			"RD_501_ARC_170_MK2",
 			"laat_count_spawn_4",
-			1
+			2
+		},
+		{
+			"Y-WING",
+			"RD501_Y_wing_Mk2",
+			"laat_count_spawn_5",
+			2
+		},
+		{
+			"Z-95 Headhunter",
+			"3as_Z95_Republic",
+			"laat_count_spawn_6",
+			2
+		},
+		{
+			"V-Wing",
+			"RD501_v_wing_MKII",
+			"laat_count_spawn_7",
+			2
 		}
 	};
 	spawnpoints[] = 
