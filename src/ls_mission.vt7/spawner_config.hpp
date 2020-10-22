@@ -265,6 +265,12 @@ class AirSpawn
 			"RD501_v_wing_MKII",
 			"laat_count_spawn_7",
 			2
+		},
+		{
+			"LAAT/I (Gunship | Muunilinst 10)",
+			"ls_laat_ab",
+			"laat_count_spawn_8",
+			1
 		}
 	};
 	spawnpoints[] = 
