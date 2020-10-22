@@ -169,8 +169,7 @@ class MainSpawn
 			"Машина технического обслуживания ""Варден""",
 			"RD501_warden_tank_field",
 			"vehicle_count_spawn_16",
-			2,
-			"gui_spawner\images\vehicles\aa.paa"
+			2
 		},
 		{
 			"Легкий транспорт RTT",
