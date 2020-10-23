@@ -34,5 +34,6 @@ class Curators
         ,"76561198869038111"//Blik(Event)
         ,"76561198416727812"//Flar(Event)
         ,"76561198092314817"//zDrake(Gray)	
+		,"76561199028516754"//Desire(Tech)
 	};
 };
