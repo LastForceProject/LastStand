@@ -16,7 +16,6 @@ class Curators
         ,"76561198227583576"//Filin (Event)
         ,"76561199071806700"//Leogorn(Event)
         ,"76561198351130485"//Bybylyka (Gray)
-        ,"76561198182854197"//YokaEnenra (Event)
         ,"76561198033904243"//Jisai (Donate_Zeus)
         ,"76561198195478551"//Mergen(Naim)
         ,"76561198144015474"//Kelt(Event)
