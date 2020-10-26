@@ -11,10 +11,8 @@ class Curators
         ,"76561198209489483"//PO(Event)
         ,"76561198253231135"//BKA (Event Jedi)
         ,"76561198102983006"//Joker (Gray)
-        ,"76561198106601977"//Ximik (Event)
         ,"76561198166050664"//Foxxy (Event)
         ,"76561198227583576"//Filin (Event)
-        ,"76561199071806700"//Leogorn(Event)
         ,"76561198351130485"//Bybylyka (Gray)
         ,"76561198033904243"//Jisai (Donate_Zeus)
         ,"76561198195478551"//Mergen(Naim)
@@ -32,7 +30,7 @@ class Curators
         ,"76561198324991894"//SCP-999(Event)
         ,"76561198869038111"//Blik(Event)
         ,"76561198416727812"//Flar(Event)
-        ,"76561198092314817"//zDrake(Gray)	
-		,"76561199028516754"//Desire(Tech)
+        ,"76561198092314817"//zDrake(Gray)
+        ,"76561199028516754"//Desire(Tech)
 	};
 };
