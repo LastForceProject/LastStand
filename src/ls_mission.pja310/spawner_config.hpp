@@ -169,8 +169,7 @@ class MainSpawn
 			"Машина технического обслуживания ""Варден""",
 			"RD501_warden_tank_field",
 			"vehicle_count_spawn_16",
-			2,
-			"gui_spawner\images\vehicles\aa.paa"
+			2
 		},
 		{
 			"Легкий транспорт RTT",
@@ -265,6 +264,12 @@ class AirSpawn
 			"RD501_v_wing_MKII",
 			"laat_count_spawn_7",
 			2
+		},
+		{
+			"LAAT/I (Gunship | Muunilinst 10)",
+			"ls_laat_ab",
+			"laat_count_spawn_8",
+			1
 		}
 	};
 	spawnpoints[] = 
