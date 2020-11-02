@@ -16,7 +16,7 @@ class Curators
         ,"76561198227583576"//Filin (Event)
         ,"76561198351130485"//Bybylyka (Gray)
         ,"76561198033904243"//Jisai (Donate_Zeus)
-        ,"76561198195478551"//Mergen(Naim)
+        ,"76561198378684428"//Raniel(Naim)
         ,"76561198144015474"//Kelt(Event)
         ,"76561198247446122"//AveMatria(Event)
         ,"76561198084192447"//Irai(EventJD)
