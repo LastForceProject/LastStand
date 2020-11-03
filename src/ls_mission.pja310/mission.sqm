@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=963;
+		nextID=968;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={19536.068,135.20145,18639.93};
-		dir[]={0.21542624,-0.55755526,0.80173123};
-		up[]={0.14468592,0.83012879,0.53846174};
-		aside[]={0.96576458,1.8790888e-007,-0.25950229};
+		pos[]={19473.912,79.025177,18515.275};
+		dir[]={0.40288138,-0.58364469,0.70513284};
+		up[]={0.28955111,0.81197834,0.50677872};
+		aside[]={0.86834174,-1.3860408e-006,-0.49612966};
 	};
 };
 binarizationWanted=0;
@@ -111,13 +111,14 @@ addons[]=
 	"A3_Props_F_Enoch_Military_Decontamination",
 	"A3_Structures_F_Civ_Dead",
 	"A3_Structures_F_Mil_BagBunker",
-	"A3_Structures_F_Mil_Fortification"
+	"A3_Structures_F_Mil_Fortification",
+	"CUP_CAStructures_Mil"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=62;
+		items=63;
 		class Item0
 		{
 			className="impammo";
@@ -494,6 +495,11 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item62
+		{
+			className="CUP_CAStructures_Mil";
+			name="CUP_CAStructures_Mil";
+		};
 	};
 };
 randomSeed=1554122;
@@ -598,7 +604,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=174;
+		items=175;
 		class Item0
 		{
 			dataType="Object";
@@ -19111,6 +19117,22 @@ class Mission
 			id=958;
 			type="Land_JMS_Tech_cor_door";
 			atlOffset=3.8581157;
+		};
+		class Item174
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19552.137,5.2705894,18687.057};
+				angles[]={-0,3.6824589,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=967;
+			type="Land_Mil_Guardhouse";
 		};
 	};
 };
