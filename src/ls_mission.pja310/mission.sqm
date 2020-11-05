@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=176;
+		nextID=190;
 	};
 	class Camera
 	{
-		pos[]={19473.912,79.025177,18515.275};
-		dir[]={0.40288138,-0.58364469,0.70513284};
-		up[]={0.28955111,0.81197834,0.50677872};
-		aside[]={0.86834174,-1.3860408e-006,-0.49612966};
+		pos[]={19565.031,83.380409,18550.391};
+		dir[]={0.019795915,-0.63800335,0.76989251};
+		up[]={0.016401041,0.76999885,0.63780558};
+		aside[]={0.99975264,-1.3212521e-006,-0.025705246};
 	};
 };
 binarizationWanted=0;
@@ -70,21 +70,13 @@ addons[]=
 	"RD501_patch_E_Web",
 	"SWOP_props_containers",
 	"OPTRE_UNSC_Structure_Containers",
-	"SWLB_units",
-	"JLTS_weapons_Core",
-	"SWLB_radios",
-	"SWLW_clones_grenades_beltGrenade",
-	"A3_Weapons_F_Items",
-	"ace_medical_engine",
-	"ace_medical_treatment",
-	"SWLB_clones",
-	"LS_units_clones",
 	"A3_Structures_F_System",
 	"OPTRE_BW_DoorConsole",
 	"RD501_patch_bacta_tank",
 	"A3_Structures_F_Mil_Cargo",
 	"A3_Modules_F",
 	"A3_Characters_F",
+	"JLTS_weapons_Core",
 	"A3_Characters_F_Orange_Facewear",
 	"ace_goggles",
 	"SWOP_rebelsduros",
@@ -100,6 +92,8 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"acex_fortify",
 	"task_force_radio_items",
+	"SWLB_clones",
+	"LS_units_clones",
 	"A3_Ui_F",
 	"JLTS_core",
 	"OPTRE_Vehicles_HEV",
@@ -118,7 +112,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=63;
+		items=58;
 		class Item0
 		{
 			className="impammo";
@@ -316,9 +310,10 @@ class AddonsMetaData
 		};
 		class Item33
 		{
-			className="SWLB_units";
-			name="SWLB_units";
-			author="SW Legion Studios";
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item34
 		{
@@ -328,174 +323,141 @@ class AddonsMetaData
 		};
 		class Item35
 		{
-			className="SWLB_radios";
-			name="SWLB_radios";
-			author="SW Legion Studios";
-		};
-		class Item36
-		{
-			className="SWLW_clones_grenades_beltGrenade";
-			name="SWLW_clones_grenades_beltGrenade";
-			author="SW Legion Studios";
-		};
-		class Item37
-		{
-			className="ace_medical_engine";
-			name="ACE3 - Medical Engine";
-			author="Команда ACE";
-			url="http://ace3mod.com/";
-		};
-		class Item38
-		{
-			className="ace_medical_treatment";
-			name="ACE3 - Medical Treatment";
-			author="Команда ACE";
-			url="http://ace3mod.com/";
-		};
-		class Item39
-		{
-			className="SWLB_clones";
-			name="SWLB_clones";
-			author="SW Legion Studios";
-		};
-		class Item40
-		{
-			className="LS_units_clones";
-			name="LS_units_clones";
-			author="SW Legion Studios";
-		};
-		class Item41
-		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item42
-		{
 			className="A3_Characters_F_Orange";
 			name="Arma 3 Orange - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item43
+		class Item36
 		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item44
+		class Item37
 		{
 			className="SWOP_rebelsduros";
 			name="SWOP_rebelsduros";
 			author="SWOP";
 		};
-		class Item45
+		class Item38
 		{
 			className="hangar";
 			name="hangar";
 		};
-		class Item46
+		class Item39
 		{
 			className="OPTRE_Vehicles_genet";
 			name="OPTRE_Vehicles_genet";
 		};
-		class Item47
+		class Item40
 		{
 			className="OPTRE_Vehicles_Warthog";
 			name="OPTRE_Vehicles_Warthog";
 		};
-		class Item48
+		class Item41
 		{
 			className="Tatooine_Object";
 			name="Tatooine_Object";
 			author="Scar and Clon  - SWOP";
 		};
-		class Item49
+		class Item42
 		{
 			className="SW_Assets";
 			name="SW_Assets";
 			author="Scar and Clon - SWOP";
 		};
-		class Item50
+		class Item43
 		{
 			className="JMS_st_objectsColAcces";
 			name="JMS_st_objectsColAcces";
 			author="JMax";
 		};
-		class Item51
+		class Item44
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item52
+		class Item45
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item53
+		class Item46
 		{
 			className="acex_fortify";
 			name="acex_fortify";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item54
+		class Item47
 		{
 			className="task_force_radio_items";
 			name="task_force_radio_items";
 			author="[TF]Nkey";
 			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
-		class Item55
+		class Item48
+		{
+			className="SWLB_clones";
+			name="SWLB_clones";
+			author="SW Legion Studios";
+		};
+		class Item49
+		{
+			className="LS_units_clones";
+			name="LS_units_clones";
+			author="SW Legion Studios";
+		};
+		class Item50
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item56
+		class Item51
 		{
 			className="JLTS_core";
 			name="JLTS The Great War - Core";
 			author="MrClock";
 		};
-		class Item57
+		class Item52
 		{
 			className="OPTRE_Vehicles_HEV";
 			name="OPTRE_Vehicles_HEV";
 		};
-		class Item58
+		class Item53
 		{
 			className="JMS_st_objectsCorridors";
 			name="JMS_st_objectsCorridors";
 			author="JMax";
 		};
-		class Item59
+		class Item54
 		{
 			className="JMS_st_objectsFont";
 			name="JMS_st_objectsFont";
 			author="JMax";
 		};
-		class Item60
+		class Item55
 		{
 			className="SW_LightSabers";
 			name="SW_LightSabers";
 			author="SWOP";
 		};
-		class Item61
+		class Item56
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item62
+		class Item57
 		{
 			className="CUP_CAStructures_Mil";
 			name="CUP_CAStructures_Mil";
@@ -840,7 +802,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={19552.389,4.8112221,18655.609};
-				angles[]={-0,1.5883235,0};
+				angles[]={0,1.5883235,0};
 			};
 			side="Empty";
 			class Attributes
@@ -2205,7 +2167,7 @@ class Mission
 			name="BASE";
 			class Entities
 			{
-				items=61;
+				items=60;
 				class Item0
 				{
 					dataType="Object";
@@ -3205,154 +3167,6 @@ class Mission
 				};
 				class Item59
 				{
-					dataType="Group";
-					side="West";
-					class Entities
-					{
-						items=1;
-						class Item0
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={19550.672,4.3947134,18605.75};
-								angles[]={0,4.7592525,0};
-							};
-							side="West";
-							flags=7;
-							class Attributes
-							{
-								disableSimulation=1;
-								ignoreByDynSimulGrid=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="SWLB_clone_101stTrooper_Uniform";
-										isBackpack=0;
-										class MagazineCargo
-										{
-											items=1;
-											class Item0
-											{
-												name="SWLW_beltGrenade_mag";
-												count=1;
-												ammoLeft=1;
-											};
-										};
-										class ItemCargo
-										{
-											items=1;
-											class Item0
-											{
-												name="FirstAidKit";
-												count=3;
-											};
-										};
-									};
-									class vest
-									{
-										typeName="SWLB_clone_basic_armor";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-									radio="SWLB_comlink";
-									headgear="SWLB_clone_101stTrooper_helmet";
-								};
-							};
-							id=59;
-							type="SWLB_clone_101stTrooper_assault";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="allowDamage";
-									expression="_this allowdamage _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male02ENG";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.97000003;
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="enableStamina";
-									expression="_this enablestamina _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								nAttributes=4;
-							};
-						};
-					};
-					class Attributes
-					{
-					};
-					id=58;
-				};
-				class Item60
-				{
 					dataType="Object";
 					class PositionInfo
 					{
@@ -3457,7 +3271,7 @@ class Mission
 				};
 			};
 			id=183;
-			atlOffset=5000.4858;
+			atlOffset=5000.4121;
 		};
 		class Item87
 		{
@@ -13699,7 +13513,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];    ";
 						name="HEV_0_9";
 					};
 					id=588;
@@ -13740,7 +13554,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];    ";
 						name="HEV_0_10";
 					};
 					id=589;
@@ -13781,7 +13595,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];    ";
 						name="HEV_0_1";
 					};
 					id=576;
@@ -13822,7 +13636,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];    ";
 						name="HEV_0_2";
 					};
 					id=577;
@@ -13863,7 +13677,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];    ";
 						name="HEV_0_3";
 					};
 					id=578;
@@ -13904,7 +13718,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
 						name="HEV_0_4";
 					};
 					id=579;
@@ -13945,7 +13759,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
 						name="HEV_0_5";
 					};
 					id=580;
@@ -13986,7 +13800,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
 						name="HEV_0_6";
 					};
 					id=581;
@@ -14066,7 +13880,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];    ";
 						name="HEV_0_7";
 					};
 					id=586;
@@ -14107,7 +13921,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];    ";
 						name="HEV_0_8";
 					};
 					id=587;
@@ -14148,7 +13962,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
 						name="HEV_0_11";
 					};
 					id=591;
@@ -14189,7 +14003,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
 						name="HEV_0_12";
 					};
 					id=592;
@@ -14230,7 +14044,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
 						name="HEV_0_13";
 					};
 					id=593;
@@ -14271,7 +14085,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
 						name="HEV_0_14";
 					};
 					id=594;
@@ -14312,7 +14126,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
 						name="HEV_0_15";
 					};
 					id=595;
@@ -14353,7 +14167,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+						init="this setVariable [""OPTRE_PlayerControled"",true,true]; this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
 						name="HEV_0_16";
 					};
 					id=596;
@@ -17870,7 +17684,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={18699.803,9.5308275,22294.564};
-						angles[]={-0,3.1415927,0};
+						angles[]={0,3.1415927,0};
 					};
 					side="Empty";
 					flags=4;
@@ -17949,7 +17763,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={18701.512,9.5308275,22294.586};
-						angles[]={-0,3.1415927,0};
+						angles[]={0,3.1415927,0};
 					};
 					side="Empty";
 					flags=4;
@@ -18028,7 +17842,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={18703.189,9.5308275,22294.627};
-						angles[]={-0,3.1415927,0};
+						angles[]={0,3.1415927,0};
 					};
 					side="Empty";
 					flags=4;
@@ -19124,7 +18938,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={19552.137,5.2705894,18687.057};
-				angles[]={-0,3.6824589,0};
+				angles[]={0,3.6824589,0};
 			};
 			side="Empty";
 			flags=4;
