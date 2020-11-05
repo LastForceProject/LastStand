@@ -16,6 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
+<<<<<<< Updated upstream
 		nextID=190;
 	};
 	class Camera
@@ -24,6 +25,16 @@ class EditorData
 		dir[]={-0.87843496,-0.47175029,-0.077443533};
 		up[]={-0.46997717,0.88169056,-0.041433889};
 		aside[]={-0.08783251,-8.8379602e-007,0.99622774};
+=======
+		nextID=204;
+	};
+	class Camera
+	{
+		pos[]={19553.191,98.431305,18552.012};
+		dir[]={0.6240527,-0.54679102,0.55834997};
+		up[]={0.40751624,0.83723664,0.36461115};
+		aside[]={0.66684258,-1.3487879e-006,-0.74531043};
+>>>>>>> Stashed changes
 	};
 };
 binarizationWanted=0;
@@ -69,21 +80,13 @@ addons[]=
 	"RD501_patch_E_Web",
 	"SWOP_props_containers",
 	"OPTRE_UNSC_Structure_Containers",
-	"SWLB_units",
-	"JLTS_weapons_Core",
-	"SWLB_radios",
-	"SWLW_clones_grenades_beltGrenade",
-	"A3_Weapons_F_Items",
-	"ace_medical_engine",
-	"ace_medical_treatment",
-	"SWLB_clones",
-	"LS_units_clones",
 	"A3_Structures_F_System",
 	"OPTRE_BW_DoorConsole",
 	"RD501_patch_bacta_tank",
 	"A3_Structures_F_Mil_Cargo",
 	"A3_Modules_F",
 	"A3_Characters_F",
+	"JLTS_weapons_Core",
 	"A3_Characters_F_Orange_Facewear",
 	"ace_goggles",
 	"SWOP_rebelsduros",
@@ -99,6 +102,8 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"acex_fortify",
 	"task_force_radio_items",
+	"SWLB_clones",
+	"LS_units_clones",
 	"A3_Ui_F",
 	"JLTS_core",
 	"OPTRE_Vehicles_HEV",
@@ -118,7 +123,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=63;
+		items=58;
 		class Item0
 		{
 			className="impammo";
@@ -316,9 +321,10 @@ class AddonsMetaData
 		};
 		class Item33
 		{
-			className="SWLB_units";
-			name="SWLB_units";
-			author="SW Legion Studios";
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item34
 		{
@@ -328,174 +334,141 @@ class AddonsMetaData
 		};
 		class Item35
 		{
-			className="SWLB_radios";
-			name="SWLB_radios";
-			author="SW Legion Studios";
-		};
-		class Item36
-		{
-			className="SWLW_clones_grenades_beltGrenade";
-			name="SWLW_clones_grenades_beltGrenade";
-			author="SW Legion Studios";
-		};
-		class Item37
-		{
-			className="ace_medical_engine";
-			name="ACE3 - Medical Engine";
-			author="Команда ACE";
-			url="http://ace3mod.com/";
-		};
-		class Item38
-		{
-			className="ace_medical_treatment";
-			name="ACE3 - Medical Treatment";
-			author="Команда ACE";
-			url="http://ace3mod.com/";
-		};
-		class Item39
-		{
-			className="SWLB_clones";
-			name="SWLB_clones";
-			author="SW Legion Studios";
-		};
-		class Item40
-		{
-			className="LS_units_clones";
-			name="LS_units_clones";
-			author="SW Legion Studios";
-		};
-		class Item41
-		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item42
-		{
 			className="A3_Characters_F_Orange";
 			name="Arma 3 Orange - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item43
+		class Item36
 		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item44
+		class Item37
 		{
 			className="SWOP_rebelsduros";
 			name="SWOP_rebelsduros";
 			author="SWOP";
 		};
-		class Item45
+		class Item38
 		{
 			className="hangar";
 			name="hangar";
 		};
-		class Item46
+		class Item39
 		{
 			className="OPTRE_Vehicles_genet";
 			name="OPTRE_Vehicles_genet";
 		};
-		class Item47
+		class Item40
 		{
 			className="OPTRE_Vehicles_Warthog";
 			name="OPTRE_Vehicles_Warthog";
 		};
-		class Item48
+		class Item41
 		{
 			className="Tatooine_Object";
 			name="Tatooine_Object";
 			author="Scar and Clon  - SWOP";
 		};
-		class Item49
+		class Item42
 		{
 			className="SW_Assets";
 			name="SW_Assets";
 			author="Scar and Clon - SWOP";
 		};
-		class Item50
+		class Item43
 		{
 			className="JMS_st_objectsColAcces";
 			name="JMS_st_objectsColAcces";
 			author="JMax";
 		};
-		class Item51
+		class Item44
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item52
+		class Item45
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item53
+		class Item46
 		{
 			className="acex_fortify";
 			name="acex_fortify";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item54
+		class Item47
 		{
 			className="task_force_radio_items";
 			name="task_force_radio_items";
 			author="[TF]Nkey";
 			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
-		class Item55
+		class Item48
+		{
+			className="SWLB_clones";
+			name="SWLB_clones";
+			author="SW Legion Studios";
+		};
+		class Item49
+		{
+			className="LS_units_clones";
+			name="LS_units_clones";
+			author="SW Legion Studios";
+		};
+		class Item50
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item56
+		class Item51
 		{
 			className="JLTS_core";
 			name="JLTS The Great War - Core";
 			author="MrClock";
 		};
-		class Item57
+		class Item52
 		{
 			className="OPTRE_Vehicles_HEV";
 			name="OPTRE_Vehicles_HEV";
 		};
-		class Item58
+		class Item53
 		{
 			className="JMS_st_objectsCorridors";
 			name="JMS_st_objectsCorridors";
 			author="JMax";
 		};
-		class Item59
+		class Item54
 		{
 			className="JMS_st_objectsFont";
 			name="JMS_st_objectsFont";
 			author="JMax";
 		};
-		class Item60
+		class Item55
 		{
 			className="SW_LightSabers";
 			name="SW_LightSabers";
 			author="SWOP";
 		};
-		class Item61
+		class Item56
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item62
+		class Item57
 		{
 			className="CUP_CAStructures_Mil";
 			name="CUP_CAStructures_Mil";
@@ -2167,7 +2140,7 @@ class Mission
 			name="BASE";
 			class Entities
 			{
-				items=61;
+				items=60;
 				class Item0
 				{
 					dataType="Object";
@@ -3167,154 +3140,6 @@ class Mission
 				};
 				class Item59
 				{
-					dataType="Group";
-					side="West";
-					class Entities
-					{
-						items=1;
-						class Item0
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={19550.672,4.3947134,18605.75};
-								angles[]={0,4.7592525,0};
-							};
-							side="West";
-							flags=7;
-							class Attributes
-							{
-								disableSimulation=1;
-								ignoreByDynSimulGrid=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="SWLB_clone_101stTrooper_Uniform";
-										isBackpack=0;
-										class MagazineCargo
-										{
-											items=1;
-											class Item0
-											{
-												name="SWLW_beltGrenade_mag";
-												count=1;
-												ammoLeft=1;
-											};
-										};
-										class ItemCargo
-										{
-											items=1;
-											class Item0
-											{
-												name="FirstAidKit";
-												count=3;
-											};
-										};
-									};
-									class vest
-									{
-										typeName="SWLB_clone_basic_armor";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-									radio="SWLB_comlink";
-									headgear="SWLB_clone_101stTrooper_helmet";
-								};
-							};
-							id=59;
-							type="SWLB_clone_101stTrooper_assault";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="allowDamage";
-									expression="_this allowdamage _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male02ENG";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.97000003;
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="enableStamina";
-									expression="_this enablestamina _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								nAttributes=4;
-							};
-						};
-					};
-					class Attributes
-					{
-					};
-					id=58;
-				};
-				class Item60
-				{
 					dataType="Object";
 					class PositionInfo
 					{
@@ -3419,7 +3244,7 @@ class Mission
 				};
 			};
 			id=183;
-			atlOffset=5000.4858;
+			atlOffset=5000.4121;
 		};
 		class Item85
 		{
@@ -13126,7 +12951,7 @@ class Mission
 							alpha=0;
 							angle=187.42398;
 							id=517;
-							atlOffset=11.097099;
+							atlOffset=12.257133;
 						};
 						class Item2
 						{
