@@ -11,7 +11,7 @@ _dayTime = [daytime] call BIS_fnc_timeToString;
  [
  [str _missionName,"size = '0.7'"],
  ["","<br/>"],
- ["Планета: Марктет II","size = '0.7'"],
+ ["Планета: Марктет I","size = '0.7'"],
  ["","<br/>"],
  ["Местное время: ","size = '0.7'"],
  [str _dayTime,"size = '0.7'"],
