@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=982;
+		nextID=1004;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=204;
+		nextID=218;
 	};
 	class Camera
 	{
-		pos[]={19581.375,10.3463,18958.223};
-		dir[]={0.65194106,-0.50328851,0.56717205};
-		up[]={0.37971088,0.86411548,0.33033893};
-		aside[]={0.6563583,2.0139851e-007,-0.75445682};
+		pos[]={18391.713,185.30975,18788.402};
+		dir[]={-0.82043707,-0.43632913,-0.36950856};
+		up[]={-0.39784908,0.89978385,-0.17918307};
+		aside[]={-0.41066098,-3.4691766e-008,0.91180849};
 	};
 };
 binarizationWanted=0;
@@ -91,8 +91,8 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"acex_fortify",
 	"task_force_radio_items",
-	"SWLB_clones",
-	"LS_units_clones",
+	"SWLB_radios",
+	"SWOP_empire",
 	"A3_Ui_F",
 	"JLTS_core",
 	"OPTRE_Vehicles_HEV",
@@ -106,7 +106,8 @@ addons[]=
 	"A3_Structures_F_Mil_BagBunker",
 	"A3_Structures_F_Mil_Fortification",
 	"CUP_CAStructures_Mil",
-	"RD501_patch_ETA"
+	"RD501_patch_ETA",
+	"A3_Structures_F_Mil_Shelters"
 };
 class AddonsMetaData
 {
@@ -404,15 +405,15 @@ class AddonsMetaData
 		};
 		class Item48
 		{
-			className="SWLB_clones";
-			name="SWLB_clones";
+			className="SWLB_radios";
+			name="SWLB_radios";
 			author="SW Legion Studios";
 		};
 		class Item49
 		{
-			className="LS_units_clones";
-			name="LS_units_clones";
-			author="SW Legion Studios";
+			className="SWOP_empire";
+			name="SWOP_empire";
+			author="SWOP";
 		};
 		class Item50
 		{
@@ -474,7 +475,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -515,7 +516,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -566,7 +567,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=168;
+		items=187;
 		class Item0
 		{
 			dataType="Object";
@@ -1380,8 +1381,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={19574.049,15.692291,18593.615};
-				angles[]={0,1.1405082,0};
+				position[]={19574.006,15.692291,18596.369};
+				angles[]={0,0.0013709889,0};
 			};
 			side="Empty";
 			flags=5;
@@ -7505,9 +7506,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=421;
@@ -7572,9 +7575,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=422;
@@ -7640,9 +7645,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=423;
@@ -7708,9 +7715,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=424;
@@ -7776,9 +7785,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=425;
@@ -7844,9 +7855,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=426;
@@ -7912,9 +7925,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=427;
@@ -7980,9 +7995,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=428;
@@ -8048,9 +8065,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=429;
@@ -8116,9 +8135,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=430;
@@ -8184,9 +8205,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=431;
@@ -8252,9 +8275,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=432;
@@ -8320,9 +8345,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=392;
@@ -8388,9 +8415,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=384;
@@ -8456,9 +8485,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=386;
@@ -8524,9 +8555,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=388;
@@ -8592,9 +8625,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=390;
@@ -8660,9 +8695,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=394;
@@ -8728,9 +8765,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=396;
@@ -8796,9 +8835,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=398;
@@ -8864,9 +8905,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=400;
@@ -8932,9 +8975,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=402;
@@ -9000,9 +9045,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=404;
@@ -9068,9 +9115,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=406;
@@ -9136,9 +9185,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=408;
@@ -9204,9 +9255,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=409;
@@ -9272,9 +9325,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=410;
@@ -9340,9 +9395,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=411;
@@ -9408,9 +9465,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=412;
@@ -9476,9 +9535,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=413;
@@ -9544,9 +9605,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=414;
@@ -9612,9 +9675,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=415;
@@ -9680,9 +9745,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=416;
@@ -9748,9 +9815,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=417;
@@ -9816,9 +9885,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=418;
@@ -9884,9 +9955,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=419;
@@ -9952,9 +10025,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=434;
@@ -10020,9 +10095,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=435;
@@ -10088,9 +10165,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=436;
@@ -10156,9 +10235,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=437;
@@ -10224,9 +10305,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=438;
@@ -10292,9 +10375,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=439;
@@ -10360,9 +10445,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=440;
@@ -10428,9 +10515,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=441;
@@ -10496,9 +10585,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=442;
@@ -10564,9 +10655,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=443;
@@ -10632,9 +10725,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=444;
@@ -10700,9 +10795,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=445;
@@ -10768,9 +10865,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=447;
@@ -10836,9 +10935,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=448;
@@ -10904,9 +11005,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=449;
@@ -10972,9 +11075,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=450;
@@ -11040,9 +11145,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=451;
@@ -11108,9 +11215,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=452;
@@ -11176,9 +11285,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=453;
@@ -11244,9 +11355,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=454;
@@ -11312,9 +11425,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=455;
@@ -11380,9 +11495,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=456;
@@ -11448,9 +11565,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=457;
@@ -11516,9 +11635,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=458;
@@ -11584,9 +11705,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=459;
@@ -11652,9 +11775,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=460;
@@ -11720,9 +11845,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=461;
@@ -11788,9 +11915,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=462;
@@ -11856,9 +11985,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=463;
@@ -11924,9 +12055,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=464;
@@ -11992,9 +12125,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=465;
@@ -12060,9 +12195,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=466;
@@ -12128,9 +12265,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=467;
@@ -12196,9 +12335,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=469;
@@ -12264,9 +12405,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=960;
@@ -12331,9 +12474,11 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="SWLB_clone_uniform";
+								typeName="SWOP_ImpN_F_CombatUniform";
 								isBackpack=0;
 							};
+							map="ItemMap";
+							radio="SWLB_comlink";
 						};
 					};
 					id=962;
@@ -18551,7 +18696,7 @@ class Mission
 			dataType="Marker";
 			position[]={17734.188,136.461,16593.223};
 			name="marker_10";
-			text="Аванпост  Юго-Западный";
+			text="Аванпост  ""Южный""";
 			type="JLTS_GAR_hq";
 			id=957;
 			atlOffset=-0.00022888184;
@@ -18642,6 +18787,343 @@ class Mission
 			};
 			id=981;
 			type="gonkdroid";
+		};
+		class Item168
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={17214.928,98.144646,19838.395};
+			};
+			areaSize[]={30,0,30};
+			flags=1;
+			id=982;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=0.89185333;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item169
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17215.766,99.645035,19868.711};
+				angles[]={6.2369261,2.8929193,6.2065563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=983;
+			type="Land_BagBunker_Large_F";
+		};
+		class Item170
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17224.914,102.30866,19848.064};
+				angles[]={0,0.73000318,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=984;
+			type="Land_Cargo_Patrol_V1_F";
+		};
+		class Item171
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17233.379,98.385139,19859.652};
+				angles[]={0.059771013,4.6498613,0.028220044};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=987;
+			type="CamoNet_BLUFOR_open_F";
+		};
+		class Item172
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17213.33,99.188141,19861.043};
+				angles[]={6.2121716,4.4462967,6.2312942};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=988;
+			type="Land_HBarrier_5_F";
+		};
+		class Item173
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17214.809,98.843613,19855.605};
+				angles[]={6.2391782,4.4462967,6.2312942};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=989;
+			type="Land_HBarrier_5_F";
+		};
+		class Item174
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17216.742,98.417625,19850.23};
+				angles[]={6.2099252,4.3100805,6.2606077};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=990;
+			type="Land_HBarrier_5_F";
+		};
+		class Item175
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17219.561,98.33168,19845.24};
+				angles[]={6.2820935,4.0590343,6.2606077};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=991;
+			type="Land_HBarrier_5_F";
+		};
+		class Item176
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17223.664,98.172523,19841.338};
+				angles[]={6.2820935,3.7283697,6.2436881};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=992;
+			type="Land_HBarrier_5_F";
+		};
+		class Item177
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17228.699,97.873642,19838.617};
+				angles[]={6.212173,0.44072261,6.2436881};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=993;
+			type="Land_HBarrier_5_F";
+		};
+		class Item178
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17232.355,98.032394,19840.945};
+				angles[]={6.2775435,2.0843828,0.045133542};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=994;
+			type="Land_HBarrier_5_F";
+		};
+		class Item179
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17235.287,98.225601,19845.844};
+				angles[]={6.2481976,2.1290126,0.07438352};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=995;
+			type="Land_HBarrier_5_F";
+		};
+		class Item180
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17239.15,97.328262,19866.949};
+				angles[]={0.12134328,1.1856796,6.2222896};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=996;
+			type="Land_HBarrier_5_F";
+		};
+		class Item181
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17238.135,98.573257,19850.742};
+				angles[]={0.013544958,2.1323121,0.074382715};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=997;
+			type="Land_HBarrier_5_F";
+		};
+		class Item182
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17240.322,98.391792,19856.033};
+				angles[]={0.059770014,1.8235357,0.09456148};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=998;
+			type="Land_HBarrier_5_F";
+		};
+		class Item183
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17240.676,98.003273,19861.408};
+				angles[]={0.12134279,1.4006984,0.075504385};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=999;
+			type="Land_HBarrier_5_F";
+		};
+		class Item184
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19658.246,14.281256,18727.959};
+				angles[]={0,0.0025113202,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1001;
+			type="Land_Antena";
+		};
+		class Item185
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19536.201,15.692291,18609.9};
+				angles[]={0,1.596984,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1002;
+			type="Land_LampAirport_F";
+		};
+		class Item186
+		{
+			dataType="Marker";
+			position[]={17222.15,97.498001,19846.746};
+			name="marker_11";
+			text="Аванпост  ""Западный""";
+			type="JLTS_GAR_hq";
+			id=1003;
+			atlOffset=6.1035156e-005;
 		};
 	};
 };
