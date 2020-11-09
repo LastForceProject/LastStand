@@ -89,7 +89,7 @@ sleep 15; // Время до начала титров
 _role1 = "Добро пожаловать на The Last Stand RP";
 _role1names = [profileName];
 _role2 = "Игровой проект Last Force Project";
-_role2names = ["Thanks to: KapayJI, SWLS, wRaiz, Flin <t size='0.70' align='right' color='#ff0000'>SCHTAMP.</t>"];
+_role2names = ["Thanks to: KapayJI, SWLS, wRaiz, Flin."];
 _role3 = "Посетите нашу группу VK";
 _role3names = ["vk.com/arma3lfp"];
 _role4 = "Присоединяйтесь к Discord";
