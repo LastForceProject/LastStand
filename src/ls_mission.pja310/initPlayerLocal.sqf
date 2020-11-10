@@ -78,7 +78,7 @@ UniformList = [
 	"RC_Omega_Uniform","RC_OmegaFi_Uniform","RC_OmegaDarman_Uniform","RC_OmegaNiner_Uniform",
 	"RC_YayaxCov_Uniform","RC_YayaxDev_Uniform","RC_YayaxJind_Uniform","RC_YayaxYover_Uniform",
 	"RC_Yivra_Uniform_Naak","RC_Yivra_Uniform_Goran","RC_Yivra_Uniform_Elyrea","RC_Yivra_Uniform_Aden",
-	"RC_Solus_Uniform_Kappa","RC_Solus_Uniform_Nort"
+	"RC_Solus_Uniform_Kappa","RC_Solus_Uniform_Nort", "RC_Solus_Uniform_02"
 			  ];
 player setVariable ["Heal_Used",0,true];
 player setVariable ["Last_Used",0,true];
