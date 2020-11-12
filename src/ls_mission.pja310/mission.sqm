@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=302;
+		nextID=316;
 	};
 	class Camera
 	{
-		pos[]={19564.404,31.494884,18652.881};
-		dir[]={-0.2698558,-0.69886774,-0.66246802};
-		up[]={-0.26366597,0.71520364,-0.64726853};
-		aside[]={-0.92615902,1.0767253e-006,0.37727174};
+		pos[]={19544.441,43.156868,18699.033};
+		dir[]={-0.0073583564,-0.88706958,-0.46169007};
+		up[]={-0.014137847,0.46161756,-0.88696182};
+		aside[]={-0.99992478,1.5394453e-006,0.015937842};
 	};
 };
 binarizationWanted=0;
@@ -506,7 +506,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -547,7 +547,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -7888,7 +7888,7 @@ class Mission
 							alpha=0;
 							angle=187.42398;
 							id=517;
-							atlOffset=12.257133;
+							atlOffset=11.097099;
 						};
 						class Item2
 						{
@@ -13414,7 +13414,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={18688.871,8.3238602,22325.539};
-				angles[]={-0,3.1391714,0};
+				angles[]={0,3.1391714,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13471,7 +13471,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={19657.971,3.2732391,18722.4};
-				angles[]={-0,3.1344242,0};
+				angles[]={0,3.1344242,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13539,7 +13539,7 @@ class Mission
 			};
 			id=906;
 			type="SWOP_computerConsole";
-			atlOffset=0.036999941;
+			atlOffset=0.036999702;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17438,7 +17438,6 @@ class Mission
 			class Attributes
 			{
 				init="call{this addAction [""<t color='#7fbf7f'>Открыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_OP},[5549, ""j2""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction [""<t color='#ff4040'>Закрыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_CL},[5549, ""j2""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "}";
-				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1146;
@@ -17480,7 +17479,6 @@ class Mission
 			class Attributes
 			{
 				init="call{this addAction [""<t color='#7fbf7f'>Открыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_OP},[5549, ""j4""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction [""<t color='#ff4040'>Закрыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_CL},[5549, ""j4""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "}";
-				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1147;
@@ -17522,7 +17520,6 @@ class Mission
 			class Attributes
 			{
 				init="call{this addAction [""<t color='#7fbf7f'>Открыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_OP},[5549, ""j3""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction [""<t color='#ff4040'>Закрыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_CL},[5549, ""j3""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "}";
-				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1148;
@@ -17564,7 +17561,6 @@ class Mission
 			class Attributes
 			{
 				init="call{this addAction [""<t color='#7fbf7f'>Открыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_OP},[5549, ""j1""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction [""<t color='#ff4040'>Закрыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_CL},[5549, ""j1""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "}";
-				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1149;
