@@ -18,8 +18,6 @@ class Curators
         ,"76561198843539307"//Acklay(Event)
         ,"76561198308824143"//Cold(Event)
         ,"76561198046918009"//Reaper(Event)
-        ,"76561198324991894"//SCP-999(Event)
-        ,"76561198869038111"//Blik(Event)
         ,"76561198416727812"//Flar(Event)
 		,"76561198336020887"//Abandonn(Event)
 		,"76561198335619075"//Anvill(Event)
