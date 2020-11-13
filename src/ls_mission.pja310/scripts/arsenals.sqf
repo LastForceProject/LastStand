@@ -118,7 +118,7 @@ _box = ars_mando;
 };
 
 //   --  КНС сила РС могила
-arsCis = [] spawn {
+arscis = [] spawn {
 _box = ars_mando;
 [_box, 
 ["212th_A280F","JLTS_E5S_mag","JLTS_E5S","V_Chestrig_khk","U_O_V_Soldier_Viper_hex_F","JLTS_RG4D","O_NVGoggles_hex_F","NVGoggles","H_HelmetO_ViperSP_hex_F","H_PilotHelmetFighter_I_E","G_Balaclava_TI_G_blk_F","ItemGPS","SWLB_comlink_hush98","ItemCompass","ItemMap","tf_microdagr","RD501_RPS_AA_x1_mag","RD501_RPS_AT_x1_mag","RD501_hh_15"]
