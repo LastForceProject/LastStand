@@ -121,7 +121,7 @@ _box = ars_mando;
 arscis = [] spawn {
 _box = ars_cis;
 [_box, 
-["","","H_HelmetO_ocamo","B_ViperHarness_hex_F","212th_A280_Mag","JLTS_RG4D_mag","212th_A280F","JLTS_E5S_mag","JLTS_E5S","V_Chestrig_khk","U_O_V_Soldier_Viper_hex_F","JLTS_RG4D","O_NVGoggles_hex_F","NVGoggles","H_HelmetO_ViperSP_hex_F","H_PilotHelmetFighter_I_E","G_Balaclava_TI_G_blk_F","ItemGPS","SWLB_comlink_hush98","ItemCompass","ItemMap","tf_microdagr","RD501_RPS_AA_x1_mag","RD501_RPS_AT_x1_mag","RD501_hh_15"]
+["","","","","JLTS_DP23_mag","JLTS_DP23","murshun_cigs_cigpack","murshun_cigs_lighter","SWLW_E5C_mag","SWLW_E5C","JLTS_E5_mag","JLTS_E5","OPTRE_M2_Smoke","SmokeShellRed","SmokeShellGreen","swop_mag_flashbang","swop_termDetDT_G","APERSMineDispenser_Mag","M41_IED_B_Remote_Mag","M41_IED_Remote_Mag","B_UavTerminal","SCH_B_UAV_Packed","JLTS_intel_holoProjector","JLTS_intel_datacard","JLTS_intel_trackingFob","ACE_splint","ACE_EntrenchingTool","ACE_fieldDressing","ACE_elasticBandage","JLTS_riot_shield_droid_item","JLTS_repairkit_weapon_mini","JLTS_repairkit_weapon","ToolKit","ACE_morphine","MineDetector","ACE_bodyBag","ACE_bloodIV_500","ACE_bloodIV_250","ACE_bloodIV","ACE_UAVBattery","ACE_DefusalKit","ACE_personalAidKit","ACE_adenosine","ACE_epinephrine","H_HelmetO_ocamo","B_ViperHarness_hex_F","212th_A280_Mag","JLTS_RG4D_mag","212th_A280F","JLTS_E5S_mag","JLTS_E5S","V_Chestrig_khk","U_O_V_Soldier_Viper_hex_F","JLTS_RG4D","O_NVGoggles_hex_F","NVGoggles","H_HelmetO_ViperSP_hex_F","H_PilotHelmetFighter_I_E","G_Balaclava_TI_G_blk_F","ItemGPS","SWLB_comlink_hush98","ItemCompass","ItemMap","tf_microdagr","RD501_RPS_AA_x1_mag","RD501_RPS_AT_x1_mag","RD501_hh_15"]
 ] call ace_arsenal_fnc_initBox;
 };
 
