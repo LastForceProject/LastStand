@@ -37,5 +37,6 @@ class Curators
         ,"76561198033904243"//Jisai (Donate_Zeus)
         ,"76561198053534432"//Redcrown(Curator Rp)
 		,"76561198115713057"//Horn(Prodavlenniy RS)
+		,"76561199071806700"//Warthog(Event)
 	};
 };
