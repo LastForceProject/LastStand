@@ -13,7 +13,6 @@ class Curators
         ,"76561198209489483"//PO(Curator Event)
 		,"76561198182854197"//Yoka(Event)
         ,"76561198168577214"//Wolf (Event)
-        ,"76561198144015474"//Kelt(Event)
         ,"76561198247446122"//AveMatria(Event)
         ,"76561198843539307"//Acklay(Event)
         ,"76561198308824143"//Cold(Event)
