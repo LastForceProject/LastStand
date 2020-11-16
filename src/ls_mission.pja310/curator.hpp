@@ -39,5 +39,6 @@ class Curators
 		,"76561198384407714"//Clever(Event)
 		,"76561198878334127"//Natcorn(Event)
 		,"76561198331797781"//August(Event)
+		,"76561198218155392"//kevju16(Event Jid)
 	};
 };
