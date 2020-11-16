@@ -18,7 +18,6 @@ class Curators
         ,"76561198308824143"//Cold(Event)
         ,"76561198046918009"//Reaper(Event)
         ,"76561198416727812"//Flar(Event)
-		,"76561198336020887"//Abandonn(Event)
 		,"76561198335619075"//Anvill(Event)
 		,"76561198150530744"//Floki(Event)
         ,"76561198817496048"//Overlord(Event)
@@ -36,6 +35,9 @@ class Curators
         ,"76561198033904243"//Jisai (Donate_Zeus)
         ,"76561198053534432"//Redcrown(Curator Rp)
 		,"76561198115713057"//Horn(Prodavlenniy RS)
-		,"76561199071806700"//Warthog(Event)
+		,"76561199071806700"//Warthog(Event) 
+		,"76561198384407714"//Clever(Event)
+		,"76561198878334127"//Natcorn(Event)
+		,"76561198331797781"//August(Event)
 	};
 };
