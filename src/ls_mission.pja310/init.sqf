@@ -15,8 +15,8 @@ if (!isServer) then {} else
 	automissions = false;
 	publicVariable "automissions";
 	missionNamespace setVariable ["taskID",1, true];
-	//automissions = [] execVM "automissions\create_auto_mission.sqf";
-	missionNamespace setVariable ["automissionsStarted",0, true];
+	automissions = [] execVM "automissions\create_auto_mission.sqf";
+	missionNamespace setVariable ["automissionsStarted",1, true];
 };
 
 0 fadeRadio 0;
