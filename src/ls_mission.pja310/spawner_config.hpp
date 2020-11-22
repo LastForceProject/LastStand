@@ -270,6 +270,12 @@ class AirSpawn
 			"ls_laat_ab",
 			"laat_count_spawn_8",
 			1
+		},
+		{
+			"LAAT/I (MK2, MCC)",
+			"swop_LAATmk2",
+			"laat_count_spawn_9",
+			1
 		}
 	};
 	spawnpoints[] = 
