@@ -282,12 +282,20 @@ class AirSpawn
 			"swop_LAATmk2",
 			"laat_count_spawn_9",
 			1
+		},
+		{
+			"LAAT/C",
+			"RD501_LAAT_cargo_Mk2",
+			"laat_count_spawn_10",
+			2
 		}
 	};
 	spawnpoints[] = 
 	{
 		{"ВПП #1",{"air_spawn_0"},true},
 		{"ВПП #2",{"air_spawn_1"},true},
-		{"ВПП #3",{"air_spawn_2"},true}
+		{"ВПП #3",{"air_spawn_2"},true},
+		{"ВПП #4",{"air_spawn_3"},true},
+		{"ВПП #5",{"air_spawn_4"},true}
 	};
 };
