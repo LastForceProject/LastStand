@@ -177,6 +177,12 @@ class MainSpawn
 			"vehicle_count_spawn_17",
 			1,
 			"gui_spawner\images\vehicles\rtt.paa"
+		},
+		{
+			"Легкий транспорт БСО ""МАВ-21""",
+			"JMM_212th_B_MRAP_unarmed",
+			"vehicle_count_spawn_18",
+			2
 		}
 	};
 	spawnpoints[] = 
