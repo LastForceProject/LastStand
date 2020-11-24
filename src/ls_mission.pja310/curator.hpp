@@ -34,7 +34,6 @@ class Curators
 		,"76561198115713057"//Horn(Prodavlenniy RS)
 		,"76561199071806700"//Warthog(Event) 
 		,"76561198384407714"//Clever(Event)
-		,"76561198878334127"//Natcorn(Event)
 		,"76561198331797781"//August(Event)
 		,"76561198218155392"//kevju16(Event Jid)
 		,"76561198072905067"//Tron (Zam_Kuratora)
