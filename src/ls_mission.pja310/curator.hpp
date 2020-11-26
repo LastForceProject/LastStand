@@ -32,5 +32,14 @@ class Curators
         ,"76561198115713057"//Horn(Prodavlenniy RS)
         ,"76561199071806700"//Warthog(Event)
         ,"76561198182854197"//Yoka(Event)
+        ,"76561198092314817"//zDrake(Event Gray)	
+        ,"76561198033904243"//Jisai (Donate_Zeus)
+        ,"76561198053534432"//Redcrown(Curator Rp)
+		,"76561198115713057"//Horn(Prodavlenniy RS)
+		,"76561199071806700"//Warthog(Event) 
+		,"76561198384407714"//Clever(Event)
+		,"76561198331797781"//August(Event)
+		,"76561198218155392"//kevju16(Event Jid)
+		,"76561198072905067"//Tron (Zam_Kuratora)
 	};
 };
