@@ -188,8 +188,7 @@ class MainSpawn
 	spawnpoints[] = 
 	{
 		{"Ангар #1",{"angar_spawn_0"},true},
-		{"Ангар #2",{"angar_spawn_1"},true},
-		{"Ангар #3",{"angar_spawn_2"},true}
+		{"Ангар #2",{"angar_spawn_1"},true}
 	};
 };
 
@@ -288,14 +287,29 @@ class AirSpawn
 			"RD501_LAAT_cargo_Mk2",
 			"laat_count_spawn_10",
 			2
+		},
+		{
+			"ARC-170 Blue (3AS)",
+			"3as_arc_170_blue",
+			"laat_count_spawn_11",
+			4
+		},
+		{
+			"Jedi ETA mk II",
+			"RD501_eta_white_Mk2",
+			"laat_count_spawn_12",
+			4
+		},
+		{
+			"Nu A-Class Shutle",
+			"3AS_Nuclass",
+			"laat_count_spawn_13"
 		}
 	};
 	spawnpoints[] = 
 	{
 		{"ВПП #1",{"air_spawn_0"},true},
 		{"ВПП #2",{"air_spawn_1"},true},
-		{"ВПП #3",{"air_spawn_2"},true},
-		{"ВПП #4",{"air_spawn_3"},true},
-		{"ВПП #5",{"air_spawn_4"},true}
+		{"ВПП #3",{"air_spawn_2"},true}
 	};
 };
