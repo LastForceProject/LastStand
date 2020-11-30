@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=281;
+		nextID=301;
 	};
 	class Camera
 	{
-		pos[]={14683.1,1359.7214,2714.7871};
-		dir[]={0.047649961,-0.56892186,0.82102227};
-		up[]={0.032963,0.8223877,0.56796962};
-		aside[]={0.99833089,7.1310751e-008,-0.057940535};
+		pos[]={3621.4866,1316.5635,16824.455};
+		dir[]={-0.78350824,-0.617387,0.070916697};
+		up[]={-0.61488825,0.78664619,0.055655912};
+		aside[]={0.090148583,6.6589564e-007,0.99596971};
 	};
 };
 binarizationWanted=0;
@@ -25438,17 +25438,41 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3593.9175,1303.1252,16812.289};
-				angles[]={0,3.1399097,0};
+				position[]={3593.917,1303.1252,16812.289};
+				angles[]={0,3.1399171,0};
 			};
 			side="Empty";
 			class Attributes
 			{
 				name="ars_41";
+				disableSimulation=1;
 			};
 			id=1082;
 			type="repammobox2";
 			atlOffset=4.019043;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item427
 		{
@@ -40716,7 +40740,7 @@ class Mission
 			};
 			id=2017;
 			type="3as_FOB_Light_Tall_Prop";
-			atlOffset=-0.0092773438;
+			atlOffset=-0.0093994141;
 		};
 		class Item721
 		{
