@@ -20,7 +20,6 @@ class Curators
         ,"76561198168577214"//Wolf (Event)
         ,"76561198247446122"//AveMatria(Event)
         ,"76561198843539307"//Acklay(Event)
-        ,"76561198308824143"//Cold(Event)
         ,"76561198046918009"//Reaper(Event)
        	,"76561198335619075"//Anvill(Event)
 		,"76561198817496048"//Overlord(Event)
