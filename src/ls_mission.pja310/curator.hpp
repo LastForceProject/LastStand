@@ -30,7 +30,6 @@ class Curators
 		,"76561198307319806"//бобажив(игл)(Event)
 		," 76561198062589102"//Doki dok(фрукт)(Event)
 		,"76561198114414576"//Auberon fon Thorne(Curator Jedi)
-        ,"76561198084192447"//Irai(EventJedi)
         ,"76561198253231135"//BKA (Event Jedi)
 		,"76561198218155392"//kevju16(Event Jedi)
         ,"76561198378684428"//Raniel(Curator Naim)
