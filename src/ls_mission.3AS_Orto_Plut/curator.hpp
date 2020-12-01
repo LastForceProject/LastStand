@@ -12,6 +12,7 @@ class Curators
         ,"76561198121927537"//Morket (Tech)
         ,"76561198072246605"//Shtamp(Tech)
 		,"76561199028516754"//Desire(Tech)
+		,"76561198041211224"//Flin(Tech)
         ,"76561198006688545"//Dark (BSO)
         ,"76561198351130485"//Bybylyka (Curator Event)
         ,"76561198102983006"//Joker (Dep Event)
