@@ -8,7 +8,7 @@ class EditorData
 	toggles=554;
 	class ItemIDProvider
 	{
-		nextID=2060;
+		nextID=2069;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=401;
+		nextID=441;
 	};
 	class Camera
 	{
-		pos[]={3684.2356,1392.7209,16849.387};
-		dir[]={-0.8320868,-0.52516055,-0.17911659};
-		up[]={-0.513448,0.85094893,-0.11052651};
-		aside[]={-0.21046489,4.8058428e-007,0.97770143};
+		pos[]={3363.9753,1409.9475,16988.936};
+		dir[]={0.57097298,-0.58465689,-0.57648003};
+		up[]={0.41146812,0.8112312,-0.41543609};
+		aside[]={-0.7105481,4.6554487e-007,-0.70376027};
 	};
 };
 binarizationWanted=0;
@@ -120,13 +120,14 @@ addons[]=
 	"hangar",
 	"OPTRE_Vehicles_Warthog",
 	"JMS_st_crystals",
-	"A3_Structures_F_Mil_Cargo"
+	"A3_Modules_F_Curator_Environment",
+	"A3_Props_F_Exp_A_Military_Equipment"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=70;
+		items=71;
 		class Item0
 		{
 			className="Prop_Objects";
@@ -546,6 +547,13 @@ class AddonsMetaData
 			name="JMS_st_crystals";
 			author="JMax";
 		};
+		class Item70
+		{
+			className="A3_Props_F_Exp_A";
+			name="Arma 3 Nexus Update - Decorative and Mission Objects";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=12050032;
@@ -671,7 +679,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=743;
+		items=745;
 		class Item0
 		{
 			dataType="Object";
@@ -2978,7 +2986,7 @@ class Mission
 			};
 			id=226;
 			type="RD501_Wallshieldobject6";
-			atlOffset=19.793701;
+			atlOffset=11.674438;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25398,7 +25406,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3581.3906,1300.6437,16807.379};
+				position[]={3581.3911,1300.6438,16807.379};
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
@@ -25409,7 +25417,7 @@ class Mission
 			};
 			id=1021;
 			type="3as_FOB_Door_Prop";
-			atlOffset=0.00012207031;
+			atlOffset=0.00024414063;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -41342,45 +41350,20 @@ class Mission
 		};
 		class Item741
 		{
-			dataType="Object";
+			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3574.6438,1299.9158,16795.148};
-				angles[]={0,3.1415935,-0};
+				position[]={3410.5979,1299.2678,16993.621};
 			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-				name="place";
-			};
-			id=2056;
-			type="Land_Cargo_House_V1_F";
-			atlOffset=0.52856445;
-		};
-		class Item742
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3572.1145,1299.6632,16797.758};
-				angles[]={0,4.7123895,-0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-				init="call{this addAction [""Открыть гермоворота"",{place animate [""door_1_rot"", 1]},0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];}";
-			};
-			id=2059;
-			type="OPTRE_RS_ConsoleDoor";
-			atlOffset=-0.024658203;
+			id=2060;
+			type="ModuleTimeMultiplier_F";
+			atlOffset=1.3049316;
 			class CustomAttributes
 			{
 				class Attribute0
 				{
-					property="OPTRE_RS_ConsoleDoorLogo";
-					expression="_this setObjectTextureGlobal [0, _value];";
+					property="ModuleTimeMultiplier_F_TimeMultiplier";
+					expression="_this setVariable ['TimeMultiplier',_value,true];";
 					class Value
 					{
 						class data
@@ -41389,10 +41372,133 @@ class Mission
 							{
 								type[]=
 								{
-									"STRING"
+									"SCALAR"
 								};
 							};
-							value="OPTRE_BW_Buildings\ReserchBase\DoorConsole\data\screen_co.paa";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item742
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3573.8379,1300.4216,16796.805};
+				angles[]={1.5707964,0,6.2556963};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="call{this addAction [""<t color='#7fbf7f'>Открыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_OP},[5549, ""j1""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction [""<t color='#ff4040'>Закрыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_CL},[5549, ""j1""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "}";
+				disableSimulation=1;
+			};
+			id=2062;
+			type="Land_Tablet_02_F";
+			atlOffset=1.1224365;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item743
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3575.5449,1302.6938,16790.039};
+				angles[]={6.2556963,1.5707964,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=2067;
+			type="3as_FOB_room_Prop";
+			atlOffset=0.40307617;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item744
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3572.0039,1301.2365,16796.436};
+				angles[]={6.2556963,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="j1";
+				dynamicSimulation=1;
+			};
+			id=2068;
+			type="3as_FOB_Door_Prop";
+			atlOffset=0.088989258;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
 						};
 					};
 				};
