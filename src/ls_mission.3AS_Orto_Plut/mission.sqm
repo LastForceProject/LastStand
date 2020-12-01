@@ -8,7 +8,7 @@ class EditorData
 	toggles=554;
 	class ItemIDProvider
 	{
-		nextID=2040;
+		nextID=2041;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=341;
+		nextID=361;
 	};
 	class Camera
 	{
-		pos[]={17628.459,1396.5311,1864.9423};
-		dir[]={0.11473542,-0.31469956,0.94237536};
-		up[]={0.038052529,0.94915688,0.31252763};
-		aside[]={0.99275023,-2.8937066e-006,-0.12087821};
+		pos[]={3556.4717,1344.745,16629.813};
+		dir[]={0.30226094,-0.53906316,0.7862832};
+		up[]={0.19343813,0.84224725,0.50320059};
+		aside[]={0.93349379,-1.7937855e-006,-0.35885087};
 	};
 };
 binarizationWanted=0;
@@ -670,7 +670,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=732;
+		items=733;
 		class Item0
 		{
 			dataType="Object";
@@ -32959,16 +32959,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14636.729,1329.9338,2793.677};
+				position[]={14636.729,1330.7086,2793.677};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				name="bunker_vhod";
 			};
 			id=1411;
 			type="ClutterCutter_small_2_EP1";
+			atlOffset=0.77478027;
 		};
 		class Item501
 		{
@@ -37966,17 +37966,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17643.771,1404.5416,1899.235};
+				position[]={17643.771,1404.5414,1899.235};
 			};
 			side="Empty";
 			flags=1;
 			class Attributes
 			{
-				init="call{this addAction [""На поверхность"",{player setposatl [getpos base13 select 0, getpos base13 select 1, getposatl bunker_vhod select 2]; titleText [""Пройдя по туннелям, вы оказались на поверхности"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];}";
+				init="call{this addAction [""На поверхность"",{player setposatl [getpos bunker_vhod select 0, getpos bunker_vhod select 1, getposatl bunker_vhod select 2]; titleText [""Пройдя по туннелям, вы оказались на поверхности"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];}";
 			};
 			id=1813;
 			type="Land_JMS_Tech_cor_doorC";
-			atlOffset=11.487183;
+			atlOffset=11.486938;
 		};
 		class Item556
 		{
@@ -41078,6 +41078,46 @@ class Mission
 			id=2039;
 			type="ClutterCutter_small_2_EP1";
 			atlOffset=0.75561523;
+		};
+		class Item732
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3604.6724,1307.2006,16798.779};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2040;
+			type="3as_FOB_Light_Tall_Prop";
+			atlOffset=2.7382813;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
