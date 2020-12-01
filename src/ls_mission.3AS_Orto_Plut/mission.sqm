@@ -8,7 +8,7 @@ class EditorData
 	toggles=554;
 	class ItemIDProvider
 	{
-		nextID=2039;
+		nextID=2040;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=321;
+		nextID=341;
 	};
 	class Camera
 	{
-		pos[]={17571.438,1442.8306,1799.8146};
-		dir[]={0.81206405,-0.52427828,0.25678161};
-		up[]={0.49996442,0.85149658,0.15809453};
-		aside[]={0.30152348,-2.5050758e-007,-0.95356584};
+		pos[]={17628.459,1396.5311,1864.9423};
+		dir[]={0.11473542,-0.31469956,0.94237536};
+		up[]={0.038052529,0.94915688,0.31252763};
+		aside[]={0.99275023,-2.8937066e-006,-0.12087821};
 	};
 };
 binarizationWanted=0;
@@ -670,7 +670,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=731;
+		items=732;
 		class Item0
 		{
 			dataType="Object";
@@ -32916,7 +32916,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={14611.597,1329.8712,2756.71};
-						angles[]={0,3.4945977,-0};
+						angles[]={0,3.4945977,0};
 					};
 					side="Empty";
 					class Attributes
@@ -36814,14 +36814,13 @@ class Mission
 						angles[]={0,5.4793682,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						disableSimulation=1;
 					};
 					id=1610;
 					type="Land_BottlePlastic_V2_F";
-					atlOffset=0.085327148;
+					atlOffset=0.75146484;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -37008,7 +37007,7 @@ class Mission
 				};
 			};
 			id=1621;
-			atlOffset=0.77758789;
+			atlOffset=0.7734375;
 		};
 		class Item519
 		{
@@ -38015,15 +38014,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17643.811,1393.9833,1869.4591};
+				position[]={17643.811,1393.9829,1869.459};
 			};
 			side="Empty";
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=1816;
 			type="DrainageDeck_01_F";
-			atlOffset=0.038696289;
+			atlOffset=0.038330078;
 		};
 		class Item559
 		{
@@ -39068,65 +39068,69 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17626.588,1394.6793,1834.7062};
-				angles[]={0,1.5734638,0};
+				position[]={17626.588,1394.679,1834.7061};
+				angles[]={0,1.5734667,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=1883;
 			type="Medical_bed";
-			atlOffset=0.00012207031;
+			atlOffset=1.3399658;
 		};
 		class Item624
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17626.6,1394.6793,1831.8019};
-				angles[]={0,1.5734638,0};
+				position[]={17626.6,1394.6792,1831.8018};
+				angles[]={0,1.5734667,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=1884;
 			type="Medical_bed";
+			atlOffset=1.2919922;
 		};
 		class Item625
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17626.551,1394.6793,1828.7657};
-				angles[]={0,1.5734638,0};
+				position[]={17626.551,1394.6794,1828.7657};
+				angles[]={0,1.5734667,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=1885;
 			type="Medical_bed";
+			atlOffset=0.00012207031;
 		};
 		class Item626
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17626.545,1394.6793,1825.7892};
-				angles[]={0,1.5734638,0};
+				position[]={17626.545,1394.6792,1825.7889};
+				angles[]={0,1.5734667,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=1886;
 			type="Medical_bed";
+			atlOffset=1.2729492;
 		};
 		class Item627
 		{
@@ -40852,17 +40856,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17626.428,1394.6805,1803.7667};
+				position[]={17626.428,1394.6804,1803.767};
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			class Attributes
 			{
+				name="ars_tg";
 				disableSimulation=1;
 			};
 			id=2027;
 			type="gonkdroid";
-			atlOffset=1.1123047;
+			atlOffset=1.1121826;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -41057,6 +41062,22 @@ class Mission
 			id=2038;
 			type="SWOP_computerConsole";
 			atlOffset=1.1020508;
+		};
+		class Item731
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17667.771,1394.6691,1818.1138};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="mando_2";
+			};
+			id=2039;
+			type="ClutterCutter_small_2_EP1";
+			atlOffset=0.75561523;
 		};
 	};
 };
