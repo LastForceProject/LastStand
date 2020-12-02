@@ -7,6 +7,7 @@ class Curators
         ,"76561198092314817"//zDrake(Curator)	
 		,"76561198072905067"//Tron (Dep Curator)
         ,"76561198053534432"//Redcrown(Prev Curator Rp)
+		,"76561198295071589"//#8055(Curator RP)
 		,"76561198168581874"//Снежок(Community) 
         ,"76561198288271495"//KapayJl (Tech)
         ,"76561198121927537"//Morket (Tech)
