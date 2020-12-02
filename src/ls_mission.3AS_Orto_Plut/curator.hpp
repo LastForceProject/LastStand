@@ -38,5 +38,6 @@ class Curators
 		,"76561198307319806"//Castel(Event Naim)
         ,"76561198227583576"//Filin (Event Naim)
         ,"76561198033904243"//Jisai (Donate_Zeus)
+		
 	};
 };
