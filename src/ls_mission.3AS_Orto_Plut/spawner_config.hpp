@@ -310,6 +310,8 @@ class AirSpawn
 	{
 		{"ВПП #1",{"air_spawn_0"},true},
 		{"ВПП #2",{"air_spawn_1"},true},
-		{"ВПП #3",{"air_spawn_2"},true}
+		{"ВПП #3",{"air_spawn_2"},true},
+		{"ВПП #4",{"air_spawn_3"},true},
+		{"ВПП #5",{"air_spawn_4"},true}
 	};
 };
