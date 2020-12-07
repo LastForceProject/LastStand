@@ -1,4 +1,4 @@
-// -- Ранговая система.
+﻿// -- Ранговая система.
 
 _nameplayer = name player;
 if ((_nameplayer find "CS" !=-1) || (_nameplayer find "CPL" !=-1)) then 
@@ -55,7 +55,7 @@ switch (playerSide) do
 		_dayTime = [daytime] call BIS_fnc_timeToString;
 		[
 			[
-			["Планета: Рен-вар, База ВАР","size = '0.7'"],
+			["Планета: Каал, База ВАР","size = '0.7'"],
 			["","<br/>"],
 			["Местное время: ","size = '0.7'"],
 			[str _dayTime,"size = '0.7'"],
@@ -70,7 +70,7 @@ switch (playerSide) do
 		_dayTime = [daytime] call BIS_fnc_timeToString;
 		[
 			[
-			["Планета: Рен-Вар, Неизвестное место","size = '0.7'"],
+			["Планета: Каал, Неизвестное место","size = '0.7'"],
 			["","<br/>"],
 			["Местное время: ","size = '0.7'"],
 			[str _dayTime,"size = '0.7'"],
