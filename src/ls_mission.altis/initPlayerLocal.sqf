@@ -83,3 +83,9 @@ UniformList = [
 player setVariable ["Heal_Used",0,true];
 player setVariable ["Last_Used",0,true];
 player addAction ["<t color='#2ECC71'> Использовать бакту </t>", "[] execVM 'scripts\fn_bacta.sqf'", [], -1, false, true,"User10", "((uniform player in UniformList) && ('ACE_personalAidKit' in (items _this)))"];
+
+while{true}do{
+keyspressed = compile preprocessFile "\lfprpchat\scripts\openchat.sqf";
+_display = findDisplay 46;
+_display displaySetEventHandler ["KeyDown","_this call keyspressed"];
+};

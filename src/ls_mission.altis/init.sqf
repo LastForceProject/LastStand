@@ -28,3 +28,7 @@ enableSaving [false, false];
 CHVD_allowNoGrass = true; // Set 'false' if you want to disable "Low" option for terrain (default: true)
 CHVD_maxView = 5500; // Set maximum view distance (default: 12000)
 CHVD_maxObj = 5500; // Set maximimum object view distance (default: 12000)
+
+_varText = format["<t align=centre>%1<br/></t>",date];
+publicVariable _varText;
+missionNamespace setVariable ["rpchat",_varText,true];
