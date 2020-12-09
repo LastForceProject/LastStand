@@ -33,6 +33,8 @@ class Curators
 		,"76561198114414576"//Auberon fon Thorne(Curator Jedi)
         ,"76561198253231135"//BKA (Event Jedi)
 		,"76561198218155392"//kevju16(Event Jedi)
+		,"76561198062501233"//Lore(Event Naim)
+		,"76561198920070747"//Quantos(Event Naim)
         ,"76561198403064350"//Smetanka(Event Naim)
 		,"76561198307319806"//Castel(Event Naim)
         ,"76561198227583576"//Filin (Curator Naim)
