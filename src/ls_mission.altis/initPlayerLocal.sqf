@@ -83,3 +83,19 @@ UniformList = [
 player setVariable ["Heal_Used",0,true];
 player setVariable ["Last_Used",0,true];
 player addAction ["<t color='#2ECC71'> Использовать бакту </t>", "[] execVM 'scripts\fn_bacta.sqf'", [], -1, false, true,"User10", "((uniform player in UniformList) && ('ACE_personalAidKit' in (items _this)))"];
+
+
+//Chat
+fnc_chatOpen = {
+[1]execVM "lfprpchat\scripts\openchat.sqf";
+};
+fnc_senDMsg = {
+[2]execVM "lfprpchat\scripts\openchat.sqf";
+};
+["lfprpchat", "205", ["Open", "My Open"], {
+    _this call fnc_chatOpen
+}, {}, [205, [true, false, false]]] call CBA_fnc_addKeybind;
+
+["lfprpchat", "28", ["Send", "My Send"], {
+    _this call fnc_senDMsg
+}, {}, [28, [false, false, false]]] call CBA_fnc_addKeybind;
