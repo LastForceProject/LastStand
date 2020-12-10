@@ -30,14 +30,17 @@ class Curators
 		,"76561198331797781"//August(Event)
 		,"76561198374549023"//бобажив(игл)(Event)
 		,"76561198062589102"//Doki dok(фрукт)(Event)
+		,"76561198160053406"//Oni(Event)
+		,"76561198068721696"//Dem(Event)
+		,"76561198401303714"//TAKT(Event)
 		,"76561198114414576"//Auberon fon Thorne(Curator Jedi)
         ,"76561198253231135"//BKA (Event Jedi)
 		,"76561198218155392"//kevju16(Event Jedi)
+        ,"76561198227583576"//Filin (Curator Naim)
 		,"76561198062501233"//Lore(Event Naim)
 		,"76561198920070747"//Quantos(Event Naim)
         ,"76561198403064350"//Smetanka(Event Naim)
 		,"76561198307319806"//Castel(Event Naim)
-        ,"76561198227583576"//Filin (Curator Naim)
         ,"76561198033904243"//Jisai (Donate_Zeus)
 		
 	};
