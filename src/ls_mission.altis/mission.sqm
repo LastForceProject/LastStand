@@ -8,7 +8,7 @@ class EditorData
 	toggles=554;
 	class ItemIDProvider
 	{
-		nextID=2910;
+		nextID=2984;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=517;
+		nextID=545;
 	};
 	class Camera
 	{
-		pos[]={20853.146,136.68736,7519.6064};
-		dir[]={0.56717169,-0.7437799,-0.35373372};
-		up[]={0.63109821,0.66842449,-0.39360315};
-		aside[]={-0.52919698,-9.276846e-008,-0.8485083};
+		pos[]={4531.5044,442.37265,21254.357};
+		dir[]={0.34866682,-0.58030182,0.73599249};
+		up[]={0.24844234,0.81440145,0.52443075};
+		aside[]={0.90372062,1.169974e-008,-0.42812586};
 	};
 };
 binarizationWanted=0;
@@ -133,13 +133,15 @@ addons[]=
 	"ace_attach",
 	"ace_chemlights",
 	"ARC_Legion",
-	"A3_Structures_F_Exp_Military_ContainerBases"
+	"A3_Structures_F_Exp_Military_ContainerBases",
+	"OPTRE_BW_WarehouseRS",
+	"OPTRE_Vehicles_HEV"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=81;
+		items=82;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -633,6 +635,11 @@ class AddonsMetaData
 			className="ARC_Legion";
 			name="ARC_Legion";
 		};
+		class Item81
+		{
+			className="OPTRE_Vehicles_HEV";
+			name="OPTRE_Vehicles_HEV";
+		};
 	};
 };
 randomSeed=14165845;
@@ -755,7 +762,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=789;
+		items=793;
 		class Item0
 		{
 			dataType="Marker";
@@ -7966,7 +7973,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="call{this addAction [""Аванпост 101-х"",{player setposatl [getpos q_101 select 0, getpos q_101 select 1, getposatl q_101 select 2]; titleText [""Вы переместились на аванпост"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "this addAction [""Аванпост 501-х"",{player setposatl [getpos q_501 select 0, getpos q_501 select 1, getposatl q_501 select 2]; titleText [""Вы переместились на аванпост"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "this addAction [""Аванпост 212-х"",{player setposatl [getpos q_212 select 0, getpos q_212 select 1, getposatl q_212 select 2]; titleText [""Вы переместились на аванпост"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "this addAction [""Аванпост 41-х"",{player setposatl [getpos q_41 select 0, getpos q_41 select 1, getposatl q_41 select 2]; titleText [""Вы переместились на аванпост"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "this addAction [""Аванпост 327-х"",{player setposatl [getpos q_327 select 0, getpos q_327 select 1, getposatl q_327 select 2]; titleText [""Вы переместились на аванпост"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "this addAction [""Храм джедаев"",{player setposatl [getpos q_J select 0, getpos q_J select 1, getposatl q_J select 2]; titleText [""Вы переместились в храм"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "this addAction [""НРП зона"",{player setposatl [getpos nrp select 0, getpos nrp select 1, getposatl nrp select 2]; titleText [""Вы в НРП зоне"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""Вниз"",{player setposatl [getpos q_home_1 select 0, getpos q_home_1 select 1, getposatl q_home_1 select 2]; titleText [""Вы переместились вниз"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];}";
+				init="call{this addAction [""Аванпост 101-х"",{player setposatl [getpos q_101 select 0, getpos q_101 select 1, getposatl q_101 select 2]; titleText [""Вы переместились на аванпост"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""Аванпост 501-х"",{player setposatl [getpos q_501 select 0, getpos q_501 select 1, getposatl q_501 select 2]; titleText [""Вы переместились на аванпост"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""Аванпост 212-х"",{player setposatl [getpos q_212 select 0, getpos q_212 select 1, getposatl q_212 select 2]; titleText [""Вы переместились на аванпост"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""Аванпост 41-х"",{player setposatl [getpos q_41 select 0, getpos q_41 select 1, getposatl q_41 select 2]; titleText [""Вы переместились на аванпост"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""Аванпост 327-х"",{player setposatl [getpos q_327 select 0, getpos q_327 select 1, getposatl q_327 select 2]; titleText [""Вы переместились на аванпост"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""Храм джедаев"",{player setposatl [getpos q_J select 0, getpos q_J select 1, getposatl q_J select 2]; titleText [""Вы переместились в храм"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""Переместиться к капсулам"",{player setposatl [getpos capsul select 0, getpos capsul select 1, getposatl capsul select 2]; titleText [""Вы переместились в комлпекс с капусами"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""НРП зона"",{player setposatl [getpos nrp select 0, getpos nrp select 1, getposatl nrp select 2]; titleText [""Вы в НРП зоне"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""Вниз"",{player setposatl [getpos q_home_1 select 0, getpos q_home_1 select 1, getposatl q_home_1 select 2]; titleText [""Вы переместились вниз"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];}";
 			};
 			id=338;
 			type="land_SW_r2d2";
@@ -40246,7 +40253,7 @@ class Mission
 			fillName="DiagGrid";
 			a=1200;
 			b=200;
-			angle=209.99988;
+			angle=209.99986;
 			id=2745;
 			atlOffset=-9.5009766;
 		};
@@ -40291,7 +40298,7 @@ class Mission
 			fillName="DiagGrid";
 			a=4100;
 			b=200;
-			angle=209.99988;
+			angle=209.99986;
 			id=2748;
 			atlOffset=-13.793999;
 		};
@@ -40366,7 +40373,7 @@ class Mission
 			fillName="DiagGrid";
 			a=2500;
 			b=200;
-			angle=209.99991;
+			angle=209.99989;
 			id=2753;
 			atlOffset=-7.2304077;
 		};
@@ -42130,7 +42137,7 @@ class Mission
 			fillName="DiagGrid";
 			a=200;
 			b=100;
-			angle=209.99991;
+			angle=209.99989;
 			id=2899;
 			atlOffset=22.378202;
 		};
@@ -42175,7 +42182,7 @@ class Mission
 			fillName="DiagGrid";
 			a=200;
 			b=100;
-			angle=209.99992;
+			angle=209.99991;
 			id=2902;
 			atlOffset=11.851581;
 		};
@@ -42412,6 +42419,834 @@ class Mission
 			id=2909;
 			type="SWOP_BoxMedium2";
 			atlOffset=0.022399902;
+		};
+		class Item789
+		{
+			dataType="Layer";
+			name="capsule";
+			id=2925;
+			atlOffset=152.99643;
+		};
+		class Item790
+		{
+			dataType="Layer";
+			name="capsule2321";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Layer";
+					name="BASE_2";
+					id=2926;
+					atlOffset=34696.703;
+				};
+				class Item1
+				{
+					dataType="Layer";
+					name="capsule_1";
+					id=2928;
+					atlOffset=34696.742;
+				};
+			};
+			id=2946;
+			atlOffset=34696.707;
+		};
+		class Item791
+		{
+			dataType="Layer";
+			name="capsule";
+			id=2962;
+			atlOffset=52.874756;
+		};
+		class Item792
+		{
+			dataType="Layer";
+			name="capsule2321";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Layer";
+					name="BASE_3";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4155.8359,17704.912,31654.76};
+								angles[]={0,4.7180614,0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=2964;
+							type="OPTRE_RS_Warehouse";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="DoorStates";
+									expression="['init',_this,_value] call bis_fnc_3DENAttributeDoorStates;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=3;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=5;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item2
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=2963;
+				};
+				class Item1
+				{
+					dataType="Layer";
+					name="capsule_2";
+					class Entities
+					{
+						items=15;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4160.0874,17702.756,31667.57};
+								angles[]={0,1.5707964,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+								name="HEV_0_9";
+							};
+							id=2966;
+							type="OPTRE_HEV";
+							atlOffset=0.0078125;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4160.7866,17702.756,31650.182};
+								angles[]={0,1.5707964,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+								name="HEV_0_1";
+							};
+							id=2967;
+							type="OPTRE_HEV";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4160.646,17702.756,31645.166};
+								angles[]={0,1.5707964,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+								name="HEV_0_2";
+							};
+							id=2968;
+							type="OPTRE_HEV";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4160.9136,17702.756,31640.381};
+								angles[]={0,1.5707964,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+								name="HEV_0_3";
+							};
+							id=2969;
+							type="OPTRE_HEV";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4160.2373,17702.756,31662.873};
+								angles[]={0,1.5707964,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_4";
+							};
+							id=2970;
+							type="OPTRE_HEV";
+							atlOffset=0.005859375;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4150.6182,17702.754,31667.172};
+								angles[]={0,4.712389,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_5";
+							};
+							id=2971;
+							type="OPTRE_HEV";
+							atlOffset=0.013671875;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4159.1816,17702.611,31652.477};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+								init="call{this addAction [""Разблокировать консоль управления"",OPTRE_Fnc_Menu,[""UNSC_HEV"",""UNSC_DATABASE""]]; this setVariable [""OPTRE_PodsLaunchIn"",-1,true];this setVariable [""OPTRE_PodsLinkedToConsole"",([HEV_0_1,HEV_0_2,HEV_0_3,HEV_0_4,HEV_0_5,HEV_0_6,HEV_0_7,HEV_0_8,HEV_0_9,HEV_0_10,HEV_0_11,HEV_0_12,HEV_0_13,HEV_0_14,HEV_0_15,HEV_0_16,objNull]- [objNull]),true];}";
+							};
+							id=2972;
+							type="OPTRE_RS_ConsoleDoor";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4160.6211,17702.754,31654.699};
+								angles[]={0,1.5707964,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+								name="HEV_0_7";
+							};
+							id=2973;
+							type="OPTRE_HEV";
+							atlOffset=0.00390625;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4160.5322,17702.756,31658.977};
+								angles[]={0,1.5707964,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];				";
+								name="HEV_0_8";
+							};
+							id=2974;
+							type="OPTRE_HEV";
+							atlOffset=0.005859375;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4150.6841,17702.756,31662.627};
+								angles[]={0,4.712389,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_11";
+							};
+							id=2975;
+							type="OPTRE_HEV";
+							atlOffset=0.01953125;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4150.6709,17702.756,31658.305};
+								angles[]={0,4.712389,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_12";
+							};
+							id=2976;
+							type="OPTRE_HEV";
+							atlOffset=0.01171875;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4150.7246,17702.756,31653.988};
+								angles[]={0,4.712389,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_13";
+							};
+							id=2977;
+							type="OPTRE_HEV";
+							atlOffset=0.009765625;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4150.7534,17702.756,31649.783};
+								angles[]={0,4.712389,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_14";
+							};
+							id=2978;
+							type="OPTRE_HEV";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4150.8198,17702.756,31645.078};
+								angles[]={0,4.712389,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_15";
+							};
+							id=2979;
+							type="OPTRE_HEV";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={-4150.9585,17702.756,31640.734};
+								angles[]={0,4.712389,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_16";
+							};
+							id=2980;
+							type="OPTRE_HEV";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+					};
+					id=2965;
+					atlOffset=0.001953125;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={-4155.7363,17701.689,31640.33};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						name="capsul";
+					};
+					id=2981;
+					type="ClutterCutter_small_2_EP1";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={-4155.7358,17702.201,31639.438};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						init="call{this addAction [""Вернуться на базу"",{player setposatl [getpos q_home select 0, getpos q_home select 1, getposatl q_home select 2]; titleText [""Вы вернулись на базу"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];}";
+					};
+					id=2982;
+					type="land_SW_r2d2";
+				};
+			};
+			id=2983;
+			atlOffset=0.001953125;
 		};
 	};
 };
