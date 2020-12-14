@@ -12,7 +12,7 @@ ars41 = [] spawn
 
 arsDOOM = [] spawn 
 {
-	_boxes = [ars_41 ,ars_41_2];
+	_boxes = [ars_doom ,ars_doom_2];
 	{
 	_box = _x;
 	[_box,
