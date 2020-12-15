@@ -8,7 +8,7 @@ class EditorData
 	toggles=42;
 	class ItemIDProvider
 	{
-		nextID=3128;
+		nextID=3174;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=603;
+		nextID=633;
 	};
 	class Camera
 	{
-		pos[]={4607.8711,337.8356,21358.896};
-		dir[]={-0.52064675,-0.4465479,0.72781277};
-		up[]={-0.25982982,0.89473194,0.36321566};
-		aside[]={0.81340051,-7.64383e-007,0.58187413};
+		pos[]={4555.0649,447.94193,21027.434};
+		dir[]={0.19535342,-0.602512,0.77399093};
+		up[]={0.1474503,0.79808724,0.58419943};
+		aside[]={0.96971518,-9.0530375e-007,-0.24475598};
 	};
 };
 binarizationWanted=0;
@@ -780,7 +780,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=779;
+		items=787;
 		class Item0
 		{
 			dataType="Marker";
@@ -39500,7 +39500,7 @@ class Mission
 			fillName="DiagGrid";
 			a=2500;
 			b=200;
-			angle=209.99983;
+			angle=209.99982;
 			id=2753;
 			atlOffset=-7.2304077;
 		};
@@ -41264,7 +41264,7 @@ class Mission
 			fillName="DiagGrid";
 			a=200;
 			b=100;
-			angle=209.99983;
+			angle=209.99982;
 			id=2899;
 			atlOffset=22.378202;
 		};
@@ -41309,7 +41309,7 @@ class Mission
 			fillName="DiagGrid";
 			a=200;
 			b=100;
-			angle=209.99985;
+			angle=209.99982;
 			id=2902;
 			atlOffset=11.851581;
 		};
@@ -42653,7 +42653,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5959.2241,237.86305,19880.125};
-						angles[]={0,2.3561945,-0};
+						angles[]={0,2.3561945,0};
 					};
 					side="Empty";
 					flags=4;
@@ -42912,6 +42912,142 @@ class Mission
 			id=3127;
 			type="Land_OPTRE_mod_building_white";
 			atlOffset=-0.17733765;
+		};
+		class Item779
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4614.3384,290.55582,21447.393};
+				angles[]={0.034649063,0,6.1914434};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3144;
+			type="CUP_Kamen5_zula";
+			atlOffset=-0.36044312;
+		};
+		class Item780
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4615.644,289.50443,21453.662};
+				angles[]={0.034649063,0,6.1914434};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3145;
+			type="CUP_Kamen5_zula";
+			atlOffset=0.19244385;
+		};
+		class Item781
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4614.7559,290.40021,21458.338};
+				angles[]={0,5.2359877,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=3146;
+			type="CUP_Kamen5_zula";
+			atlOffset=1.3262024;
+		};
+		class Item782
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4529.8423,304.67078,21343.857};
+				angles[]={0,1.0471976,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=3165;
+			type="Land_DistrictWall_Straight_F";
+			atlOffset=10.266418;
+		};
+		class Item783
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4515.73,304.77625,21368.193};
+				angles[]={0,1.0471976,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=3168;
+			type="Land_DistrictWall_Straight_F";
+			atlOffset=10.302368;
+		};
+		class Item784
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4608.6191,294.40524,21452.41};
+				angles[]={0,3.4033923,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="call{this addAction [""Открыть гермоворота"",{_this call LS_fnc_codelock_TP},[382423, ""base_13""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];}";
+			};
+			id=3170;
+			type="SWOP_computerConsole";
+			atlOffset=-0.22848511;
+		};
+		class Item785
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4658.0605,289.86444,21413.412};
+				angles[]={0,5.2359877,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3172;
+			type="CUP_Kamen5_zula";
+			atlOffset=-0.63986206;
+		};
+		class Item786
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4662.8296,289.62619,21411.119};
+				angles[]={0,2.6179938,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3173;
+			type="CUP_Kamen5_zula";
+			atlOffset=-0.86810303;
 		};
 	};
 };
