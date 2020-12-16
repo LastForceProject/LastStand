@@ -25,7 +25,6 @@ class Curators
 		,"76561198817496048"//Overlord(Event)
 		,"76561199071806700"//Warthog(Event) 
 		,"76561198384407714"//Clever(Event)
-		,"76561198331797781"//August(Event)
 		,"76561198308824143"//Codich(Lox-Event)
 		,"76561198374549023"//бобажив(игл)(Event)
 		,"76561198062589102"//Doki dok(фрукт)(Event)
