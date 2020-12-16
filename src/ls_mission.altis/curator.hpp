@@ -15,7 +15,6 @@ class Curators
         ,"76561198006688545"//Dark (BSO)
         ,"76561198351130485"//Bybylyka (Curator Event)
         ,"76561198102983006"//Joker (Dep Event)
-        ,"76561198209489483"//PO(Event)
 		,"76561198182854197"//Yoka(Event)
         ,"76561198168577214"//Wolf (Event)
         ,"76561198247446122"//AveMatria(Event)
