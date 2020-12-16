@@ -8,7 +8,7 @@ class EditorData
 	toggles=558;
 	class ItemIDProvider
 	{
-		nextID=3366;
+		nextID=3373;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=786;
+		nextID=817;
 	};
 	class Camera
 	{
-		pos[]={20906.674,76.959312,7277.0229};
-		dir[]={0.34940284,-0.31252363,0.8834601};
-		up[]={0.11496379,0.94981468,0.2907171};
-		aside[]={0.93002927,-2.0192601e-006,-0.36778942};
+		pos[]={4857.6646,412.55228,21848.199};
+		dir[]={0.28291532,-0.53895128,0.79350042};
+		up[]={0.18101534,0.8423025,0.50769967};
+		aside[]={0.94199324,-6.5352651e-008,-0.33585829};
 	};
 };
 binarizationWanted=0;
@@ -142,13 +142,14 @@ addons[]=
 	"MEOP_st_objectsTur",
 	"MEOP_st_posters",
 	"A3_Boat_F_Beta_SDV_01",
-	"A3_Props_F_Exp_A_Military_Equipment"
+	"A3_Props_F_Exp_A_Military_Equipment",
+	"JMS_st_objectsColAcces"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=87;
+		items=88;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -680,6 +681,12 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item87
+		{
+			className="JMS_st_objectsColAcces";
+			name="JMS_st_objectsColAcces";
+			author="JMax";
+		};
 	};
 };
 randomSeed=14165845;
@@ -802,7 +809,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=822;
+		items=827;
 		class Item0
 		{
 			dataType="Marker";
@@ -1723,14 +1730,13 @@ class Mission
 				angles[]={0.043971907,6.0213861,6.2658529};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
 			id=55;
 			type="Land_Campfire_F";
-			atlOffset=0.2064209;
+			atlOffset=0.45578003;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2823,7 +2829,7 @@ class Mission
 			};
 			id=86;
 			type="Land_Campfire_F";
-			atlOffset=-0.0010070801;
+			atlOffset=0.24726868;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3483,14 +3489,13 @@ class Mission
 				angles[]={0,3.403379,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
 			id=122;
 			type="Land_CamoNetVar_NATO_EP1";
-			atlOffset=0.013824463;
+			atlOffset=0.40426636;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3532,7 +3537,7 @@ class Mission
 			};
 			id=123;
 			type="Land_Campfire_F";
-			atlOffset=-0.15356445;
+			atlOffset=0.09602356;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13847,7 +13852,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this addAction [""База снабжения"",{player setposatl [getpos q_home select 0, getpos q_home select 1, getposatl q_home select 2]; titleText [""Вы переместились на базу снабжения"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];}";
+				init="call{this addAction [""База снабжения"",{player setposatl [getpos q_home select 0, getpos q_home select 1, getposatl q_home select 2]; titleText [""Вы переместились на базу снабжения"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];              this addAction [""Вниз"",{player setposatl [getpos jedi_vhod select 0, getpos jedi_vhod select 1, getposatl jedi_vhod select 2]; titleText [""Вы переместились вниз"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];}";
 			};
 			id=456;
 			type="land_SW_r2d2";
@@ -43445,14 +43450,13 @@ class Mission
 				angles[]={0,2.8805656,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
 			id=3266;
 			type="Land_Campfire_F";
-			atlOffset=0.090927124;
+			atlOffset=0.33996582;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45528,6 +45532,91 @@ class Mission
 			};
 			id=3363;
 			type="SWOP_BoxMedium3W";
+		};
+		class Item822
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4863.6084,353.00687,21943.975};
+				angles[]={0,0.45378542,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=3366;
+			type="Land_JMS_build_Colony_door2";
+			atlOffset=0.063873291;
+		};
+		class Item823
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4861.3491,352.2066,21942.471};
+				angles[]={0,0.45097563,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="jedi_vhod";
+			};
+			id=3367;
+			type="Land_ClutterCutter_small_F";
+			atlOffset=0.93069458;
+		};
+		class Item824
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4861.0981,351.65051,21943.473};
+				angles[]={0.04417428,6.0213857,0.094090693};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="call{this addAction [""Храм джедаев"",{player setposatl [getpos q_J select 0, getpos q_J select 1, getposatl q_J select 2]; titleText [""Вы переместились в храм"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "}";
+			};
+			id=3368;
+			type="land_SW_r2d2";
+			atlOffset=6.3999939;
+		};
+		class Item825
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4862.353,351.24817,21943.473};
+				angles[]={0,3.577925,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=3369;
+			type="Land_JMS_build_Colony_stairs_1";
+			atlOffset=5.8999634;
+		};
+		class Item826
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4864.3608,351.51419,21943.223};
+				angles[]={0,3.577925,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=3370;
+			type="Land_JMS_build_Colony_stairs_1";
+			atlOffset=6.1999817;
 		};
 	};
 };
