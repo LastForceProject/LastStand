@@ -3,14 +3,12 @@ class Curators
 	list[] = 
 	{
         ,"76561198057238748"//Host (Creator)
-        ,"76561198079947268"//Shepard (Curator)
         ,"76561198092314817"//zDrake(Curator)	
 		,"76561198072905067"//Tron (Dep Curator)
         ,"76561198053534432"//Redcrown(Prev Curator Rp)
 		,"76561198295071589"//#8055(Curator RP)
 		,"76561198168581874"//Снежок(Community) 
         ,"76561198288271495"//KapayJl (Tech)
-        ,"76561198121927537"//Morket (Tech)
         ,"76561198072246605"//Shtamp(Tech)
 		,"76561199028516754"//Desire(Tech)
 		,"76561198041211224"//Flin(Tech)
@@ -36,7 +34,6 @@ class Curators
 		,"76561198401303714"//TAKT(Event)
 		,"76561198114414576"//Auberon fon Thorne(Curator Jedi)
         ,"76561198253231135"//BKA (Event Jedi)
-		,"76561198218155392"//kevju16(Event Jedi)
         ,"76561198227583576"//Filin (Curator Naim)
 		,"76561198062501233"//Lore(Event Naim)
 		,"76561198920070747"//Quantos(Event Naim)
