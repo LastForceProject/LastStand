@@ -19,6 +19,31 @@
 	//missionNamespace setVariable ["automissionsStarted",1, true];
 //};
 
+// Prosba Karaula
+if (isServer) then {
+[	west,15000,[
+	["Land_BagFence_Corner_F",3],
+	["Land_BagFence_Round_F",3],
+	["Land_BagFence_Short_F",2],
+	["Land_BagFence_Long_F",4],
+	["Land_fort_bagfence_long",5],
+	["Land_fort_bagfence_round",5],
+	["Land_fort_bagfence_corner",5],
+	["Land_Plank_01_4m_F",2],
+	["Land_HBarrierTower_F",25],
+	["Land_BagBunker_Large_F",25],
+	["Land_HBarrier_5_F",15],
+	["Land_Cargo_Patrol_V3_F",20],
+	["Land_BagBunker_Small_F",15],
+	["Land_Canal_WallSmall_10m_F",15],
+	["CamoNet_BLUFOR_big_F",15],
+	["Land_HighVoltageColumn_F",15],
+	["Land_Research_house_V1_F",15],
+	["Land_Cargo_Tower_V1_F",15],
+	["Land_BarGate_F",15]
+] ] call acex_fortify_fnc_registerObjects;
+};
+
 0 fadeRadio 0;
 enableRadio false;
 enableSentences false;
