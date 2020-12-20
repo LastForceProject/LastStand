@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1428;
+		nextID=1486;
 	};
 	class Camera
 	{
-		pos[]={11679.963,31.676495,12000.969};
-		dir[]={-0.33061528,-0.4996728,-0.80066115};
-		up[]={-0.19071341,0.86621034,-0.46185574};
-		aside[]={-0.92431915,9.3132257e-010,0.38167748};
+		pos[]={11641.392,44.685261,11953.466};
+		dir[]={-0.59958971,-0.1797373,0.77989817};
+		up[]={-0.10956249,0.98371071,0.14251056};
+		aside[]={0.79281104,-1.4528632e-007,0.60951656};
 	};
 };
 binarizationWanted=0;
@@ -1096,7 +1096,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this addAction [""Храм джедаев"",{player setposatl [getpos q_J select 0, getpos q_J select 1, getposatl q_J select 2]; titleText [""Вы переместились в храм"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""Переместиться к капсулам"",{player setposatl [getpos capsul select 0, getpos capsul select 1, getposatl capsul select 2]; titleText [""Вы переместились в комлпекс с капусами"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""НРП зона"",{player setposatl [getpos nrp select 0, getpos nrp select 1, getposatl nrp select 2]; titleText [""Вы в НРП зоне"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];                                                    this addAction [""ВПП"",{player setposatl [getpos tp_piloti select 0, getpos tp_piloti select 1, getposatl tp_piloti select 2]; titleText [""Вы переместились"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];                                               this addAction [""Крейсер"",{player setposatl [getpos q_norm1 select 0, getpos q_norm1 select 1, getposatl q_norm1 select 2]; titleText [""Вы переместились"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];                                               this addAction [""КиллХаус"",{player setposatl [getpos kill_q select 0, getpos kill_q select 1, getposatl kill_q select 2]; titleText [""Вы переместились"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];                                               this addAction [""<t color='#7fbf7f'>13</t>"",{_this call LS_fnc_codelock_TP},[160604, ""base13""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];}";
+				init="call{this addAction [""Храм джедаев"",{player setposatl [getpos q_J select 0, getpos q_J select 1, getposatl q_J select 2]; titleText [""Вы переместились в храм"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""Переместиться к капсулам"",{player setposatl [getpos capsul select 0, getpos capsul select 1, getposatl capsul select 2]; titleText [""Вы переместились в комлпекс с капусами"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];" \n "" \n "this addAction [""НРП зона"",{player setposatl [getpos nrp select 0, getpos nrp select 1, getposatl nrp select 2]; titleText [""Вы в НРП зоне"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];                                                    this addAction [""ВПП"",{player setposatl [getpos tp_piloti select 0, getpos tp_piloti select 1, getposatl tp_piloti select 2]; titleText [""Вы переместились"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];                                               this addAction [""Крейсер"",{player setposatl [getpos q_norm1 select 0, getpos q_norm1 select 1, getposatl q_norm1 select 2]; titleText [""Вы переместились"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];                                               this addAction [""КиллХаус"",{player setposatl [getpos kill_q select 0, getpos kill_q select 1, getposatl kill_q select 2]; titleText [""Вы переместились"", ""BLACK FADED"", 0.2];},"""",1,false,true,"""",""_this distance _target < 5""];                                               this addAction [""<t color='#7fbf7f'>13</t>"",{_this call LS_fnc_codelock_TP},[382423, ""base13""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];}";
 			};
 			id=338;
 			type="land_SW_r2d2";
@@ -39418,7 +39418,7 @@ class Mission
 			fillName="DiagGrid";
 			a=3346.1006;
 			b=200;
-			angle=208;
+			angle=207.99998;
 			id=4193;
 			atlOffset=8.6865196;
 		};
@@ -39433,7 +39433,7 @@ class Mission
 			fillName="DiagGrid";
 			a=4045.9944;
 			b=200;
-			angle=180.70174;
+			angle=180.70172;
 			id=4197;
 			atlOffset=185.97;
 		};
@@ -39448,7 +39448,7 @@ class Mission
 			fillName="DiagGrid";
 			a=2636.3794;
 			b=200;
-			angle=89.622849;
+			angle=89.622841;
 			id=4204;
 			atlOffset=186.095;
 		};
@@ -39463,7 +39463,7 @@ class Mission
 			fillName="DiagGrid";
 			a=1393.818;
 			b=200;
-			angle=248.42494;
+			angle=248.42493;
 			id=4207;
 			atlOffset=82.804688;
 		};
@@ -39478,7 +39478,7 @@ class Mission
 			fillName="DiagGrid";
 			a=1393.818;
 			b=200;
-			angle=248.42494;
+			angle=248.42493;
 			id=4208;
 			atlOffset=154.72305;
 		};
@@ -39493,7 +39493,7 @@ class Mission
 			fillName="DiagGrid";
 			a=413.884;
 			b=200;
-			angle=236.46094;
+			angle=236.46092;
 			id=4209;
 			atlOffset=100.1257;
 		};
@@ -39545,7 +39545,7 @@ class Mission
 			fillName="DiagGrid";
 			a=4812.8018;
 			b=200;
-			angle=207.34822;
+			angle=207.34821;
 			id=4225;
 			atlOffset=17.985737;
 		};
@@ -39575,7 +39575,7 @@ class Mission
 			fillName="DiagGrid";
 			a=3600;
 			b=200;
-			angle=181;
+			angle=180.99998;
 			id=4227;
 			atlOffset=-83.148163;
 		};
@@ -39590,7 +39590,7 @@ class Mission
 			fillName="DiagGrid";
 			a=2446.7117;
 			b=200;
-			angle=90.366196;
+			angle=90.366188;
 			id=4229;
 			atlOffset=81.040977;
 		};
@@ -39620,7 +39620,7 @@ class Mission
 			fillName="DiagGrid";
 			a=3869.7256;
 			b=200;
-			angle=89.999924;
+			angle=89.999916;
 			id=4231;
 			atlOffset=155.39075;
 		};
@@ -39635,7 +39635,7 @@ class Mission
 			fillName="DiagGrid";
 			a=1285.5559;
 			b=200;
-			angle=92.999947;
+			angle=92.999939;
 			id=4232;
 			atlOffset=-45.554962;
 		};
@@ -39695,7 +39695,7 @@ class Mission
 			name="marker_77";
 			type="jmm_g_ambush";
 			colorName="ColorRed";
-			angle=275;
+			angle=274.99997;
 			id=4236;
 			atlOffset=89.420364;
 		};
@@ -39706,7 +39706,7 @@ class Mission
 			name="marker_78";
 			type="mil_arrow2";
 			colorName="ColorRed";
-			angle=221.00002;
+			angle=221;
 			id=4237;
 			atlOffset=1.956295;
 		};
@@ -39717,7 +39717,7 @@ class Mission
 			name="marker_79";
 			type="mil_arrow2";
 			colorName="ColorRed";
-			angle=176;
+			angle=175.99998;
 			id=4238;
 		};
 		class Item716
