@@ -17,7 +17,6 @@ class Curators
 		,"76561198182854197"//Yoka(Event)
         ,"76561198168577214"//Wolf (Event)
         ,"76561198247446122"//AveMatria(Event)
-        ,"76561198843539307"//Acklay(Event)
         ,"76561198046918009"//Reaper(Event)
        	,"76561198335619075"//Anvill(Event)
 		,"76561198817496048"//Overlord(Event)
@@ -35,7 +34,6 @@ class Curators
         ,"76561198403064350"//Smetanka(Event Naim)
 		,"76561198307319806"//Castel(Event Naim)
         ,"76561198033904243"//Jisai (Donate_Zeus)
-		,"76561198053678180"//Obiwan (Event)
 		,"76561198008400185"//Bombaster (Event)
 		,"76561198309313248"//Rock (Event)
 		
