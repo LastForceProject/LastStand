@@ -35,6 +35,9 @@ class Curators
         ,"76561198403064350"//Smetanka(Event Naim)
 		,"76561198307319806"//Castel(Event Naim)
         ,"76561198033904243"//Jisai (Donate_Zeus)
+		,"76561198053678180"//Obiwan (Event)
+		,"76561198008400185"//Bombaster (Event)
+		,"76561198309313248"//Rock (Event)
 		
 	};
 };
