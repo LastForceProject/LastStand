@@ -9,17 +9,17 @@
 [] execVM "scripts\arsenals.sqf";
 
 [] execVM "scripts\zone.sqf";
-//Clear_Group = [] spawn {[] execVM "scripts\group_clear.sqf"};
+Clear_Group = [] spawn {[] execVM "scripts\group_clear.sqf"};
 
-//if (!isServer) then {} else 
-//{
+if (!isServer) then {} else 
+{
 	//automissions
-	//automissions = false;
-	//publicVariable "automissions";
-	//missionNamespace setVariable ["taskID",1, true];
-	//automissions = [] execVM "automissions\create_auto_mission.sqf";
-	//missionNamespace setVariable ["automissionsStarted",1, true];
-//};
+	automissions = false;
+	publicVariable "automissions";
+	missionNamespace setVariable ["taskID",1, true];
+	automissions = [] execVM "automissions\create_auto_mission.sqf";
+	missionNamespace setVariable ["automissionsStarted",1, true];
+};
 
 0 fadeRadio 0;
 enableRadio false;
