@@ -37,6 +37,7 @@ class Curators
 		,"76561198008400185"//Bombaster (Event)
 		,"76561198309313248"//Rock (Event)
 		,"76561198297807448"//Redad (Event)
+		,"76561198882089189"//Martinez (Event)
 		
 	};
 };
