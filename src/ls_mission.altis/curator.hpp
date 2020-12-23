@@ -18,7 +18,6 @@ class Curators
         ,"76561198114414576"//Auberon (Curator_Jedi)
         ,"76561198253231135"//BKA (Event Jedi)
         ,"76561198403064350"//Smetanka (Event_Naim)
-        ,"76561198307319806"//Castel (Event_Naim)
         ,"76561198102983006"//Joker (Event_Gray)
         ,"76561198351130485"//Bybylyka (Event_Gray)
         ,"76561198033904243"//Jisai (Donate_Zeus)
