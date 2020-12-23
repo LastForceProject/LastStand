@@ -10,7 +10,6 @@ class Curators
         ,"76561198072246605"//Shtamp (Tech)
         ,"76561199028516754"//Desire (Tech)
         ,"76561198041211224"//Flin (Tech)
-        ,"76561198096399150"//Mercy (MC)
         ,"76561198227583576"//Filin (Сur_Naim)
         ,"76561198168577214"//Wolf (Event)
         ,"76561198247446122"//AveMatria (Event)
