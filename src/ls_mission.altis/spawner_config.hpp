@@ -232,19 +232,19 @@ class AirSpawn
 			"LAAT/I (Gunship)",
 			"ls_laat_ab",
 			"laat_count_spawn_1",
-			4
+			6
 		},
 		{
 			"LAAT/I Gunship (Medevac)",
 			"ls_laat_medevac",
 			"laat_count_spawn_2",
-			2
+			6
 		},
 		{
 			"LAAT/I Gunship (Pylons)",
 			"ls_laat",
 			"laat_count_spawn_3",
-			1
+			6
 		},
 		{
 			"ARC-170",
@@ -274,19 +274,19 @@ class AirSpawn
 			"LAAT/I (Gunship | Muunilinst 10)",
 			"ls_laat_ab",
 			"laat_count_spawn_8",
-			1
+			6
 		},
 		{
 			"LAAT/I (MK2, MCC)",
 			"swop_LAATmk2",
 			"laat_count_spawn_9",
-			1
+			6
 		},
 		{
 			"LAAT/C",
 			"RD501_LAAT_cargo_Mk2",
 			"laat_count_spawn_10",
-			2
+			6
 		},
 		{
 			"ARC-170 Blue (3AS)",
