@@ -10,6 +10,7 @@ class Curators
         ,"76561198072246605"//Shtamp (Tech)
         ,"76561199028516754"//Desire (Tech)
         ,"76561198041211224"//Flin (Tech)
+		,"76561198920070747"//Quantos (CURATOR_BSO)
 		,"76561198209489483"//Ars (Curator_Event)
         ,"76561198227583576"//Filin (Сur_Naim)
 		,"76561198307319806"//Castel (Event)
