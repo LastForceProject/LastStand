@@ -3,15 +3,16 @@ class Curators
 	list[] = 
 	{
         "76561198057238748"//Host (Creator)
-        ,"76561198092314817"//zDrake (Curator)
+		,"76561198168577214"//Wolf (Curator)
         ,"76561198072905067"//Tron (Zam_Kuratora)
         ,"76561198168581874"//Снежок (Community) 
         ,"76561198288271495"//KapayJl (Tech)
         ,"76561198072246605"//Shtamp (Tech)
         ,"76561199028516754"//Desire (Tech)
         ,"76561198041211224"//Flin (Tech)
+		,"76561198209489483"//Ars (Curator_Event)
         ,"76561198227583576"//Filin (Сur_Naim)
-        ,"76561198168577214"//Wolf (Event)
+		,"76561198307319806"//Castel (Event)
         ,"76561198247446122"//AveMatria (Event)
         ,"76561198046918009"//Reaper (Event)
         ,"76561198335619075"//Anvil (Event)
