@@ -12,7 +12,6 @@ class Curators
         ,"76561198041211224"//Flin (Tech)
 		,"76561198209489483"//Ars (Curator_Event)
         ,"76561198227583576"//Filin (Сur_Naim)
-		,"76561198307319806"//Castel (Event)
         ,"76561198247446122"//AveMatria (Event)
         ,"76561198046918009"//Reaper (Event)
         ,"76561198335619075"//Anvil (Event)
