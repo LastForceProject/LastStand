@@ -21,7 +21,6 @@ class Curators
         ,"76561198102983006"//Joker (Event_Gray)
         ,"76561198351130485"//Bybylyka (Event_Gray)
         ,"76561198033904243"//Jisai (Donate_Zeus)
-        ,"76561199071806700"//Warthog (Event)
         ,"76561198374549023"//бобажив(игл)(Event)
         ,"76561198062589102"//Roz (Event)
         ,"76561198062501233"//Lore (Event_Naim)
