@@ -139,14 +139,14 @@ class MainSpawn
 		},
 		{
 			"Требушет",
-			"RD501_heavy_ordinance_tank_republic",
+			"B_MBT_01_arty_F",
 			"vehicle_count_spawn_12",
 			2,
 			"gui_spawner\images\vehicles\trebuchet.paa"
 		},
 		{
 			"Катапульта",
-			"RD501_rocket_ordinance_tank_republic",
+			"B_MBT_01_mlrs_F",
 			"vehicle_count_spawn_13",
 			2,
 			"gui_spawner\images\vehicles\catapult.paa"
@@ -160,14 +160,14 @@ class MainSpawn
 		},
 		{
 			"ПВО",
-			"RD501_Longbow_Republic",
+			"B_APC_Tracked_01_AA_F",
 			"vehicle_count_spawn_15",
 			2,
 			"gui_spawner\images\vehicles\aa.paa"
 		},
 		{
 			"Машина технического обслуживания ""Варден""",
-			"RD501_warden_tank_field",
+			"B_T_APC_Tracked_01_CRV",
 			"vehicle_count_spawn_16",
 			2
 		},
@@ -177,12 +177,6 @@ class MainSpawn
 			"vehicle_count_spawn_17",
 			1,
 			"gui_spawner\images\vehicles\rtt.paa"
-		},
-		{
-			"Легкий транспорт БСО ""МАВ-21""",
-			"JMM_212th_B_MRAP_unarmed",
-			"vehicle_count_spawn_18",
-			2
 		}
 	};
 	spawnpoints[] = 
@@ -247,27 +241,9 @@ class AirSpawn
 			6
 		},
 		{
-			"ARC-170",
-			"RD501_ARC_170_MKII",
-			"laat_count_spawn_4",
-			2
-		},
-		{
-			"Y-WING",
-			"RD501_Y_wing_MkII",
-			"laat_count_spawn_5",
-			2
-		},
-		{
 			"Z-95 Headhunter",
 			"3as_Z95_Republic",
 			"laat_count_spawn_6",
-			2
-		},
-		{
-			"V-Wing",
-			"RD501_v_wing_MKII",
-			"laat_count_spawn_7",
 			2
 		},
 		{
@@ -277,27 +253,9 @@ class AirSpawn
 			6
 		},
 		{
-			"LAAT/I (MK2, MCC)",
-			"swop_LAATmk2",
-			"laat_count_spawn_9",
-			6
-		},
-		{
-			"LAAT/C",
-			"RD501_LAAT_cargo_Mk2",
-			"laat_count_spawn_10",
-			6
-		},
-		{
 			"ARC-170 Blue (3AS)",
 			"3as_arc_170_blue",
 			"laat_count_spawn_11",
-			4
-		},
-		{
-			"Jedi ETA mk II",
-			"RD501_eta_white_Mk2",
-			"laat_count_spawn_12",
 			4
 		},
 		{
