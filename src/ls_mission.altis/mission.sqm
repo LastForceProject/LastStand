@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14728.57,39.056271,16639.365};
-		dir[]={0.58404481,-0.37078485,0.722175};
-		up[]={0.23318891,0.92871243,0.28833678};
-		aside[]={0.77760208,-3.4058758e-007,-0.62887138};
+		pos[]={14761.977,20.059111,16611.742};
+		dir[]={-0.60790938,-0.18701705,0.77176696};
+		up[]={-0.11576481,0.98235142,0.14697129};
+		aside[]={0.78563255,-9.5076393e-007,0.61882979};
 	};
 };
 binarizationWanted=0;
@@ -25999,7 +25999,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14755.375,18.108585,16626.375};
+				position[]={14755.375,18.108999,16626.375};
 				angles[]={0,3.9618974,0};
 			};
 			side="Empty";
@@ -26007,9 +26007,34 @@ class Mission
 			class Attributes
 			{
 				name="ars_dh";
+				disableSimulation=1;
 			};
 			id=5217;
 			type="ls_carrybox_base";
+			atlOffset=0.00041389465;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item356
 		{
