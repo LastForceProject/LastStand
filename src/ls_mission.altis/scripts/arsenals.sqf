@@ -1,5 +1,15 @@
 // -- Регулярка.
 
+ars16 = [] spawn 
+{
+	_boxes = [ars_16 ,ars_16_2];
+	{
+	_box = _x;
+	[_box,
+	["SWLW_DC15A","SWOP_DC15_sh","JLTS_RPS6","SWLW_DC15A_Mag","SWOP_DC15_Mag","SWOP_DC15_UW_Mag","DCStun_Mag","JLTS_RPS6_mag","JLTS_RPS6_HE_mag","SWLW_rps6_disposable","CBA_FakeLauncherMagazine","SWLB_CEE_Engineer_Vest_NCO","SWLB_clone_grenadier_armor","SWLB_clone_medic_armor","SWLB_clone_basic_armor","SWLB_clone_recon_nco_armor","SWLB_clone_assault_armor","SWLB_CEE_Heavy_Vest","SWLB_clone_rangefinder_HUD","16th_ARC_Kama","16th_ARF_Kama","16th_Kama","16th_Kama_Spec","16th_Kama_Officer","16th_Kama_Tactical","16th_Kama_Officer_Tactical","16_Uniform","16_Uniform_SOB","16_Helmet_Hazard","16_helmet_p1_ARC","16_helmet_p1","16_helmet_arf","16_helmet_ENG","16_PilotP1","16_Helmet_SpecOps","SWLB_clone_commander_binocular_night","SWLB_clone_binocular","ItemMap","ItemCompass","SWLB_comlink","ACE_Altimeter","ItemGPS","SWOP_termDet_G","SWLW_beltGrenade_mag","SW_SquadShield_Mag","SW_halfshield_Mag","OPTRE_M2_Smoke_Yellow","OPTRE_M2_Smoke","OPTRE_M2_Smoke_Red","OPTRE_M2_Smoke_Purple","OPTRE_M2_Smoke_Orange","OPTRE_M2_Smoke_Green","OPTRE_M2_Smoke_Blue","kss_bottle_big","ACE_M26_Clacker","ACE_IR_Strobe_Item","ACE_SpottingScope","ACE_MRE_CreamChickenSoup","ACE_DefusalKit","MineDetector","JLTS_riot_shield_item","ACE_Tripod","ACE_EntrenchingTool","16th_clone_backpack","16th_clone_Heavy_backpack","16th_clone_med_backpack","16th_clone_RTO_backpack","SWLB_CEE_Engineer_Comms","SWLB_MonocularcularNVG","SWLB_clone_nvg","SWLB_clone_nvg_spec","SWLB_CEE_P1_Rangefinder","SWLW_DC17","muzzle_snds_L","SWLW_DC17_Mag","SWLW_flareRed_mag","SWLW_smokeRed_mag","SWLB_clone_P1_HUD","RD501_DC_15a_gl_rifle","RD501_DC15a_Med_x30_mag","RD501_DC15a_High_x15_mag","RD501_DC15a_Low_x60_mag","RD501_40mm_white_x3_mag","RD501_40mm_CIR_x3_mag","RD501_40mm_Green_x3_mag","RD501_40mm_Red_x3_mag","RD501_40mm_Yellow_x3_mag","RD501_40mm_Blue_x3_mag","RD501_40mm_Cyan_x3_mag","RD501_40mm_Purple_x3_mag","RD501_AT_GL_x2_mag","RD501_HE_GL_x3_mag","3Rnd_Smoke_Grenade_shell","3Rnd_SmokeRed_Grenade_shell","3Rnd_SmokeGreen_Grenade_shell","3Rnd_SmokeYellow_Grenade_shell","3Rnd_SmokePurple_Grenade_shell","3Rnd_SmokeBlue_Grenade_shell","3Rnd_SmokeOrange_Grenade_shell","ACE_HuntIR_M203","RD501_scope_dc_15a_acog","ACE_MapTools","ACE_Fortify","ACE_CableTie"]] call ace_arsenal_fnc_initBox;
+	} forEach _boxes;
+};
+
 ars41 = [] spawn 
 {
 	_boxes = [ars_41 ,ars_41_2];
