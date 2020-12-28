@@ -8,7 +8,7 @@ class EditorData
 	toggles=614;
 	class ItemIDProvider
 	{
-		nextID=5473;
+		nextID=5478;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=3248;
+		nextID=3321;
 	};
 	class Camera
 	{
-		pos[]={14862.363,48.396252,16590.996};
-		dir[]={-0.64977336,-0.33293688,0.68351489};
-		up[]={-0.22945894,0.94291198,0.2413744};
-		aside[]={0.72484827,1.2802484e-006,0.68907887};
+		pos[]={14792.229,51.509727,16631.244};
+		dir[]={-0.77732682,-0.51288044,0.36464074};
+		up[]={-0.46439004,0.85841084,0.2178428};
+		aside[]={0.42473286,-7.7090226e-007,0.90545219};
 	};
 };
 binarizationWanted=0;
@@ -550,7 +550,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=337;
+		items=338;
 		class Item0
 		{
 			dataType="Layer";
@@ -25356,6 +25356,47 @@ class Mission
 			};
 			id=5472;
 			type="3as_FOB_Light_Tall_Prop";
+		};
+		class Item337
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14738.75,19.03944,16646.25};
+				angles[]={0,3.9444451,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="ars_5012";
+				disableSimulation=1;
+			};
+			id=5476;
+			type="ls_carrybox_base";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
