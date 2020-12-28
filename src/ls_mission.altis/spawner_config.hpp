@@ -183,6 +183,13 @@ class MainSpawn
 			"JMM_212th_B_MRAP_unarmed",
 			"vehicle_count_spawn_18",
 			2
+		},
+		{
+			"BARC спидер (плавающий)",
+			"ls_ground_barc",
+			"vehicle_count_spawn_6",
+			10,
+			"gui_spawner\images\vehicles\barc.paa"
 		}
 	};
 	spawnpoints[] = 
