@@ -33,6 +33,5 @@ class Curators
         ,"76561198309313248"//Rock (Event)
         ,"76561198297807448"//Redad (Event)
         ,"76561198882089189"//Martinez (Event)
-		,"76561198164541480"//Vzhuch (Event) - ARS & Wolf
 	};
 };
