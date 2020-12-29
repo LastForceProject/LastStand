@@ -1,7 +1,6 @@
 ﻿// -- Восстановление бафов, ограничений, действий.
-
 removeAllActions player; 
-
+player call repcom_suit_fnc_suit_ready;
 z6_notSuck = [player] spawn 
 {
 	while {true} do
