@@ -143,5 +143,3 @@ fnc_senDMsg = {
 ["lfprpchat", "28", ["Send", "My Send"], {
     _this call fnc_senDMsg
 }, {}, [28, [false, false, false]]] call CBA_fnc_addKeybind;
-
-[] execVM "republiccomando_shield\sripts\init.sqf";
