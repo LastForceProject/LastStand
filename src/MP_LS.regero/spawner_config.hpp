@@ -194,8 +194,7 @@ class MainSpawn
 	};
 	spawnpoints[] = 
 	{
-		{"Ангар #1",{"angar_spawn_0"},true},
-		{"Ангар #2",{"angar_spawn_1"},true}
+		{"Ангар #1",{"angar_spawn_0"},true}
 	};
 };
 
