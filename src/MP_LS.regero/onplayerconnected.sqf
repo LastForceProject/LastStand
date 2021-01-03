@@ -55,7 +55,7 @@ switch (playerSide) do
 		_dayTime = [daytime] call BIS_fnc_timeToString;
 		[
 			[
-			["Планета: Каал, База ВАР","size = '0.7'"],
+			["Планета: SKYNARA, База ВАР","size = '0.7'"],
 			["","<br/>"],
 			["Местное время: ","size = '0.7'"],
 			[str _dayTime,"size = '0.7'"],
@@ -70,7 +70,7 @@ switch (playerSide) do
 		_dayTime = [daytime] call BIS_fnc_timeToString;
 		[
 			[
-			["Планета: Каал, Неизвестное место","size = '0.7'"],
+			["Планета: SKYNAR, Неизвестное место","size = '0.7'"],
 			["","<br/>"],
 			["Местное время: ","size = '0.7'"],
 			[str _dayTime,"size = '0.7'"],
