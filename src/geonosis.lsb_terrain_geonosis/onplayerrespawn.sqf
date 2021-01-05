@@ -18,22 +18,6 @@ z6_notSuck = [player] spawn
 	}
 };
 
-SquadShield = [player] spawn 
-{
-	while {true} do 
-	{
-		_nameplayer = name player; 
-		if (_nameplayer find "|G" !=-1) then {} 
-		else 
-		{
-			if (("SW_SquadShield_Mag" in (backpackItems player)) or ("SW_SquadShield_Mag" in (vestItems player)) or ("SW_SquadShield_Mag" in (uniformItems player))) 
-			then 
-			{
-				player removeItem "SW_SquadShield_Mag";
-			}
-		}
-	}
-};
 
 RC_ARC_power = [player] spawn 
 {
@@ -128,17 +112,3 @@ disableUserInput false;
 disableUserInput true;
 disableUserInput false;
 
-//Chat
-fnc_chatOpen = {
-[1]execVM "lfprpchat\scripts\openchat.sqf";
-};
-fnc_senDMsg = {
-[2]execVM "lfprpchat\scripts\openchat.sqf";
-};
-["lfprpchat", "205", ["Open", "My Open"], {
-    _this call fnc_chatOpen
-}, {}, [205, [true, false, false]]] call CBA_fnc_addKeybind;
-
-["lfprpchat", "28", ["Send", "My Send"], {
-    _this call fnc_senDMsg
-}, {}, [28, [false, false, false]]] call CBA_fnc_addKeybind;
