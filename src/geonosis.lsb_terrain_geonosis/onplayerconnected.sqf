@@ -55,7 +55,7 @@ switch (playerSide) do
 		_dayTime = [daytime] call BIS_fnc_timeToString;
 		[
 			[
-			["Планета: Каал, База ВАР","size = '0.7'"],
+			["Планета: Джеонозис, сектор 528, База быстрого развертывания ВАР","size = '0.7'"],
 			["","<br/>"],
 			["Местное время: ","size = '0.7'"],
 			[str _dayTime,"size = '0.7'"],
@@ -70,7 +70,7 @@ switch (playerSide) do
 		_dayTime = [daytime] call BIS_fnc_timeToString;
 		[
 			[
-			["Планета: Каал, Неизвестное место","size = '0.7'"],
+			["Планета: Джеонозис, сектор 528, Неизвестное место","size = '0.7'"],
 			["","<br/>"],
 			["Местное время: ","size = '0.7'"],
 			[str _dayTime,"size = '0.7'"],
@@ -89,7 +89,7 @@ sleep 15; // Время до начала титров
 _role1 = "Добро пожаловать на The Last Stand RP";
 _role1names = [profileName];
 _role2 = "Игровой проект Last Force Project";
-_role2names = ["Thanks to: KapayJI, SWLS, Flin."];
+_role2names = ["Thanks to: KapayJI, SWLS, Flin, Host, Desire"];
 _role3 = "Посетите нашу группу VK";
 _role3names = ["vk.com/arma3lfp"];
 _role4 = "Присоединяйтесь к Discord";
