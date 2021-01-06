@@ -28,5 +28,6 @@ class Curators
 		,"76561198335619075"//Anvil (Event_Naim)
 		,"76561198062501233"//Lore (Event_Naim)
 		,"76561198403064350"//Smetanka (Event_Naim)
+		,"76561198093467695"//Nelson (Event)
 	};
 };
