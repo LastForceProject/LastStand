@@ -90,8 +90,7 @@ class MainSpawn
 	};
 	spawnpoints[] = 
 	{
-		{"Ангар #1",{"angar_spawn_0"},true},
-		{"Ангар #2",{"angar_spawn_1"},true}
+		{"Ангар #1",{"angar_spawn_0"},true}
 	};
 };
 
@@ -149,7 +148,7 @@ class AirSpawn
 		{"=====Воздушная техника=====","","","","",""},
 		{
 			"LAAT/I (Gunship)",
-			"ls_laat_ab",
+			"442_laat_2_ab",
 			"laat_count_spawn_1",
 			6
 		},
@@ -157,6 +156,13 @@ class AirSpawn
 			"LAAT/I Gunship (Medevac)",
 			"ls_laat_medevac",
 			"laat_count_spawn_2",
+			6
+		},
+
+		{
+			"ARC-170", // Des 3.1415926door
+			"3as_arc_170_red",
+			"arc_count_spawn_2",
 			6
 		},
 	};

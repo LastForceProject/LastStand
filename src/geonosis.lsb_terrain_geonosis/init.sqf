@@ -46,11 +46,6 @@ if(isServer)then{
 ["Land_HBarrier_5_F",15],
 ["Land_Cargo_Patrol_V3_F",20],
 ["Land_BagBunker_Small_F",15],
-["Land_Canal_WallSmall_10m_F",15],
-["CamoNet_BLUFOR_big_F",15],
-["Land_HighVoltageColumn_F",15],
-["Land_Research_house_V1_F",15],
-["Land_Cargo_Tower_V1_F",15],
-["Land_BarGate_F",15]
+["Land_CzechHedgehog_01_old_f",5]
 ]]call acex_fortify_fnc_registerObjects;
 };
