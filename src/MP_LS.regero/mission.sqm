@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=78;
+		nextID=82;
 	};
 	class Camera
 	{
-		pos[]={8859.0156,589.75708,3942.6675};
-		dir[]={-0.73265606,-0.29336926,0.61417294};
-		up[]={-0.22482556,0.95599753,0.18846668};
-		aside[]={0.64243817,8.6790533e-007,0.76637322};
+		pos[]={7491.4731,100.8952,4543.1162};
+		dir[]={0.56650877,-0.41480622,-0.71217322};
+		up[]={0.25825825,0.90988898,-0.32466209};
+		aside[]={-0.78266048,9.9767931e-007,-0.62257737};
 	};
 };
 binarizationWanted=0;
@@ -4002,8 +4002,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7481.3784,65.776199,4512.418};
-				angles[]={0,4.2108531,0};
+				position[]={7481.5029,65.776245,4512.1909};
+				angles[]={0,4.2108512,0};
 			};
 			side="Empty";
 			flags=5;
@@ -4013,7 +4013,75 @@ class Mission
 			};
 			id=247;
 			type="Land_ModularOutPostBuildingQuaters";
-			atlOffset=0.18314743;
+			atlOffset=0.16599655;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="DoorStates";
+					expression="['init',_this,_value] call bis_fnc_3DENAttributeDoorStates;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item38
 		{
@@ -4021,7 +4089,7 @@ class Mission
 			name="КПЗ";
 			class Entities
 			{
-				items=8;
+				items=6;
 				class Item0
 				{
 					dataType="Object";
@@ -4068,47 +4136,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7542.7515,62.664864,4451.833};
-						angles[]={4.6939244,3.1451237,6.0929818};
-					};
-					side="Empty";
-					class Attributes
-					{
-						init="call{this addAction [""<t color='#7fbf7f'>Открыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_OP},[7955, ""j4""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction [""<t color='#ff4040'>Закрыть карцер</t>"",{_this call LS_fnc_codelock_DOOR_CL},[7955, ""j4""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "}";
-						disableSimulation=1;
-					};
-					id=252;
-					type="Land_Tablet_02_F";
-					atlOffset=1.264595;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={7548.8511,62.548454,4453.3169};
 						angles[]={4.7043667,3.143095,6.108747};
 					};
@@ -4145,7 +4172,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item3
+				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
@@ -4231,7 +4258,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item4
+				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
@@ -4317,93 +4344,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7541.1738,61.46365,4451.8164};
-						angles[]={0,6.0975809,0};
-					};
-					side="Empty";
-					flags=5;
-					class Attributes
-					{
-						name="j4";
-					};
-					id=256;
-					type="Land_Cargo_House_V1_F";
-					atlOffset=-0.5594101;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="DoorStates";
-							expression="['init',_this,_value] call bis_fnc_3DENAttributeDoorStates;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"ARRAY"
-										};
-									};
-									class value
-									{
-										items=3;
-										class Item0
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"SCALAR"
-													};
-												};
-												value=1;
-											};
-										};
-										class Item1
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"SCALAR"
-													};
-												};
-												value=0;
-											};
-										};
-										class Item2
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"SCALAR"
-													};
-												};
-												value=0;
-											};
-										};
-									};
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item6
+				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
@@ -4489,7 +4430,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item7
+				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
@@ -4532,7 +4473,7 @@ class Mission
 				};
 			};
 			id=250;
-			atlOffset=0.39910126;
+			atlOffset=0.4966011;
 		};
 		class Item39
 		{
@@ -28337,7 +28278,7 @@ class Mission
 			};
 			id=984;
 			type="Banner_01_NATO_F";
-			atlOffset=1.4603806;
+			atlOffset=1.4509277;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -28638,7 +28579,7 @@ class Mission
 			};
 			id=997;
 			type="JLTS_Ammobox_weapons_special_GAR";
-			atlOffset=0.045906067;
+			atlOffset=0.045860291;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -33566,7 +33507,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8860.1484,588.9754,3943.1135};
-				angles[]={0,1.9945868,-0};
+				angles[]={0,1.9945868,0};
 			};
 			side="Empty";
 			flags=1;
