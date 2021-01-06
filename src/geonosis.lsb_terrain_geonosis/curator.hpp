@@ -16,7 +16,7 @@ class Curators
         ,"76561198046918009"//Reaper (Event)
         ,"76561198114414576"//Auberon (Curator_Jedi)
         ,"76561198253231135"//BKA (Event Jedi)
-        ,"76561198102983006"//Joker (Event_Gray)
+        ,"76561198367722284"//Bese (Event)
         ,"76561198033904243"//Jisai (Donate_Zeus)
         ,"76561198374549023"//бобажив(игл)(Event)
         ,"76561198160053406"//Oni (Event)
@@ -28,6 +28,8 @@ class Curators
 		,"76561198335619075"//Anvil (Event_Naim)
 		,"76561198062501233"//Lore (Event_Naim)
 		,"76561198403064350"//Smetanka (Event_Naim)
-		,"76561198093467695"//Nelson (Event)
+		,"76561198093467695"//Nelson (Event) - Host
+		,"76561198106601977"//Ximik (Event) - ARS
+        ,"76561198341622503"//Draxler (Event) - ARS
 	};
 };
