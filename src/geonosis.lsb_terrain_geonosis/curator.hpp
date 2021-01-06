@@ -14,6 +14,7 @@ class Curators
         ,"76561198227583576"//Filin (Сur_Naim)
         ,"76561198307319806"//Castel (Event)
         ,"76561198046918009"//Reaper (Event)
+		,"76561198247446122"//КапитанБля (Event) - ARS
         ,"76561198114414576"//Auberon (Curator_Jedi)
         ,"76561198253231135"//BKA (Event Jedi)
         ,"76561198367722284"//Bese (Event)
