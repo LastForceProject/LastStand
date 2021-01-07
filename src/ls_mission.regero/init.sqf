@@ -2,7 +2,6 @@
 
 [] execVM "scripts\chat\init.sqf";
 
-[] execVM "scripts\rpchat.sqf";
 
 [] execVM "scripts\hideobject.sqf";
 
