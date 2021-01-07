@@ -8,7 +8,7 @@ class EditorData
 	toggles=514;
 	class ItemIDProvider
 	{
-		nextID=3686;
+		nextID=3694;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=324;
+		nextID=370;
 	};
 	class Camera
 	{
-		pos[]={8067.5659,589.71265,732.2226};
-		dir[]={0.06885688,-0.15060383,0.98626816};
-		up[]={0.010490302,0.98859209,0.15026537};
-		aside[]={0.99764526,-4.6612695e-007,-0.069653139};
+		pos[]={-3348.687,24.967758,-5752.6782};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -118,13 +118,15 @@ addons[]=
 	"A3_Props_F_Orange_Humanitarian_Supplies",
 	"A3_Structures_F_EPA_Items_Tools",
 	"A3_Structures_F_EPA_Items_Medical",
-	"A3_Structures_F_Heli_Items_Food"
+	"A3_Structures_F_Heli_Items_Food",
+	"A3_Modules_F_Curator_Curator",
+	"task_force_radio_items"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=74;
+		items=76;
 		class Item0
 		{
 			className="Prop_Objects";
@@ -591,6 +593,20 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item74
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item75
+		{
+			className="task_force_radio_items";
+			name="task_force_radio_items";
+			author="[TF]Nkey";
+			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
+		};
 	};
 };
 class DynamicSimulation
@@ -711,7 +727,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=499;
+		items=501;
 		class Item0
 		{
 			dataType="Object";
@@ -43335,6 +43351,360 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item499
+		{
+			dataType="Layer";
+			name="zeusadmin";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={-4227.8789,-0.063398182,-4951.9199};
+					};
+					name="admin1";
+					id=3687;
+					type="ModuleCurator_F";
+					atlOffset=35.846603;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ModuleCurator_F_Owner";
+							expression="_this setVariable ['Owner',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="#adminLogged";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ModuleCurator_F_Forced";
+							expression="_this setVariable ['Forced',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ModuleCurator_F_Name";
+							expression="_this setVariable ['Name',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ModuleCurator_F_Addons";
+							expression="_this setVariable ['Addons',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+				class Item1
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={-4227.8789,-0.063398182,-4951.9199};
+					};
+					name="admin2";
+					id=3686;
+					type="ModuleCurator_F";
+					atlOffset=35.846603;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ModuleCurator_F_Owner";
+							expression="_this setVariable ['Owner',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="#adminLogged";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ModuleCurator_F_Forced";
+							expression="_this setVariable ['Forced',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ModuleCurator_F_Name";
+							expression="_this setVariable ['Name',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ModuleCurator_F_Addons";
+							expression="_this setVariable ['Addons',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			id=3688;
+			atlOffset=35.846603;
+		};
+		class Item500
+		{
+			dataType="Layer";
+			name="logic";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={170945.55,9969154,73043.281};
+					};
+					id=3692;
+					type="tfar_ModuleTaskForceRadioEnforceUsage";
+					atlOffset=9969190;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="tfar_ModuleTaskForceRadioEnforceUsage_radio_channel_password";
+							expression="_this setVariable ['radio_channel_password',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Hsg5612fG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="tfar_ModuleTaskForceRadioEnforceUsage_RiflemanRadio";
+							expression="_this setVariable ['RiflemanRadio',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="tfar_ModuleTaskForceRadioEnforceUsage_radio_channel_name";
+							expression="_this setVariable ['radio_channel_name',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="TaskForceRadio_LW";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="tfar_ModuleTaskForceRadioEnforceUsage_same_sw_frequencies_for_side";
+							expression="_this setVariable ['same_sw_frequencies_for_side',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="tfar_ModuleTaskForceRadioEnforceUsage_TeamLeaderRadio";
+							expression="_this setVariable ['TeamLeaderRadio',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="tfar_ModuleTaskForceRadioEnforceUsage_same_lr_frequencies_for_side";
+							expression="_this setVariable ['same_lr_frequencies_for_side',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="tfar_ModuleTaskForceRadioEnforceUsage_terrain_interception_coefficient";
+							expression="_this setVariable ['terrain_interception_coefficient',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=7;
+								};
+							};
+						};
+						nAttributes=7;
+					};
+				};
+			};
+			id=3693;
+			atlOffset=1259937.6;
 		};
 	};
 };
