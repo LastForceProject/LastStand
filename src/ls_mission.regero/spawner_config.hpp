@@ -54,147 +54,44 @@ class MainSpawn
 	{
 		{"=====Наземная техника=====","","","","",""},
 		{
-			"M12 FAV Warthog (Unarmed)",
-			"OPTRE_M12_FAV",
-			"vehicle_count_spawn_0",
-			4,
-			"gui_spawner\images\vehicles\warthog.paa"
-		},
-		{
-			"M12 Warthog (Пулемет)",
-			"OPTRE_M12_LRV",
-			"vehicle_count_spawn_1",
-			2,
-			"gui_spawner\images\vehicles\warthog_mg.paa"
-		},
-		{
-			"M12A1 Warthog (Ракеты)",
-			"OPTRE_M12A1_LRV",
-			"vehicle_count_spawn_2",
-			1,
-			"gui_spawner\images\vehicles\warthog_rocket.paa"
-		},
-		{
-			"M12A1 Warthog (AA)",
-			"OPTRE_M12R_AA",
-			"vehicle_count_spawn_3",
-			1,
-			"gui_spawner\images\vehicles\warthog_rocket.paa"
-		},
-		{
-			"M12G1 Warthog (Гаусс)",
-			"OPTRE_M12G1_LRV",
-			"vehicle_count_spawn_4",
-			1,
-			"gui_spawner\images\vehicles\warthog_gaus.paa"
-		},
-		{
-			"M831 Warthog (Транспортный)",
-			"OPTRE_M813_TT",
-			"vehicle_count_spawn_5",
-			2,
-			"gui_spawner\images\vehicles\warthog_tt.paa"
-		},
-		{
-			"BARC спидер",
-			"3AS_Barc",
-			"vehicle_count_spawn_6",
-			10,
-			"gui_spawner\images\vehicles\barc.paa"
-		},
-		{
-			"BARC спидер с коляской",
-			"3AS_BarcSideCar",
-			"vehicle_count_spawn_7",
-			10,
-			"gui_spawner\images\vehicles\barc2.paa"
-		},
-		{
 			"TX-130",
-			"3as_saber_m1",
-			"vehicle_count_spawn_8",
+			"SWLG_tanks_tx130",
+			"vehicle_count_spawn_1",
 			2,
 			"gui_spawner\images\vehicles\tx130mk1.paa"
 		},
 		{
-			"TX-130 Recon",
-			"3as_saber_m1Recon",
-			"vehicle_count_spawn_9",
-			2,
-			"gui_spawner\images\vehicles\tx130mk2.paa"
-		},
-		{
-			"TX-130 Super Saber",
-			"3as_saber_super",
-			"vehicle_count_spawn_10",
-			2,
-			"gui_spawner\images\vehicles\tx130mk3.paa"
-		},
-		{
-			"TX-130 GL",
-			"3as_saber_m1G",
-			"vehicle_count_spawn_11",
-			2,
-			"gui_spawner\images\vehicles\tx130mk4.paa"
-		},
-		{
-			"Требушет",
-			"RD501_heavy_ordinance_tank_republic",
-			"vehicle_count_spawn_12",
-			2,
-			"gui_spawner\images\vehicles\trebuchet.paa"
-		},
-		{
-			"Катапульта",
-			"RD501_rocket_ordinance_tank_republic",
-			"vehicle_count_spawn_13",
-			2,
-			"gui_spawner\images\vehicles\catapult.paa"
-		},
-		{
 			"БТР ""Банта""",
-			"RD501_bantha_501st_MkI",
-			"vehicle_count_spawn_14",
+			"212th_B_APC_Wheeled_01_cannon_F",
+			"vehicle_count_spawn_2",
 			2,
 			"gui_spawner\images\vehicles\batha.paa"
 		},
 		{
-			"ПВО",
-			"RD501_Longbow_Republic",
-			"vehicle_count_spawn_15",
-			2,
-			"gui_spawner\images\vehicles\aa.paa"
-		},
-		{
 			"Машина технического обслуживания ""Варден""",
-			"RD501_warden_tank_field",
-			"vehicle_count_spawn_16",
+			"212AA_Galoomp",
+			"vehicle_count_spawn_3",
 			2
 		},
 		{
 			"Легкий транспорт RTT",
 			"3as_RTT",
-			"vehicle_count_spawn_17",
+			"vehicle_count_spawn_4",
 			1,
 			"gui_spawner\images\vehicles\rtt.paa"
 		},
 		{
-			"Легкий транспорт БСО ""МАВ-21""",
-			"JMM_212th_B_MRAP_unarmed",
-			"vehicle_count_spawn_18",
-			2
-		},
-		{
-			"BARC спидер (плавающий)",
+			"BARC спидер",
 			"ls_ground_barc",
-			"vehicle_count_spawn_6",
+			"vehicle_count_spawn_5",
 			10,
 			"gui_spawner\images\vehicles\barc.paa"
 		}
 	};
 	spawnpoints[] = 
 	{
-		{"Ангар #1",{"angar_spawn_0"},true}
+		{"Ангар #1",{"angar_spawn_0"},true},
+		{"Ангар #2",{"angar_spawn_1"},true}
 	};
 };
 
@@ -209,15 +106,31 @@ class BigSpawn
 			"Мобильная арт установка AV-7",
 			"3as_AV7",
 			"big_count_spawn_1",
-			1,
+			4,
 			"gui_spawner\images\vehicles\av7.paa"
 		},
 		{
 			"Сверхтяжелый транспорт UTAT",
 			"3as_UTAT",
 			"big_count_spawn_2",
-			1,
+			3,
 			"gui_spawner\images\vehicles\utat.paa"
+		},
+		{
+        "HAVw A6 Juggernaut",
+		"3as_Jug",
+		"big_count_spawn_3",
+		3
+		},
+		{
+			"ATAP",
+			"3as_ATAP_base",
+			3
+		},
+		{
+			"RX200 Артиллерия",
+			"442_rx200_arty",
+			3
 		}
 		
 	};
@@ -246,77 +159,11 @@ class AirSpawn
 			"laat_count_spawn_2",
 			6
 		},
-		{
-			"LAAT/I Gunship (Pylons)",
-			"ls_laat",
-			"laat_count_spawn_3",
-			6
-		},
-		{
-			"ARC-170",
-			"RD501_ARC_170_MKII",
-			"laat_count_spawn_4",
-			2
-		},
-		{
-			"Y-WING",
-			"RD501_Y_wing_MkII",
-			"laat_count_spawn_5",
-			2
-		},
-		{
-			"Z-95 Headhunter",
-			"3as_Z95_Republic",
-			"laat_count_spawn_6",
-			2
-		},
-		{
-			"V-Wing",
-			"RD501_v_wing_MKII",
-			"laat_count_spawn_7",
-			2
-		},
-		{
-			"LAAT/I (Gunship | Muunilinst 10)",
-			"ls_laat_ab",
-			"laat_count_spawn_8",
-			6
-		},
-		{
-			"LAAT/I (MK2, MCC)",
-			"swop_LAATmk2",
-			"laat_count_spawn_9",
-			6
-		},
-		{
-			"LAAT/C",
-			"RD501_LAAT_cargo_Mk2",
-			"laat_count_spawn_10",
-			6
-		},
-		{
-			"ARC-170 Blue (3AS)",
-			"3as_arc_170_blue",
-			"laat_count_spawn_11",
-			4
-		},
-		{
-			"Jedi ETA mk II",
-			"RD501_eta_white_Mk2",
-			"laat_count_spawn_12",
-			4
-		},
-		{
-			"Nu A-Class Shutle",
-			"3AS_Nuclass",
-			"laat_count_spawn_13"
-		}
 	};
 	spawnpoints[] = 
 	{
 		{"ВПП #1",{"air_spawn_0"},true},
 		{"ВПП #2",{"air_spawn_1"},true},
-		{"ВПП #3",{"air_spawn_2"},true},
-		{"ВПП #4",{"air_spawn_3"},true}
+		{"ВПП #3",{"air_spawn_2"},true}
 	};
 };

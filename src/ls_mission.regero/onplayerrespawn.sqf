@@ -128,17 +128,3 @@ disableUserInput false;
 disableUserInput true;
 disableUserInput false;
 
-//Chat
-fnc_chatOpen = {
-[1]execVM "lfprpchat\scripts\openchat.sqf";
-};
-fnc_senDMsg = {
-[2]execVM "lfprpchat\scripts\openchat.sqf";
-};
-["lfprpchat", "205", ["Open", "My Open"], {
-    _this call fnc_chatOpen
-}, {}, [205, [true, false, false]]] call CBA_fnc_addKeybind;
-
-["lfprpchat", "28", ["Send", "My Send"], {
-    _this call fnc_senDMsg
-}, {}, [28, [false, false, false]]] call CBA_fnc_addKeybind;
