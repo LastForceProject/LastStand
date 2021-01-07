@@ -8,7 +8,7 @@ class EditorData
 	toggles=514;
 	class ItemIDProvider
 	{
-		nextID=3698;
+		nextID=3699;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=462;
+		nextID=508;
 	};
 	class Camera
 	{
-		pos[]={-732.81757,84.931076,-1243.307};
-		dir[]={0.10259938,-0.79826456,0.59351015};
-		up[]={0.13597836,0.60230345,0.78659928};
-		aside[]={0.98538697,-4.8486982e-008,-0.17034253};
+		pos[]={7155.1025,29.907789,1217.7687};
+		dir[]={-0.84631187,-0.45201755,0.28193477};
+		up[]={-0.42885971,0.89200348,0.14286716};
+		aside[]={0.31606585,-1.7427374e-007,0.94876456};
 	};
 };
 binarizationWanted=0;
@@ -691,7 +691,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=493;
+		items=494;
 		class Item0
 		{
 			dataType="Object";
@@ -16172,7 +16172,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7150.3413,10.78,1253.1917};
+				position[]={7150.3413,10.978584,1253.1917};
 				angles[]={0,3.1102457,0};
 			};
 			side="Empty";
@@ -16273,7 +16273,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7150.5918,10.78,1247.8921};
+				position[]={7150.5918,10.978584,1247.8921};
 				angles[]={0,3.1102471,0};
 			};
 			side="Empty";
@@ -16374,7 +16374,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7150.7241,10.78,1243.0314};
+				position[]={7150.7241,10.978584,1243.0314};
 				angles[]={0,3.1277008,0};
 			};
 			side="Empty";
@@ -16535,7 +16535,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7150.7334,10.78,1238.0942};
+				position[]={7150.7334,10.978584,1238.0942};
 				angles[]={0,6.2788773,0};
 			};
 			side="Empty";
@@ -19810,7 +19810,7 @@ class Mission
 			};
 			id=981;
 			type="JLTS_Ammobox_weapons_special_GAR";
-			atlOffset=0.40999889;
+			atlOffset=0.40999985;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22878,7 +22878,7 @@ class Mission
 			};
 			id=1386;
 			type="MEOP_st_furn_bar_ChairComfort2";
-			atlOffset=2.0027161e-005;
+			atlOffset=1.9073486e-005;
 		};
 		class Item280
 		{
@@ -22897,7 +22897,7 @@ class Mission
 			};
 			id=1387;
 			type="MEOP_st_furn_bar_ChairComfort2";
-			atlOffset=2.0027161e-005;
+			atlOffset=1.9073486e-005;
 		};
 		class Item281
 		{
@@ -22916,7 +22916,7 @@ class Mission
 			};
 			id=1388;
 			type="MEOP_st_furn_bar_ChairComfort2";
-			atlOffset=2.0027161e-005;
+			atlOffset=1.9073486e-005;
 		};
 		class Item282
 		{
@@ -23151,7 +23151,7 @@ class Mission
 			};
 			id=1404;
 			type="MEOP_st_furn_bar_ChairComfort2";
-			atlOffset=2.0027161e-005;
+			atlOffset=1.9073486e-005;
 		};
 		class Item295
 		{
@@ -23170,7 +23170,7 @@ class Mission
 			};
 			id=1405;
 			type="MEOP_st_furn_bar_ChairComfort2";
-			atlOffset=2.0027161e-005;
+			atlOffset=1.9073486e-005;
 		};
 		class Item296
 		{
@@ -23189,7 +23189,7 @@ class Mission
 			};
 			id=1406;
 			type="MEOP_st_furn_bar_ChairComfort2";
-			atlOffset=2.0027161e-005;
+			atlOffset=1.9073486e-005;
 		};
 		class Item297
 		{
@@ -23208,7 +23208,7 @@ class Mission
 			};
 			id=1407;
 			type="MEOP_st_furn_bar_barTable";
-			atlOffset=2.0027161e-005;
+			atlOffset=1.9073486e-005;
 		};
 		class Item298
 		{
@@ -43681,6 +43681,47 @@ class Mission
 			id=1297;
 			type="442_50x50";
 			atlOffset=43.133972;
+		};
+		class Item493
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7139.5762,10.97858,1238.3688};
+				angles[]={0,6.2788739,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="ars_fr";
+				disableSimulation=1;
+			};
+			id=3698;
+			type="ls_carrybox_base";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
