@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=82;
+		nextID=86;
 	};
 	class Camera
 	{
-		pos[]={7491.4731,100.8952,4543.1162};
-		dir[]={0.56650877,-0.41480622,-0.71217322};
-		up[]={0.25825825,0.90988898,-0.32466209};
-		aside[]={-0.78266048,9.9767931e-007,-0.62257737};
+		pos[]={7477.7627,82.675697,4443.1812};
+		dir[]={0.59062546,-0.47416928,-0.65295762};
+		up[]={0.31808597,0.88043249,-0.35165596};
+		aside[]={-0.74162954,-3.0838419e-007,-0.67083389};
 	};
 };
 binarizationWanted=0;
@@ -4473,7 +4473,7 @@ class Mission
 				};
 			};
 			id=250;
-			atlOffset=0.4966011;
+			atlOffset=0.43978882;
 		};
 		class Item39
 		{
@@ -23841,18 +23841,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6671.645,4.6574097,11546.31};
+				position[]={6671.645,4.6575556,11546.31};
 			};
 			side="Empty";
 			flags=5;
 			class Attributes
 			{
-				init="call{this addAction [""<t color='#20d400'>Наемники</t>"", {player setPos (getPos usual_green)}]; " \n "this addAction [""<t color='#f08c00'>Икиниря</t>"", {player setPos (getPos mando_green)}]; " \n "this addAction [""<t color='#ba0000'>Церберы</t>"", {player setPos (getPos cerber_green)}];}";
+				init="call{this addAction [""<t color='#20d400'>Наемники</t>"", {player setPosATL (getPosATL usual_green)}]; " \n "this addAction [""<t color='#f08c00'>Икиниря</t>"", {player setPos (getPos mando_green)}]; " \n "this addAction [""<t color='#ba0000'>Церберы</t>"",{_this call LS_fnc_codelock_TP},[594114, ""cerber_green""],0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "}";
 				disableSimulation=1;
 			};
 			id=787;
 			type="Land_Statue_03_F";
-			atlOffset=0.00027275085;
+			atlOffset=0.00041866302;
 			class CustomAttributes
 			{
 				class Attribute0
