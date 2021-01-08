@@ -159,6 +159,12 @@ class AirSpawn
 			"laat_count_spawn_2",
 			6
 		},
+		{
+			"Z95",
+			"3as_Z95_Republic",
+			"z95_count_spawn_1",
+			3
+		},
 	};
 	spawnpoints[] = 
 	{
