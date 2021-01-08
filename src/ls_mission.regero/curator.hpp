@@ -22,7 +22,6 @@ class Curators
         ,"76561198374549023"//бобажив(игл)(Event)
         ,"76561198160053406"//Oni (Event)
         ,"76561198308824143"//Сoodich (Event)
-        ,"76561198008400185"//Bombaster (Event)
         ,"76561199071806700"//Warthog (Event) ARS
         ,"76561198064482123"//Dust (Event_Naim)
         ,"76561198335619075"//Anvil (Event_Naim)
