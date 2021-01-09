@@ -34,6 +34,29 @@ class CfgDiscordRichPresence {
     useTimeElapsed=1;									// Show time elapsed since the player connected (1 - true, 0 - false)
 };
 
+
+class PayCheck
+{
+	DeathPenalty = 15; //Штраф в процентах, сколько денег будет списываться при смерти
+	LoopTime = 1200; //Интервал в секундах, после завершения которого, на счет поступит выплата
+	Amount = 50; //Количество начисляемых CR
+	AdminRegularCheck = 1; //Если 1, то системка будет регулярно проверять, не получил ли кто либо несанкционированный доступ к панели и если получил, то заберет его
+	AdminUIDs[] = //Список UID с доступом к панели с функционалом начисления/списания CR
+	{
+		"76561198057238748"//Host (Creator)
+		,"76561198288271495"//KapayJl (Tech)
+		,"76561198041211224"//Flin (Tech)
+		,"76561198022475274"//Grim (Tech)
+		,"76561198079947268"//Shepard (Curator)
+		,"76561198006688545"//Dark (BSO)
+		,"76561198121927537"//Morket (Jedi)
+		,"76561198092314817"//Zander (Neutral)
+		,"76561198031361413"//KID (Neutral Event)
+		,"76561198102983006"//Joker (Neutral Event)
+	};
+};
+
+
 class CfgRemoteExec
 {
 	// List of script functions allowed to be sent from client via remoteExec

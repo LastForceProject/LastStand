@@ -110,13 +110,6 @@ class BigSpawn
 			"gui_spawner\images\vehicles\av7.paa"
 		},
 		{
-			"Сверхтяжелый транспорт UTAT",
-			"3as_UTAT",
-			"big_count_spawn_2",
-			3,
-			"gui_spawner\images\vehicles\utat.paa"
-		},
-		{
         "HAVw A6 Juggernaut",
 		"3as_Jug",
 		"big_count_spawn_3",
@@ -158,6 +151,12 @@ class AirSpawn
 			"ls_laat_medevac",
 			"laat_count_spawn_2",
 			6
+		},
+		{
+			"Z95",
+			"3as_Z95_Republic",
+			"z95_count_spawn_1",
+			3
 		},
 	};
 	spawnpoints[] = 

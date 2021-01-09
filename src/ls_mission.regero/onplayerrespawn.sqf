@@ -18,6 +18,22 @@ z6_notSuck = [player] spawn
 	}
 };
 
+SquadShield = [player] spawn 
+{
+	while {true} do 
+	{
+		_nameplayer = name player; 
+		if (_nameplayer find "|G" !=-1) then {} 
+		else 
+		{
+			if (("SW_SquadShield_Mag" in (backpackItems player)) or ("SW_SquadShield_Mag" in (vestItems player)) or ("SW_SquadShield_Mag" in (uniformItems player))) 
+			then 
+			{
+				player removeItem "SW_SquadShield_Mag";
+			}
+		}
+	}
+};
 
 RC_ARC_power = [player] spawn 
 {
