@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=976;
+		nextID=1023;
 	};
 	class Camera
 	{
-		pos[]={8635.2842,604.68542,-364.28549};
-		dir[]={-0.75730836,-0.26539752,0.59674829};
-		up[]={-0.20845252,0.9641434,0.16425714};
-		aside[]={0.61894339,1.4388934e-007,0.78547394};
+		pos[]={8490.8848,6.0415897,9366.9082};
+		dir[]={0.91815048,-0.27371541,-0.28659722};
+		up[]={0.26129615,0.96180272,-0.081563644};
+		aside[]={-0.29797998,-1.0828953e-006,-0.9546057};
 	};
 };
 binarizationWanted=0;
@@ -44064,7 +44064,6 @@ class Mission
 				position[]={8486.2178,4.5104189,9335.9648};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -44072,6 +44071,7 @@ class Mission
 			};
 			id=3813;
 			type="Land_Canteen_F";
+			atlOffset=0.86667061;
 		};
 		class Item488
 		{
@@ -44545,16 +44545,39 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8498.2822,4.2993402,9360.3496};
-				angles[]={6.1997032,5.0962687,0.030235186};
+				angles[]={6.1997066,5.0962739,0.030229103};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3855;
 			type="Land_MedicalTent_01_CSAT_greenhex_generic_inner_F";
-			atlOffset=2.3841858e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item506
 		{
@@ -44658,17 +44681,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8498.8184,4.7238674,9365.9355};
-				angles[]={6.2437272,1.9214853,0.049471091};
+				position[]={8498.8184,4.7235756,9365.9355};
+				angles[]={6.2437234,1.9214853,0.049462631};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3859;
 			type="Land_Toilet";
-			atlOffset=-0.0097079277;
+			atlOffset=-0.0099999905;
 			class CustomAttributes
 			{
 				class Attribute0
