@@ -170,6 +170,15 @@ arsJedi = [] spawn
 	} forEach _boxes;
 };
 
+arsZulu = [] spawn
+{
+	_boxes = [ars_zulu ,ars_zulu1 ,ars_zulu2];
+	{
+	_box = _x;
+	[_box,	["SWLW_DC15X","SWLW_DC17","SWLW_DC15X_Mag","SWLW_DC15A_UGL_flare_red_Mag","SWLW_rps6_mag","SWLW_DC17_Mag","SWLW_flareRed_mag","SWLW_smokeRed_mag","Zulu_HelmetP1_ARF","Zulu_HelmetP1_Thassarian","Zulu_HelmetP1_Ofic","Zulu_HelmetP1_Med","Zulu_helmetP1_KeknyT","Zulu_HelmetP1_Host","Zulu_HelmetP1_Eng","Zulu_HelmetP1","Zulu_Uniform_Host","Zulu_Uniform","Zulu_Uniform_Eng","Zulu_Uniform_Med","Zulu_Uniform_Ofic","Zulu_Uniform_Sg","Zulu_Uniform_ARF","Zulu_Camo_Sg","Zulu_Camo_Host","Zulu_Camo_Ofic","Zulu_Camo_Med","Zulu_Camo_Eng","Zulu_Backpack","Zulu_Backpack_heavy","Zulu_Backpack_medic","Zulu_Backpack_RTO","Clone_Rank_CPT","Clone_Rank_CC","Clone_Rank_LT","Clone_Rank_MAJ","Clone_Rank_MC","Clone_Rank_SG","SWLB_clone_ARF_antenna_HUD","SWLB_clone_rangefinder_HUD","Zulu_NVG","Zulu_Officer_Visor","SWLB_clone_commander_binocular_night","SWLB_clone_binocular","SWLB_clone_commander_binocular","ItemMap","ItemCompass","SWLB_comlink","ItemGPS","SWLW_beltGrenade_mag","ACE_epinephrine","ACE_adenosine","ACE_personalAidKit","ACE_M26_Clacker","ACE_Clacker","ACE_tourniquet","ACE_DefusalKit","ACE_bloodIV","ACE_bloodIV_250","ACE_bloodIV_500","ACE_bodyBag","MineDetector","ACE_morphine","ToolKit","ACE_plasmaIV","ACE_plasmaIV_250","ACE_plasmaIV_500","ACE_fieldDressing","ACE_elasticBandage","ACE_EntrenchingTool","ACE_packingBandage","ACE_salineIV","ACE_salineIV_250","ACE_salineIV_500","ACE_splint","ACE_surgicalKit","SWLW_Z6","SWLW_Z6_mag","SWLW_rps6_disposable","3AS_DC15A_F","3AS_DC15S_F","3AS_45Rnd_EC50_Mag","3AS_60Rnd_EC30_mag","JLTS_DC17SA","JLTS_DC17SA_mag"]] call ace_arsenal_fnc_initBox;
+	} forEach _boxes;
+};
+
 arsSD = [] spawn
 {
 	_boxes = [ars_ssd];
