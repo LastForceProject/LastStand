@@ -30,5 +30,6 @@ class Curators
         ,"76561198093467695"//Nelson (Event) - ARS
         ,"76561198106601977"//Ximik (Event) - ARS
         ,"76561198341622503"//Draxler (Event)
+		,"76561198082240166"//aikboy (Event) - ARS
 	};
 };
