@@ -23,7 +23,6 @@ class Curators
         ,"76561198160053406"//Oni (Event)
         ,"76561198308824143"//Сoodich (Event)
         ,"76561199071806700"//Warthog (Event) ARS
-        ,"76561198064482123"//Dust (Event_Naim)
         ,"76561198335619075"//Anvil (Event_Naim)
         ,"76561198062501233"//Lore (Event_Naim)
         ,"76561198403064350"//Smetanka (Event_Naim)
