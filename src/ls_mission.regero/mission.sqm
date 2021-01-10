@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=976;
+		nextID=1117;
 	};
 	class Camera
 	{
-		pos[]={8635.2842,604.68542,-364.28549};
-		dir[]={-0.75730836,-0.26539752,0.59674829};
-		up[]={-0.20845252,0.9641434,0.16425714};
-		aside[]={0.61894339,1.4388934e-007,0.78547394};
+		pos[]={-681.20581,14.977245,-1115.4618};
+		dir[]={-0.76904643,-0.45111969,0.45297632};
+		up[]={-0.38872933,0.89243883,0.22896677};
+		aside[]={0.50754827,-2.1629967e-007,0.86168998};
 	};
 };
 binarizationWanted=0;
@@ -22487,7 +22487,7 @@ class Mission
 			flags=1;
 			class Attributes
 			{
-				name="ars_jedi5";
+				name="ars_zulu2";
 				disableSimulation=1;
 			};
 			id=1355;
@@ -22506,7 +22506,7 @@ class Mission
 			flags=1;
 			class Attributes
 			{
-				name="ars_jedi4";
+				name="ars_zulu1";
 				disableSimulation=1;
 			};
 			id=1356;
@@ -22525,7 +22525,7 @@ class Mission
 			flags=1;
 			class Attributes
 			{
-				name="ars_jedi3";
+				name="ars_zulu";
 				disableSimulation=1;
 			};
 			id=1357;
@@ -44064,7 +44064,6 @@ class Mission
 				position[]={8486.2178,4.5104189,9335.9648};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -44072,6 +44071,7 @@ class Mission
 			};
 			id=3813;
 			type="Land_Canteen_F";
+			atlOffset=0.86667061;
 		};
 		class Item488
 		{
@@ -44545,16 +44545,40 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8498.2822,4.2993402,9360.3496};
-				angles[]={6.1997032,5.0962687,0.030235186};
+				angles[]={6.1997066,5.0962739,0.030229103};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3855;
 			type="Land_MedicalTent_01_CSAT_greenhex_generic_inner_F";
 			atlOffset=2.3841858e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item506
 		{
@@ -44658,17 +44682,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8498.8184,4.7238674,9365.9355};
-				angles[]={6.2437272,1.9214853,0.049471091};
+				position[]={8498.8184,4.7235756,9365.9355};
+				angles[]={6.2437234,1.9214853,0.049462631};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3859;
 			type="Land_Toilet";
-			atlOffset=-0.0097079277;
+			atlOffset=-0.009999752;
 			class CustomAttributes
 			{
 				class Attribute0
