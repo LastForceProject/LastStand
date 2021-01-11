@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1676.8341,90.000427,1842.0616};
-		dir[]={0.33222312,-0.50762397,0.79505664};
-		up[]={0.19573282,0.86154854,0.46841106};
-		aside[]={0.92275667,-3.3772085e-007,-0.38558644};
+		pos[]={1729.1816,69.442154,1855.7299};
+		dir[]={0.075723238,-0.32982108,0.94109666};
+		up[]={0.026460215,0.94401342,0.32882145};
+		aside[]={0.99686122,-1.0573422e-006,-0.080213256};
 	};
 };
 binarizationWanted=0;
@@ -57392,18 +57392,41 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1730.9218,61.043888,1870.7437};
-				angles[]={0,3.1498168,0};
+				position[]={1730.922,61.060272,1870.744};
+				angles[]={0,3.1498129,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
-				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=4099;
 			type="MEOP_st_furn_comp_laptop2gui_blue";
-			atlOffset=0.74525452;
+			atlOffset=0.015136719;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item664
 		{
