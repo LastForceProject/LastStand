@@ -31,6 +31,7 @@ class Curators
         ,"76561198341622503"//Draxler (Event)
 		,"76561198082240166"//aikboy (Event) - ARS
 		,"76561198133650658"//Randez (Event_Naim)
-        ,"76561198102983006"//liming (Event Jedishit) 
+        ,"76561198102983006"//liming (Event Jedishit)
+		,"76561198378684428"//Myrr (Event_Naim)
 	};
 };
