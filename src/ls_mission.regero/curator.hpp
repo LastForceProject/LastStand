@@ -13,7 +13,6 @@ class Curators
         ,"76561198209489483"//Ars (Curator_Event)
         ,"76561198227583576"//Filin (Сur_Naim)
         ,"76561198307319806"//Castel (Event)
-        ,"76561198046918009"//Reaper (Event)
         ,"76561198247446122"//КапитанБля (Event) - ARS
         ,"76561198253231135"//BKA (Event Jedi)
         ,"76561198367722284"//Bese(Event) - ARS
@@ -26,7 +25,6 @@ class Curators
         ,"76561198062501233"//Lore (Event_Naim)
         ,"76561198403064350"//Smetanka (Event_Naim)
         ,"76561198093467695"//Nelson (Event) - ARS
-        ,"76561198106601977"//Ximik (Event) - ARS
         ,"76561198341622503"//Draxler (Event)
 		,"76561198082240166"//aikboy (Event) - ARS
 		,"76561198133650658"//Randez (Event_Naim)
