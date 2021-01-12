@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=11335;
+		nextID=11337;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1921;
+		nextID=1992;
 	};
 	class Camera
 	{
-		pos[]={7197.4224,34.951611,1178.0963};
-		dir[]={0.38442144,-0.55692911,0.73639542};
-		up[]={0.25777715,0.83046281,0.49379742};
-		aside[]={0.88658708,4.4633634e-007,-0.46282908};
+		pos[]={7153.7676,31.750277,1192.866};
+		dir[]={-0.53795797,-0.37017962,0.75750589};
+		up[]={-0.21443287,0.92885602,0.3019411};
+		aside[]={0.8154211,8.9002424e-007,0.57908493};
 	};
 };
 binarizationWanted=0;
@@ -124,13 +124,14 @@ addons[]=
 	"ls_armor_redfor",
 	"A3_Props_F_Orange_Items_Decorative",
 	"A3_Structures_F_Exp_Civilian_Accessories",
-	"A3_Structures_F_EPA_Civ_Camping"
+	"A3_Structures_F_EPA_Civ_Camping",
+	"212th_Props_Portable_Generator"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=74;
+		items=75;
 		class Item0
 		{
 			className="Prop_Objects";
@@ -598,6 +599,11 @@ class AddonsMetaData
 			name="Arma 3 Apex - Civilian Buildings";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item74
+		{
+			className="212th_Props_Portable_Generator";
+			name="212th_Props_Portable_Generator";
 		};
 	};
 };
@@ -47369,16 +47375,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7135.98,12.784771,1268.4901};
+				position[]={7136.3462,13.058935,1269.4421};
 			};
 			side="Empty";
-			flags=5;
+			flags=1;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
 			id=11246;
 			type="lsb_props_planet1_hologram";
+			atlOffset=0.29874706;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -47408,46 +47415,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7136.0498,11.780477,1268.4662};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=11247;
-			type="442_holotable";
-			atlOffset=9.5367432e-007;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item428
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={7132.4336,13.076262,1276.4321};
 				angles[]={0,1.538478,0};
 			};
@@ -47459,7 +47426,7 @@ class Mission
 			type="Headgear_cis_b1Hologram_helmet";
 			atlOffset=1.3495216;
 		};
-		class Item429
+		class Item428
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47499,7 +47466,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item430
+		class Item429
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47540,7 +47507,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item431
+		class Item430
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47581,7 +47548,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item432
+		class Item431
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47598,7 +47565,7 @@ class Mission
 			type="JMS_st_plants_tree_oldTree_1";
 			atlOffset=-9.5367432e-007;
 		};
-		class Item433
+		class Item432
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47638,7 +47605,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item434
+		class Item433
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47678,7 +47645,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item435
+		class Item434
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47717,7 +47684,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item436
+		class Item435
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47756,7 +47723,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item437
+		class Item436
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47795,7 +47762,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item438
+		class Item437
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47834,7 +47801,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item439
+		class Item438
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47875,7 +47842,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item440
+		class Item439
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47916,7 +47883,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item441
+		class Item440
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47957,7 +47924,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item442
+		class Item441
 		{
 			dataType="Object";
 			class PositionInfo
@@ -47998,7 +47965,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item443
+		class Item442
 		{
 			dataType="Object";
 			class PositionInfo
@@ -48039,7 +48006,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item444
+		class Item443
 		{
 			dataType="Object";
 			class PositionInfo
@@ -48080,7 +48047,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item445
+		class Item444
 		{
 			dataType="Object";
 			class PositionInfo
@@ -48121,7 +48088,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item446
+		class Item445
 		{
 			dataType="Object";
 			class PositionInfo
@@ -48162,7 +48129,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item447
+		class Item446
 		{
 			dataType="Object";
 			class PositionInfo
@@ -48203,7 +48170,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item448
+		class Item447
 		{
 			dataType="Object";
 			class PositionInfo
@@ -48244,7 +48211,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item449
+		class Item448
 		{
 			dataType="Object";
 			class PositionInfo
@@ -48283,7 +48250,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item450
+		class Item449
 		{
 			dataType="Object";
 			class PositionInfo
@@ -48298,6 +48265,21 @@ class Mission
 			id=11317;
 			type="Land_WoodenLog_F";
 			atlOffset=4.4022598;
+		};
+		class Item450
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7136.3398,12.317824,1269.4082};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=11336;
+			type="212th_Holo_Table";
 		};
 	};
 };
