@@ -16,6 +16,7 @@ class Curators
         ,"76561198166050664"//Foxxy (Curator_Event v2.0)
         ,"76561198209489483"//Ars (Curator_Event)
         ,"76561198307319806"//Castel (Event)
+        ,"76561198446980244"//Хозяйственное_MbIJIO  (Event)
         ,"76561198247446122"//КапитанБля (Event) - ARS
         ,"76561198253231135"//BKA (Event)
         ,"76561198367722284"//Bese(Event) - ARS
