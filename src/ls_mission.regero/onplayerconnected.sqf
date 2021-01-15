@@ -1,4 +1,4 @@
-// -- Ранговая система.
+﻿// -- Ранговая система.
 
 _nameplayer = name player;
 if ((_nameplayer find "CS" !=-1) || (_nameplayer find "CPL" !=-1)) then 
@@ -55,7 +55,7 @@ switch (playerSide) do
 		_dayTime = [daytime] call BIS_fnc_timeToString;
 		[
 			[
-			["Планета: Марктет I, База ВАР","size = '0.7'"],
+			["Планета: SKYNARA, База ВАР","size = '0.7'"],
 			["","<br/>"],
 			["Местное время: ","size = '0.7'"],
 			[str _dayTime,"size = '0.7'"],
@@ -70,7 +70,7 @@ switch (playerSide) do
 		_dayTime = [daytime] call BIS_fnc_timeToString;
 		[
 			[
-			["Планета: Марктет I, Неизвестное место","size = '0.7'"],
+			["Планета: SKYNAR, Неизвестное место","size = '0.7'"],
 			["","<br/>"],
 			["Местное время: ","size = '0.7'"],
 			[str _dayTime,"size = '0.7'"],
@@ -89,7 +89,7 @@ sleep 15; // Время до начала титров
 _role1 = "Добро пожаловать на The Last Stand RP";
 _role1names = [profileName];
 _role2 = "Игровой проект Last Force Project";
-_role2names = ["Thanks to: KapayJI, SWLS, wRaiz, Flin <t size='0.70' align='right' color='#ff0000'>SCHTAMP.</t>"];
+_role2names = ["Thanks to: KapayJI, SWLS, Flin."];
 _role3 = "Посетите нашу группу VK";
 _role3names = ["vk.com/arma3lfp"];
 _role4 = "Присоединяйтесь к Discord";

@@ -1,4 +1,4 @@
-// ACE Арсенал
+﻿// ACE Арсенал
 force force ace_arsenal_allowDefaultLoadouts = true;
 force force ace_arsenal_allowSharedLoadouts = true;
 ace_arsenal_camInverted = false;
@@ -97,7 +97,7 @@ force force ace_nametags_playerNamesMaxAlpha = 0.8;
 force force ace_nametags_playerNamesViewDistance = 5;
 force force ace_nametags_showCursorTagForVehicles = true;
 force force ace_nametags_showNamesForAI = false;
-ace_nametags_showPlayerNames = 1;
+ace_nametags_showPlayerNames = 0;
 ace_nametags_showPlayerRanks = false;
 ace_nametags_showSoundWaves = 2;
 ace_nametags_showVehicleCrewInfo = false;
@@ -261,7 +261,7 @@ force force ace_common_allowFadeMusic = false;
 // ACE Общий
 force force ace_common_checkPBOsAction = 2;
 force force ace_common_checkPBOsCheckAll = true;
-force force ace_common_checkPBOsWhitelist = "['WebKnight_StarWars_Gundone','SWOP_arc170','zeus_lfp','zbe_cache','asn_core','lwscripts','SWCMS','LS_clones_mg_Z6','asn_key','ASN_WikiPages','pja306','gge_core','gge_nvganim','gge_captives','PLP_MapTools','PLP_Kompass','DFS_3rdPerson','asw_main','ANZ_MissileEfxMod','WarFXPE','Blastcore_MainCore','Blastcore_VEP','jsrs_soundmod_complete_edition','jsrs_soundmod_boats','jsrs_soundmod_sonic_cracks','jsrs_soundmod_weapons','jsrs_soundmod_environment','jsrs_soundmod_explosions','jsrs_soundmod_framework','jsrs_soundmod_landvehicles','jsrs_soundmod_movement','jsrs_soundmod_bullethits','jsrs_soundmod_helicopters','jsrs_soundmod_complete_edition_soundfiles','212_Legion','asn_achies','extdb3','ServerLocker','Locker','HashCode_Locker','HashCodeServer_Locker','sw_panel','safecode','zen_main','zen_common','zen_context_menu','zen_dialog','zen_editor','zen_editor_previews','zen_flashlight','zen_markers_tree','zen_music','zen_placement','zen_position_logics','zen_visibility','zen_vision','zen_ai','zen_attributes','zen_camera','zen_compositions','zen_damage','zen_garage','zen_inventory','zen_loadout','zen_modules','zen_pylons','zen_remote_control','zen_tasks','zen_area_markers,'zen_context_actions','zen_custom_modules','zen_doors','achilles_data_f_ares','achilles_language_f','achilles_data_f_achilles','achilles_functions_f_ares','achilles_functions_f_achilles','achilles_modules_f_ares','achilles_settings_f','achilles_ui_f','achilles_modules_f_achilles','AchillesEffects']";
+force force ace_common_checkPBOsWhitelist = "['ls_rpchatdialog','lfprpchat','LS_CODELOCK','LS_GUI_SPAWNER_C','LS_GUI_SPAWNER','WebKnight_StarWars_Gundone','SWOP_arc170','zeus_lfp','zbe_cache','asn_core','lwscripts','SWCMS','LS_clones_mg_Z6','asn_key','ASN_WikiPages','pja306','gge_core','gge_nvganim','gge_captives','PLP_MapTools','PLP_Kompass','DFS_3rdPerson','asw_main','ANZ_MissileEfxMod','WarFXPE','Blastcore_MainCore','Blastcore_VEP','jsrs_soundmod_complete_edition','jsrs_soundmod_boats','jsrs_soundmod_sonic_cracks','jsrs_soundmod_weapons','jsrs_soundmod_environment','jsrs_soundmod_explosions','jsrs_soundmod_framework','jsrs_soundmod_landvehicles','jsrs_soundmod_movement','jsrs_soundmod_bullethits','jsrs_soundmod_helicopters','jsrs_soundmod_complete_edition_soundfiles','212_Legion','asn_achies','extdb3','ServerLocker','Locker','HashCode_Locker','HashCodeServer_Locker','sw_panel','safecode','zen_main','zen_common','zen_context_menu','zen_dialog','zen_editor','zen_editor_previews','zen_flashlight','zen_markers_tree','zen_music','zen_placement','zen_position_logics','zen_visibility','zen_vision','zen_ai','zen_attributes','zen_camera','zen_compositions','zen_damage','zen_garage','zen_inventory','zen_loadout','zen_modules','zen_pylons','zen_remote_control','zen_tasks','zen_area_markers,'zen_context_actions','zen_custom_modules','zen_doors','achilles_data_f_ares','achilles_language_f','achilles_data_f_achilles','achilles_functions_f_ares','achilles_functions_f_achilles','achilles_modules_f_ares','achilles_settings_f','achilles_ui_f','achilles_modules_f_achilles','AchillesEffects','zen_compat_ace']";
 ace_common_displayTextColor = [1,1,1,0];
 ace_common_displayTextFontColor = [1,1,1,1];
 ace_common_settingFeedbackIcons = 1;
@@ -779,6 +779,9 @@ diwako_dui_radar_trackingColor = [0.93,0.26,0.93,1];
 diwako_dui_reset_ui_pos = false;
 diwako_dui_use_layout_editor = false;
 
+force diwako_dui_nametags_enabled = false;
+
+
 // dzn Artillery Illumination
 force force dzn_Flares_H_Color = [1,1,1];
 force force dzn_Flares_H_Deviation = 25;
@@ -832,3 +835,22 @@ force force vet_unflipping_time = 15;
 force force vet_unflipping_unit_man_limit = 1;
 force force vet_unflipping_unit_mass_limit = 100000;
 force force vet_unflipping_vehicle_mass_limit = 100000;
+
+// Republic Commando Deflect Shield
+force force REPCOM_ACTIVATE_AI = true;
+force force REPCOM_CAMSHAKE = true;
+force force REPCOM_ENABLE_SPARKS_HIT = true;
+force force REPCOM_ENABLE_SPARKS_SHIELD = true;
+force force REPCOM_ENERGY_BAR_ACTIVE = true;
+REPCOM_ENERGY_BAR_COLOR = 0;
+REPCOM_ENERGY_BAR_SIZE = 2;
+force force REPCOM_HELMET_HUD = "RC_Solus_Helmet_47,RC_Helmet_DeltaBoss,RC_Helmet,SWLB_CEE_Gregor_Helmet,RC_Helmet_AiwhaDikut,RC_Helmet_AiwhaSarge,RC_Helmet_AiwhaTyto,RC_Helmet_AiwhaZag,RC_Helmet_Bravo2,RC_Helmet_Bravo3,RC_Helmet_Bravo4,RC_Helmet_BravoRam,RC_Helmet_DeltaBoss,RC_Helmet_DeltaFixer,RC_Helmet_DeltaScorch,RC_HelmetDeltaSev,RC_Helmet_MPGunner,RC_Helmet_MPMarksman,RC_Helmet_Omega,RC_Helmet_MPRecon,RC_Helmet_MPStealth,RC_Helmet_YayaxCov,RC_Helmet_YayaxDev,RC_Helmet_YayaxJind,RC_Helmet_YayaxYover,RC_Alpha_Helmet_1,RC_Alpha_Helmet_2,RC_Alpha1_Helmet,RC_Solus_Helmet_02,RC_Helmet_13,RC_Solus_Helmet_47,RC_Solus_Helmet_66,RC_Solus_Helmet_Clever,RC_Solus_Helmet_Kappa,RC_Solus_Helmet_Nort,RC_Solus_Helmet_Omen,RC_Solus_Helmet_Tox,RC_Solus_Helmet_Forest,RC_Solus_Helmet_Sand,RC_Yivra_Helmet_Aden,RC_Yivra_Helmet_Elyrea,RC_Yivra_Helmet_Goran,RC_Yivra_Helmet_Naak";
+force force REPCOM_HUD_ACTIVE_INTRO = true;
+REPCOM_HUD_OVERLAY = true;
+force force REPCOM_POWERED_SUITS_SETTING = "RC_Solus_Uniform_47,RC_DeltaBoss_Uniform,RC_Alpha1_uniform,RC_Uniform,RC_Uniform_13,SWLB_CEE_Gregor_Uniform,   RC_Solus_Uniform_47,RC_Solus_Uniform_66,RC_Solus_Uniform_Forest,RC_Solus_Uniform_Sand,RC_Solus_Uniform_Clever,RC_Solus_Uniform_Tox,   RC_AiwhaDikut_Uniform,RC_AiwhaSarge_Uniform,RC_AiwhaTyto_Uniform,RC_AiwhaZag_Uniform,   RC_Alpha1_Uniform,RC_Alpha2_Uniform,   RC_DeltaBoss_Uniform,RC_DeltaFixer_Uniform,RC_DeltaScorch_Uniform,RC_DeltaSev_Uniform,   RC_Bravo2_Uniform,RC_BravoRam_Uniform,RC_Bravo3_Uniform,RC_Bravo4_Uniform,   RC_MPGunner_Uniform,RC_MPMarksman_Uniform,RC_MPRecon_Uniform,RC_MPStealth_Uniform,   RC_Omega_Uniform,RC_OmegaFi_Uniform,RC_OmegaDarman_Uniform,RC_OmegaNiner_Uniform,   RC_YayaxCov_Uniform,RC_YayaxDev_Uniform,RC_YayaxJind_Uniform,RC_YayaxYover_Uniform,   RC_Yivra_Uniform_Naak,RC_Yivra_Uniform_Goran,RC_Yivra_Uniform_Elyrea,RC_Yivra_Uniform_Aden,   RC_Solus_Uniform_Kappa,RC_Solus_Uniform_Nort,RC_Solus_Uniform_02";
+force force REPCOM_SHIELD_ENERGY = 150;
+force force REPCOM_SHIELD_ENERGY_AI = 150;
+force force REPCOM_SHIELD_REGEN = 0.4;
+force force REPCOM_SHIELD_REGEN_AI = 0.4;
+force force REPCOM_SHOW_ACTIVATE = true;
+force force REPCOM_SHOW_DEACTIVATE = false;

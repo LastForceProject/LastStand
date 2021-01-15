@@ -1,7 +1,6 @@
 ﻿// -- Восстановление бафов, ограничений, действий.
-
 removeAllActions player; 
-
+player call repcom_suit_fnc_suit_ready;
 z6_notSuck = [player] spawn 
 {
 	while {true} do
@@ -93,13 +92,6 @@ switch (playerSide) do
 	};
 	case resistance: 
 	{
-		removeAllWeapons player;
-		removeAllItems player;
-		removeAllAssignedItems player;
-		removeVest player;
-		removeBackpack player;
-		removeHeadgear player;
-		removeGoggles player;
 		titleText ["<t color='#00ff5f' size='3'>Вы очнулись в лагере!</t><br/><t color='#ffffff' size='1'>Вы не помните, что с Вами случилось!</t>", "PLAIN", 0.2, true, true];
 	};
     case east: 
@@ -135,3 +127,4 @@ cutText ["","BLACK IN",1];
 disableUserInput false;
 disableUserInput true;
 disableUserInput false;
+
