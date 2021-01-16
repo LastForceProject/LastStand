@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=3062;
+		nextID=3149;
 	};
 	class Camera
 	{
-		pos[]={7219.3164,40.658348,1183.7701};
-		dir[]={0.6087113,-0.37510911,0.69912779};
-		up[]={0.24632017,0.92698032,0.28290784};
-		aside[]={0.75419617,2.203742e-007,-0.6566608};
+		pos[]={4901.7373,461.6413,9435.1074};
+		dir[]={-0.68243974,-0.33960515,0.64726424};
+		up[]={-0.24640402,0.9405669,0.23370339};
+		aside[]={0.68816167,-2.4803012e-007,0.72556037};
 	};
 };
 binarizationWanted=0;
@@ -140,14 +140,13 @@ addons[]=
 	"A3_Structures_F_Ind_Cargo",
 	"ace_cargo",
 	"A3_Structures_F_Civ_Constructions",
-	"A3_Structures_F_EPB_Items_Vessels",
-	"MEOP_st_ships"
+	"A3_Structures_F_EPB_Items_Vessels"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=86;
+		items=85;
 		class Item0
 		{
 			className="3AS_Prop_Crates";
@@ -679,12 +678,6 @@ class AddonsMetaData
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item85
-		{
-			className="MEOP_st_ships";
-			name="MEOP_st_ships";
-			author="Opposition Team";
-		};
 	};
 };
 class DynamicSimulation
@@ -770,7 +763,7 @@ class CustomAttributes
 							"BOOL"
 						};
 					};
-					value=0;
+					value=1;
 				};
 			};
 		};
@@ -805,7 +798,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=499;
+		items=497;
 		class Item0
 		{
 			dataType="Object";
@@ -44663,87 +44656,6 @@ class Mission
 			id=12311;
 			type="Land_ChairPlastic_F";
 			atlOffset=0.010369301;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item497
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4643.5903,340.8783,9698.7627};
-				angles[]={4.712389,3.1415908,5.8512173};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=12344;
-			type="MEOP_st_Civ_Reaper_Carrier";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item498
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={9180.4805,135.41513,6460.6421};
-				angles[]={1.5707963,8.0235122e-006,5.1717982};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=12345;
-			type="MEOP_st_Civ_Reaper_Carrier";
-			atlOffset=-62.567459;
 			class CustomAttributes
 			{
 				class Attribute0
