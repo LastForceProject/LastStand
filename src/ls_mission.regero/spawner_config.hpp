@@ -57,14 +57,14 @@ class MainSpawn
 			"TX-130",
 			"SWLG_tanks_tx130",
 			"vehicle_count_spawn_1",
-			2,
+			3,
 			"gui_spawner\images\vehicles\tx130mk1.paa"
 		},
 		{
 			"БТР ""Банта""",
 			"212th_B_APC_Wheeled_01_cannon_F",
 			"vehicle_count_spawn_2",
-			2,
+			3,
 			"gui_spawner\images\vehicles\batha.paa"
 		},
 		{
@@ -77,7 +77,7 @@ class MainSpawn
 			"Легкий транспорт RTT",
 			"3as_RTT",
 			"vehicle_count_spawn_4",
-			1,
+			2,
 			"gui_spawner\images\vehicles\rtt.paa"
 		},
 		{
@@ -163,6 +163,7 @@ class AirSpawn
 	{
 		{"ВПП #1",{"air_spawn_0"},true},
 		{"ВПП #2",{"air_spawn_1"},true},
-		{"ВПП #3",{"air_spawn_2"},true}
+		{"ВПП #3",{"air_spawn_2"},true},
+		{"ВПП #3",{"air_spawn_3"},true}
 	};
 };
