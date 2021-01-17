@@ -8,7 +8,7 @@ class EditorData
 	toggles=522;
 	class ItemIDProvider
 	{
-		nextID=13599;
+		nextID=13616;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7259.105,34.279957,1158.5668};
-		dir[]={-0.90393704,-0.25081998,0.34674585};
-		up[]={-0.2342758,0.96799135,0.089866102};
-		aside[]={0.35818636,-1.8154969e-007,0.93376362};
+		pos[]={5538.1392,38.399261,5032.5913};
+		dir[]={-0.040330447,-0.28936219,-0.9563908};
+		up[]={-0.012192281,0.95721328,-0.28911743};
+		aside[]={-0.99913132,-1.8909668e-007,0.042134151};
 	};
 };
 binarizationWanted=0;
@@ -149,8 +149,7 @@ addons[]=
 	"OPTRE_UNSC_Structure_Highway",
 	"3AS_Structures",
 	"3as_prop_kamino",
-	"OPTRE_Buildings_Street_Objects",
-	"A3_Structures_F_Heli_Items_Airport"
+	"OPTRE_Buildings_Street_Objects"
 };
 class AddonsMetaData
 {
@@ -859,7 +858,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=796;
+		items=797;
 		class Item0
 		{
 			dataType="Layer";
@@ -61629,17 +61628,72 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6883.5127,14.427129,1695.2882};
-				angles[]={0.067895547,0,6.2432065};
+				position[]={5537.9233,36.23127,5025.0317};
+				angles[]={6.2392149,0,0.015998369};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 			};
-			id=13598;
-			type="Land_AirIntakePlug_01_F";
-			atlOffset=0.093536377;
+			id=13614;
+			type="3as_crate5_3";
+			atlOffset=0.009765625;
+		};
+		class Item796
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5539.4868,35.855091,5025.0313};
+			};
+			areaSize[]={5,-1,5};
+			flags=1;
+			id=13615;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=0.028945923;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 	};
 };
