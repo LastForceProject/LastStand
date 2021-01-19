@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=4263;
+		nextID=4357;
 	};
 	class Camera
 	{
-		pos[]={7262.4048,17.614508,1093.4498};
-		dir[]={0.7768839,-0.27479649,0.56673151};
-		up[]={0.22210348,0.96144307,0.16203611};
-		aside[]={0.58939946,1.1643628e-005,-0.8079586};
+		pos[]={7230.8252,16.472336,1107.443};
+		dir[]={0.93174142,-0.23763813,0.27501905};
+		up[]={0.22805333,0.97128195,0.067325436};
+		aside[]={0.2831178,1.1528049e-005,-0.9591729};
 	};
 };
 binarizationWanted=0;
@@ -32412,6 +32412,7 @@ class Mission
 				{
 					dataType="Layer";
 					name="capsule";
+					state=2;
 					class Entities
 					{
 						items=16;
@@ -40646,18 +40647,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7058.2295,11.654434,1219.576};
+				position[]={7058.23,11.654433,1219.576};
 				angles[]={0,1.5808843,0};
 			};
 			side="Empty";
 			flags=5;
 			class Attributes
 			{
-				init="call{this addAction [""Разблокировать консоль управления"",OPTRE_Fnc_Menu,[""UNSC_HEV"",""UNSC_DATABASE""]]; this setVariable [""OPTRE_PodsLaunchIn"",-1,true];this setVariable [""OPTRE_PodsLinkedToConsole"",([HEV_0_17,HEV_0_10,HEV_0_1,HEV_0_2,HEV_0_3,HEV_0_4,HEV_0_5,HEV_0_6,HEV_0_7,HEV_0_8,HEV_0_9,HEV_0_10,HEV_0_11,HEV_0_12,HEV_0_13,HEV_0_14,HEV_0_15,HEV_0_16,objNull]- [objNull]),true];}";
+				init="call{this addAction [""Разблокировать консоль управления(Не доступно)"",OPTRE_Fnc_Menu,[""UNSC_HEV"",""UNSC_DATABASE""]]; this setVariable [""OPTRE_PodsLaunchIn"",-1,true];this setVariable [""OPTRE_PodsLinkedToConsole"",([HEV_0_17,HEV_0_10,HEV_0_1,HEV_0_2,HEV_0_3,HEV_0_4,HEV_0_5,HEV_0_6,HEV_0_7,HEV_0_8,HEV_0_9,HEV_0_10,HEV_0_11,HEV_0_12,HEV_0_13,HEV_0_14,HEV_0_15,HEV_0_16,objNull]- [objNull]),true];}";
 			};
 			id=13084;
 			type="442_holotable2";
-			atlOffset=0.00021839142;
+			atlOffset=0.00021743774;
 		};
 		class Item383
 		{
