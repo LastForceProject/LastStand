@@ -57,14 +57,14 @@ class MainSpawn
 			"TX-130",
 			"SWLG_tanks_tx130",
 			"vehicle_count_spawn_1",
-			3,
+			1,
 			"gui_spawner\images\vehicles\tx130mk1.paa"
 		},
 		{
 			"БТР ""Банта""",
 			"212th_B_APC_Wheeled_01_cannon_F",
 			"vehicle_count_spawn_2",
-			3,
+			1,
 			"gui_spawner\images\vehicles\batha.paa"
 		},
 		{
@@ -84,7 +84,7 @@ class MainSpawn
 			"BARC спидер",
 			"ls_ground_barc",
 			"vehicle_count_spawn_5",
-			10,
+			5,
 			"gui_spawner\images\vehicles\barc.paa"
 		}
 	};
@@ -144,19 +144,19 @@ class AirSpawn
 			"LAAT/I (Gunship)",
 			"ls_laat_ab",
 			"laat_count_spawn_1",
-			6
+			3
 		},
 		{
 			"LAAT/I Gunship (Medevac)",
 			"ls_laat_medevac",
 			"laat_count_spawn_2",
-			6
+			1
 		},
 		{
 			"Z95",
 			"3as_Z95_Republic",
 			"z95_count_spawn_1",
-			6
+			2
 		},
 	};
 	spawnpoints[] = 
