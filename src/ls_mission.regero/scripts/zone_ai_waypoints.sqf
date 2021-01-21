@@ -2,18 +2,23 @@ _closestPlayer = (_this select 0);
 _group1 = (_this select 1);
 _group2 = (_this select 2);
 _group3 = (_this select 3);
-_veh = (_this select 4);
-_veh2 = (_this select 5);
-_veh3 = (_this select 6);
-_veh4 = (_this select 7);
-_veh5 = (_this select 8);
-_veh6 = (_this select 9);
-_veh7 = (_this select 10);
+_group4 = (_this select 4);
+_group5 = (_this select 5);
+_veh = (_this select 6);
+_veh2 = (_this select 7);
+_veh3 = (_this select 8);
+_veh4 = (_this select 9);
+_veh5 = (_this select 10);
+_veh6 = (_this select 11);
+_veh7 = (_this select 12);
+_veh8 = (_this select 13);
+_veh9 = (_this select 14);
+_veh10 = (_this select 15);
 
 _wp1 = false;
 while {true} do{
 
-	if(alive(_veh7)) then{
+	if(alive(_veh10)) then{
 		while {(count (waypoints _group1)) > 0} do{
 			deleteWaypoint ((waypoints _group1) select 0);
 		};
@@ -40,6 +45,24 @@ while {true} do{
 		_wp3 setWaypointType "SAD";
 		[_group3, 2] setWaypointBehaviour "AWARE";
 		[_group3, 2] setWaypointSpeed "FULL";
+		
+		while {(count (waypoints _group4)) > 0} do{
+			deleteWaypoint ((waypoints _group4) select 0);
+		};
+
+		_wp4 = _group4 addWaypoint [getPos _closestPlayer, 5];
+		_wp4 setWaypointType "SAD";
+		[_group4, 2] setWaypointBehaviour "AWARE";
+		[_group4, 2] setWaypointSpeed "FULL";
+		
+		while {(count (waypoints _group5)) > 0} do{
+			deleteWaypoint ((waypoints _group5) select 0);
+		};
+
+		_wp5 = _group5 addWaypoint [getPos _closestPlayer, 5];
+		_wp5 setWaypointType "SAD";
+		[_group5, 2] setWaypointBehaviour "AWARE";
+		[_group5, 2] setWaypointSpeed "FULL";
 
 		while {(count (waypoints group commander _veh)) > 0} do{
 			deleteWaypoint ((waypoints group commander _veh) select 0);
@@ -104,6 +127,33 @@ while {true} do{
 		_wpVeh7 setWaypointType "MOVE";
 		_wpVeh7 setWaypointSpeed "NORMAL";
 		_wpVeh7 setWaypointBehaviour "SAFE";
+		
+		while {(count (waypoints group driver _veh8)) > 0} do{
+			deleteWaypoint ((waypoints group driver _veh8) select 0);
+		};
+
+		_wpVeh8 = group driver _veh8 addWaypoint [getPos _closestPlayer, 5];
+		_wpVeh8 setWaypointType "MOVE";
+		_wpVeh8 setWaypointSpeed "NORMAL";
+		_wpVeh8 setWaypointBehaviour "SAFE";
+		
+		while {(count (waypoints group driver _veh9)) > 0} do{
+			deleteWaypoint ((waypoints group driver _veh9) select 0);
+		};
+
+		_wpVeh9 = group driver _veh9 addWaypoint [getPos _closestPlayer, 5];
+		_wpVeh9 setWaypointType "MOVE";
+		_wpVeh9 setWaypointSpeed "NORMAL";
+		_wpVeh9 setWaypointBehaviour "SAFE";
+		
+		while {(count (waypoints group driver _veh10)) > 0} do{
+			deleteWaypoint ((waypoints group driver _veh10) select 0);
+		};
+
+		_wpVeh10 = group driver _veh10 addWaypoint [getPos _closestPlayer, 5];
+		_wpVeh10 setWaypointType "MOVE";
+		_wpVeh10 setWaypointSpeed "NORMAL";
+		_wpVeh10 setWaypointBehaviour "SAFE";
 
 	};
 
@@ -122,6 +172,12 @@ while {true} do{
 			deleteVehicle _x;
 		}forEach units _group3;
 		deleteGroup _group3;
+			deleteVehicle _x;
+		}forEach units _group4;
+		deleteGroup _group4;
+			deleteVehicle _x;
+		}forEach units _group5;
+		deleteGroup _group5;
 
 		{_x setDamage 1} forEach crew _veh;
 		deleteVehicle _veh;
@@ -137,6 +193,12 @@ while {true} do{
 		deleteVehicle _veh6;
 		{_x setDamage 1} forEach crew _veh7;
 		deleteVehicle _veh7;
+		{_x setDamage 1} forEach crew _veh8;
+		deleteVehicle _veh8;
+		{_x setDamage 1} forEach crew _veh9;
+		deleteVehicle _veh9;
+		{_x setDamage 1} forEach crew _veh10;
+		deleteVehicle _veh10;
 
 	};
 
