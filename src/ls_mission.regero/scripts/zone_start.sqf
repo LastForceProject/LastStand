@@ -13,53 +13,72 @@ _zoneMarker = _closestPlayer getPos [700, random 360];
 
 
 
-_veh = createVehicle ["ls_aat", _zoneMarker, [], 0, "NONE"];
+_veh = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 0, "NONE"];
 createVehicleCrew _veh;
 
-_veh2 = createVehicle ["O_OKalani_CIS_Heavy_Infantry_Transport_01", _zoneMarker, [], 50, "NONE"];
+_veh2 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 50, "NONE"];
 createVehicleCrew _veh2;
 
-_veh3 = createVehicle ["RD501_Archer_CIS", _zoneMarker, [], 100, "NONE"];
+_veh3 = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 100, "NONE"];
 createVehicleCrew _veh3;
 
-_veh4 = createVehicle ["ls_aat", _zoneMarker, [], 150, "NONE"];
+_veh4 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 150, "NONE"];
 createVehicleCrew _veh4;
 
-_veh5 = createVehicle ["RD501_Archer_CIS", _zoneMarker, [], 200, "NONE"];
+_veh5 = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 200, "NONE"];
 createVehicleCrew _veh5;
 
-_veh6 = createVehicle ["O_OKalani_CIS_Heavy_Infantry_Transport_01", _zoneMarker, [], 250, "NONE"];
+_veh6 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 250, "NONE"];
 createVehicleCrew _veh6;
 
-_veh7 = createVehicle ["RD501_drone_cis_Hover_Droid", _zoneMarker, [], 300, "FLY"];
+_veh7 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 300, "FLY"];
 createVehicleCrew _veh7;
+
+_veh8 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 350, "FLY"];
+createVehicleCrew _veh8;
+
+_veh9 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 400, "FLY"];
+createVehicleCrew _veh9;
+
+_veh10 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 450, "FLY"];
+createVehicleCrew _veh10;
 
 _group1 = createGroup east;
 for "_i" from 1 to 8 do {
-	_rndClassNames = ["SWLB_b1_base","SWLB_b1_sl_base","SWLB_b1_heavy_base","SWLB_b1_at_base"] call BIS_fnc_SelectRandom;
+	_rndClassNames = ["Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z"] call BIS_fnc_SelectRandom;
 	_unit = _group1 createUnit [_rndClassNames, _zoneMarker, [], 115, "FORM"];
 };
 _group2 = createGroup east;
 for "_i" from 1 to 8 do {
-	_rndClassNames = ["SWLB_b1_base","SWLB_b1_sl_base","SWLB_b1_heavy_base","SWLB_b1_at_base"] call BIS_fnc_SelectRandom;
+	_rndClassNames = ["Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z"] call BIS_fnc_SelectRandom;
 	_unit = _group2 createUnit [_rndClassNames, _zoneMarker, [], 115, "FORM"];
 };
 _group3 = createGroup east;
 for "_i" from 1 to 8 do {
-	_rndClassNames = ["SWLB_b1_base","SWLB_b1_sl_base","SWLB_b1_heavy_base","SWLB_b1_at_base"] call BIS_fnc_SelectRandom;
+	_rndClassNames = ["Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z"] call BIS_fnc_SelectRandom;
+	_unit = _group2 createUnit [_rndClassNames, _zoneMarker, [], 115, "FORM"];
+};
+_group4 = createGroup east;
+for "_i" from 1 to 8 do {
+	_rndClassNames = ["Geth_trooperBreach","Geth_trooperBreach","Geth_trooper","Geth_trooper","Geth_rocket","Geth_rocket","Geth_trooperSniper"] call BIS_fnc_SelectRandom;
+	_unit = _group3 createUnit [_rndClassNames, _zoneMarker, [], 115, "FORM"];
+};
+_group5 = createGroup east;
+for "_i" from 1 to 8 do {
+	_rndClassNames = ["Geth_trooperBreach","Geth_trooperBreach","Geth_trooper","Geth_trooper","Geth_rocket","Geth_rocket","Geth_trooperSniper"] call BIS_fnc_SelectRandom;
 	_unit = _group3 createUnit [_rndClassNames, _zoneMarker, [], 115, "FORM"];
 };
 
 
-//_warning = format ["%1 попал на вражескую территорию, отряды КНС выдвинулись за ним!", name _closestPlayer];
+//_warning = format ["%1 попал на вражескую территорию, отряды ИИ выдвинулись за ним!", name _closestPlayer];
 //[_warning] remoteExec ["systemChat"];
 
 
 //actual waypoint every 10 seconds
-[_closestPlayer,_group1,_group2,_group3,_veh,_veh2,_veh3,_veh4,_veh5,_veh6,_veh7] execVM "scripts\zone_ai_waypoints.sqf";
+[_closestPlayer,_group1,_group2,_group3,_group4,_group5,_veh,_veh2,_veh3,_veh4,_veh5,_veh6,_veh7,_veh8,_veh9,_veh10] execVM "scripts\zone_ai_waypoints.sqf";
 
 
 
 sleep 1;
-waitUntil {!(alive _veh) and !(alive _veh2) and !(alive _veh3) and !(alive _veh4) and !(alive _veh5) and !(alive _veh6)};
+waitUntil {!(alive _veh) and !(alive _veh2) and !(alive _veh3) and !(alive _veh4) and !(alive _veh5) and !(alive _veh6) and !(alive _veh7) and !(alive _veh8) and !(alive _veh9)};
 missionNamespace setVariable ['cis_zone_started', 0, true];
