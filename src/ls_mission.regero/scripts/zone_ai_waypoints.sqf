@@ -53,10 +53,6 @@ while {true} do{
 		_wp4 setWaypointType "SAD";
 		[_group4, 2] setWaypointBehaviour "AWARE";
 		[_group4, 2] setWaypointSpeed "FULL";
-		
-		while {(count (waypoints _group5)) > 0} do{
-			deleteWaypoint ((waypoints _group5) select 0);
-		};
 
 		while {(count (waypoints group commander _veh)) > 0} do{
 			deleteWaypoint ((waypoints group commander _veh) select 0);
