@@ -166,12 +166,10 @@ while {true} do{
 			deleteVehicle _x;
 		}forEach units _group3;
 		deleteGroup _group3;
+		{
 			deleteVehicle _x;
 		}forEach units _group4;
 		deleteGroup _group4;
-			deleteVehicle _x;
-		}forEach units _group5;
-		deleteGroup _group5;
 
 		{_x setDamage 1} forEach crew _veh;
 		deleteVehicle _veh;
