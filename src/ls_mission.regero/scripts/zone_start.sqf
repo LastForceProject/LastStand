@@ -16,55 +16,50 @@ _zoneMarker = _closestPlayer getPos [700, random 360];
 _veh = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 0, "NONE"];
 createVehicleCrew _veh;
 
-_veh2 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 50, "NONE"];
+_veh2 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 40, "NONE"];
 createVehicleCrew _veh2;
 
-_veh3 = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 100, "NONE"];
+_veh3 = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 60, "NONE"];
 createVehicleCrew _veh3;
 
-_veh4 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 150, "NONE"];
+_veh4 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 80, "NONE"];
 createVehicleCrew _veh4;
 
-_veh5 = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 200, "NONE"];
+_veh5 = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 100, "NONE"];
 createVehicleCrew _veh5;
 
-_veh6 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 250, "NONE"];
+_veh6 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 120, "NONE"];
 createVehicleCrew _veh6;
 
-_veh7 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 300, "FLY"];
+_veh7 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 140, "NONE"];
 createVehicleCrew _veh7;
 
-_veh8 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 350, "FLY"];
+_veh8 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 160, "NONE"];
 createVehicleCrew _veh8;
 
-_veh9 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 400, "FLY"];
+_veh9 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 180, "NONE"];
 createVehicleCrew _veh9;
 
-_veh10 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 450, "FLY"];
+_veh10 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 200, "NONE"];
 createVehicleCrew _veh10;
 
 _group1 = createGroup east;
-for "_i" from 1 to 8 do {
-	_rndClassNames = ["Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z"] call BIS_fnc_SelectRandom;
+for "_i" from 1 to 15 do {
+	_rndClassNames = ["Reaper_husk_Z"];
 	_unit = _group1 createUnit [_rndClassNames, _zoneMarker, [], 115, "FORM"];
 };
 _group2 = createGroup east;
-for "_i" from 1 to 8 do {
-	_rndClassNames = ["Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z"] call BIS_fnc_SelectRandom;
+for "_i" from 1 to 15 do {
+	_rndClassNames = ["Reaper_husk_Z"];
 	_unit = _group2 createUnit [_rndClassNames, _zoneMarker, [], 115, "FORM"];
 };
 _group3 = createGroup east;
-for "_i" from 1 to 8 do {
-	_rndClassNames = ["Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z","Reaper_husk_Z"] call BIS_fnc_SelectRandom;
+for "_i" from 1 to 15 do {
+	_rndClassNames = ["Reaper_husk_Z"];
 	_unit = _group2 createUnit [_rndClassNames, _zoneMarker, [], 115, "FORM"];
 };
 _group4 = createGroup east;
-for "_i" from 1 to 8 do {
-	_rndClassNames = ["Geth_trooperBreach","Geth_trooperBreach","Geth_trooper","Geth_trooper","Geth_rocket","Geth_rocket","Geth_trooperSniper"] call BIS_fnc_SelectRandom;
-	_unit = _group3 createUnit [_rndClassNames, _zoneMarker, [], 115, "FORM"];
-};
-_group5 = createGroup east;
-for "_i" from 1 to 8 do {
+for "_i" from 1 to 10 do {
 	_rndClassNames = ["Geth_trooperBreach","Geth_trooperBreach","Geth_trooper","Geth_trooper","Geth_rocket","Geth_rocket","Geth_trooperSniper"] call BIS_fnc_SelectRandom;
 	_unit = _group3 createUnit [_rndClassNames, _zoneMarker, [], 115, "FORM"];
 };
@@ -75,7 +70,7 @@ for "_i" from 1 to 8 do {
 
 
 //actual waypoint every 10 seconds
-[_closestPlayer,_group1,_group2,_group3,_group4,_group5,_veh,_veh2,_veh3,_veh4,_veh5,_veh6,_veh7,_veh8,_veh9,_veh10] execVM "scripts\zone_ai_waypoints.sqf";
+[_closestPlayer,_group1,_group2,_group3,_group4,_veh,_veh2,_veh3,_veh4,_veh5,_veh6,_veh7,_veh8,_veh9,_veh10] execVM "scripts\zone_ai_waypoints.sqf";
 
 
 
