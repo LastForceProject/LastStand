@@ -159,7 +159,7 @@ while {true} do{
 
 	if(!(isPlayer _closestPlayer)) exitWith{
 		missionNamespace setVariable ['cis_zone_started', 0, true];
-		sleep 300;
+		sleep 3000;
 		{
 			deleteVehicle _x;
 		}forEach units _group1;
