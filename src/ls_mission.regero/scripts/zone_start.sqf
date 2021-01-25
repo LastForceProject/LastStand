@@ -16,49 +16,49 @@ _zoneMarker = _closestPlayer getPos [700, random 360];
 _veh = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 0, "NONE"];
 createVehicleCrew _veh;
 
-_veh2 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 40, "NONE"];
+_veh2 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 50, "NONE"];
 createVehicleCrew _veh2;
 
-_veh3 = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 60, "NONE"];
+_veh3 = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 300, "NONE"];
 createVehicleCrew _veh3;
 
-_veh4 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 80, "NONE"];
+_veh4 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 150, "NONE"];
 createVehicleCrew _veh4;
 
-_veh5 = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 100, "NONE"];
+_veh5 = createVehicle ["O_gethHoverArm_veh_F", _zoneMarker, [], 200, "NONE"];
 createVehicleCrew _veh5;
 
-_veh6 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 120, "NONE"];
+_veh6 = createVehicle ["O_gethHoverL_Arm_veh_F", _zoneMarker, [], 350, "NONE"];
 createVehicleCrew _veh6;
 
-_veh7 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 140, "NONE"];
+_veh7 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 100, "NONE"];
 createVehicleCrew _veh7;
 
-_veh8 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 160, "NONE"];
+_veh8 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 250, "NONE"];
 createVehicleCrew _veh8;
 
-_veh9 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 180, "NONE"];
+_veh9 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 400, "NONE"];
 createVehicleCrew _veh9;
 
-_veh10 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 200, "NONE"];
+_veh10 = createVehicle ["MEOP_reap_RachniTur_F", _zoneMarker, [], 450, "NONE"];
 createVehicleCrew _veh10;
 
 _group1 = createGroup east;
 for "_i" from 1 to 15 do {
-	_unit = _group1 createUnit ["Reaper_husk_Z", _zoneMarker, [], 115, "FORM"];
+	_unit = _group1 createUnit ["Reaper_husk_Z", _zoneMarker, [], 125, "FORM"];
 };
 _group2 = createGroup east;
 for "_i" from 1 to 15 do {
-	_unit = _group2 createUnit ["Reaper_husk_Z", _zoneMarker, [], 130, "FORM"];
+	_unit = _group2 createUnit ["Reaper_husk_Z", _zoneMarker, [], 150, "FORM"];
 };
 _group3 = createGroup east;
 for "_i" from 1 to 15 do {
-	_unit = _group2 createUnit ["Reaper_husk_Z", _zoneMarker, [], 145, "FORM"];
+	_unit = _group2 createUnit ["Reaper_husk_Z", _zoneMarker, [], 175, "FORM"];
 };
 _group4 = createGroup east;
 for "_i" from 1 to 10 do {
 	_rndClassNames = ["Geth_trooperBreach","Geth_trooperBreach","Geth_trooper","Geth_trooper","Geth_rocket","Geth_rocket","Geth_trooperSniper"] call BIS_fnc_SelectRandom;
-	_unit = _group3 createUnit [_rndClassNames, _zoneMarker, [], 160, "FORM"];
+	_unit = _group3 createUnit [_rndClassNames, _zoneMarker, [], 200, "FORM"];
 };
 
 

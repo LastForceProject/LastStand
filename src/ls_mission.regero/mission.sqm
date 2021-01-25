@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=5109;
+		nextID=5203;
 	};
 	class Camera
 	{
-		pos[]={7509.1675,43.180851,1054.5446};
-		dir[]={-0.40077311,-0.65590149,0.63977563};
-		up[]={-0.34832451,0.75463277,0.55605108};
-		aside[]={0.84751028,-6.1653554e-007,0.53090507};
+		pos[]={7519.5342,86.744904,1004.8716};
+		dir[]={-0.083134107,-0.63201529,0.77057505};
+		up[]={-0.067818098,0.77474707,0.62861866};
+		aside[]={0.99429762,-6.2238541e-007,0.10727183};
 	};
 };
 binarizationWanted=0;
@@ -892,7 +892,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=821;
+		items=819;
 		class Item0
 		{
 			dataType="Layer";
@@ -66402,227 +66402,6 @@ class Mission
 			};
 			id=14606;
 			atlOffset=30.321371;
-		};
-		class Item819
-		{
-			dataType="Group";
-			side="Civilian";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7490.582,11.881439,1074.425};
-					};
-					side="Civilian";
-					flags=7;
-					class Attributes
-					{
-						name="a";
-						isPlayer=1;
-						disableSimulation=1;
-						ignoreByDynSimulGrid=1;
-					};
-					id=14612;
-					type="C_man_p_fugitive_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male02GRE";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.94999999;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="hideObject";
-							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						nAttributes=5;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=14611;
-		};
-		class Item820
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={7501.042,11.85,1085.803};
-			};
-			id=14613;
-			type="ModuleCurator_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCurator_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="a";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCurator_F_Forced";
-					expression="_this setVariable ['Forced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCurator_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCurator_F_Addons";
-					expression="_this setVariable ['Addons',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=2;
-						};
-					};
-				};
-				nAttributes=4;
-			};
 		};
 	};
 };
