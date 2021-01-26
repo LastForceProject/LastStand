@@ -30,6 +30,7 @@ class Curators
         ,"76561198194246470"//Bluber (Event)
 		,"76561198796417870"//German (Event)
         ,"76561198139144056"//Farsight (Event)
+        ,"76561198139144056"//Zander (Event)
         ,"76561198033904243"//Jisai (D_Zeus)
 	};
 };
