@@ -190,5 +190,5 @@ while {true} do{
 
 	};
 
-	sleep 30000;
+	sleep 10000;
 };
