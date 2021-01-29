@@ -1,4 +1,4 @@
-_incoming_param	= _this select 5;
+_incoming_param	= _this select 3;
 
 switch (_incoming_param) do
 {
