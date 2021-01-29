@@ -100,7 +100,7 @@ arsRC = [] spawn // Жирничы
 
 arsARF = [] spawn // 
 {
-	_boxes = [ars_arf];
+	_boxes = [ars_arf_1, ars_arf_2, ars_arf_3];
 	{
 	_box = _x;
 	[_box,
@@ -110,7 +110,7 @@ arsARF = [] spawn //
 
 arsARC = [] spawn // 
 {
-	_boxes = [ars_arc];
+	_boxes = [ars_arc_1, ars_arc_2, ars_arc_3];
 	{
 	_box = _x;
 	[_box,
