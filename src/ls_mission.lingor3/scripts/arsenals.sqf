@@ -90,7 +90,7 @@ ars501 = [] spawn // каблуки фульфа
 
 arsRC = [] spawn // Жирничы
 {
-	_boxes = [ars_rc];
+	_boxes = [ars_rc_1, ars_rc_2, ars_rc_3];
 	{
 	_box = _x;
 	[_box,
