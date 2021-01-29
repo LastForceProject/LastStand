@@ -8,7 +8,7 @@ class EditorData
 	toggles=614;
 	class ItemIDProvider
 	{
-		nextID=15124;
+		nextID=15132;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=5738;
+		nextID=5842;
 	};
 	class Camera
 	{
-		pos[]={7082.2139,12.953837,1224.0366};
-		dir[]={-0.2185206,-0.09752474,0.97104913};
-		up[]={-0.021428363,0.99521595,0.095226042};
-		aside[]={0.97569489,-1.3705576e-006,0.2195643};
+		pos[]={6495.6245,475.66513,715.41504};
+		dir[]={0.614227,-0.60039103,0.51218021};
+		up[]={0.46113789,0.79968685,0.38452604};
+		aside[]={0.64045095,-4.0541636e-007,-0.76804972};
 	};
 };
 binarizationWanted=0;
@@ -899,7 +899,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=865;
+		items=867;
 		class Item0
 		{
 			dataType="Layer";
@@ -30321,7 +30321,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7079.875,12.721068,1227.875};
-				angles[]={0,1.5495198,-0};
+				angles[]={0,1.5495198,0};
 			};
 			side="Empty";
 			flags=1;
@@ -32933,7 +32933,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
-				init="call{this addAction [""Разблокировать консоль управления(Не доступно)"",OPTRE_Fnc_Menu,[""UNSC_HEV"",""UNSC_DATABASE""]]; this setVariable [""OPTRE_PodsLaunchIn"",-1,true];this setVariable [""OPTRE_PodsLinkedToConsole"",([HEV_0_17,HEV_0_10,HEV_0_1,HEV_0_2,HEV_0_3,HEV_0_4,HEV_0_5,HEV_0_6,HEV_0_7,HEV_0_8,HEV_0_9,HEV_0_10,HEV_0_11,HEV_0_12,HEV_0_13,HEV_0_14,HEV_0_15,HEV_0_16,objNull]- [objNull]),true];}";
+				init="call{this addAction [""Разблокировать консоль управления"",OPTRE_Fnc_Menu,[""UNSC_HEV"",""UNSC_DATABASE""]]; this setVariable [""OPTRE_PodsLaunchIn"",-1,true];this setVariable [""OPTRE_PodsLinkedToConsole"",([HEV_0_17,HEV_0_10,HEV_0_1,HEV_0_2,HEV_0_3,HEV_0_4,HEV_0_5,HEV_0_6,HEV_0_7,HEV_0_8,HEV_0_9,HEV_0_10,HEV_0_11,HEV_0_12,HEV_0_13,HEV_0_14,HEV_0_15,HEV_0_16,objNull]- [objNull]),true];}";
 			};
 			id=13084;
 			type="442_holotable2";
@@ -51444,7 +51444,7 @@ class Mission
 			};
 			id=13878;
 			type="Land_Pliers_F";
-			atlOffset=0.50542641;
+			atlOffset=0.50542736;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -53020,7 +53020,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7080.125,11.481184,1227.875};
-				angles[]={0,3.1414897,-0};
+				angles[]={0,3.1414897,0};
 			};
 			side="Empty";
 			flags=4;
@@ -67790,6 +67790,110 @@ class Mission
 			type="mil_objective";
 			id=15123;
 			atlOffset=44.932503;
+		};
+		class Item865
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7287.875,12.292001,1250.625};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=15125;
+			type="JLTS_Ammobox_weapons_special_GAR";
+			atlOffset=3.1471252e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_arsenal_attribute";
+					expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""SWLW_westar35c"",""JLTS_DC15X""],[1,1]],[[""SWLW_westar35c_Mag"",""JLTS_DC15X_mag""],[5,5]],[[""JLTS_DC15X_scope""],[1]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item866
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7058.9995,12.875234,1219.7632};
+				angles[]={0,4.3109636,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=15128;
+			type="442_data_pad_pinup_helena1";
+			atlOffset=1.2207842;
 		};
 	};
 };
