@@ -24,7 +24,6 @@ class Curators
         ,"76561198160053406"//Oni (Event)
         ,"76561198046918009"//Shotgun (Event)
         ,"76561198093467695"//Nelson (Event) - ARS
-        ,"76561198341622503"//Draxler (Event)
         ,"76561198102983006"//liming (Event)
         ,"76561198335619075"//Anvil (Event)
         ,"76561198194246470"//Bluber (Event)
