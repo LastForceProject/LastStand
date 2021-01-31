@@ -84,14 +84,14 @@ class MainSpawn
 			"BARC спидер",
 			"ls_ground_barc",
 			"vehicle_count_spawn_5",
-			5,
+			10,
 			"gui_spawner\images\vehicles\barc.paa"
 		}
 	};
 	spawnpoints[] = 
 	{
-		{"Ангар #1",{"angar_spawn_0"},true},
-		{"Ангар #2",{"angar_spawn_1"},true}
+		{"Ангар #1",{"angar_spawn_0"},true}/*,
+		{"Ангар #2",{"angar_spawn_1"},true}*/
 	};
 };
 
@@ -165,5 +165,46 @@ class AirSpawn
 		{"ВПП #2",{"air_spawn_1"},true},
 		{"ВПП #3",{"air_spawn_2"},true},
 		{"ВПП #4",{"air_spawn_3"},true}
+	};
+};
+
+class UkraineSpawn
+{	
+	conditionToAccess = "true";
+
+	vehicles[] = 
+	{
+		{"=====Наземная техника=====","","","","",""},
+		{
+			"Warthog 2ух местный",
+			"OPTRE_M914_RV",
+			"vehicle_count_spawn_2",
+			5,
+		},
+		{
+			"Warthog 4ёх местный",
+			"OPTRE_M12_FAV",
+			"vehicle_count_spawn_1",
+			5,
+		},
+	
+		{
+			"Warthog 8ми местный",
+			"OPTRE_M813_TT",
+			"vehicle_count_spawn_3",
+			5,
+		},
+		{
+			"BARC спидер",
+			"ls_ground_barc",
+			"vehicle_count_spawn_4",
+			10,
+			"gui_spawner\images\vehicles\barc.paa"
+		}
+	};
+	spawnpoints[] = 
+	{
+		{"Точка #1",{"ukraine_spawn_1"},true},
+		{"Точка #2",{"ukraine_spawn_2"},true},
 	};
 };
