@@ -108,8 +108,8 @@ class BigSpawn
 			"big_count_spawn_1",
 			4,
 			"gui_spawner\images\vehicles\av7.paa"
-		},
-		{
+		}
+		/*{
         "HAVw A6 Juggernaut",
 		"3as_Jug",
 		"big_count_spawn_3",
@@ -124,7 +124,7 @@ class BigSpawn
 			"RX200 Артиллерия",
 			"442_rx200_arty",
 			3
-		}
+		}*/
 		
 	};
 	spawnpoints[] = 
