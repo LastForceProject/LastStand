@@ -31,25 +31,24 @@ CHVD_maxView = 5500; // Set maximum view distance (default: 12000)
 CHVD_maxObj = 5500; // Set maximimum object view distance (default: 12000)
 
 if(isServer)then{
-[west,15000,[
-["Land_BagFence_Corner_F",3],
-["Land_BagFence_Round_F",3],
-["Land_BagFence_Short_F",2],
-["Land_BagFence_Long_F",4],
-["Land_fort_bagfence_long",5],
-["Land_fort_bagfence_round",5],
-["Land_fort_bagfence_corner",5],
-["Land_Plank_01_4m_F",2],
-["Land_HBarrierTower_F",25],
-["Land_BagBunker_Large_F",25],
-["Land_HBarrier_5_F",15],
-["Land_Cargo_Patrol_V3_F",20],
-["Land_BagBunker_Small_F",15],
-["Land_Canal_WallSmall_10m_F",15],
-["CamoNet_BLUFOR_big_F",15],
-["Land_HighVoltageColumn_F",15],
-["Land_Research_house_V1_F",15],
-["Land_Cargo_Tower_V1_F",15],
-["Land_BarGate_F",15]
+[west,5000,[
+["3as_Backless_Mortar_Pit_Trench",50],
+["land_3as_Bunker",100],
+["3as_Barricade_2_C_prop",20],
+["3as_Barricade_3_prop",20],
+["3as_Barricade_prop",20],
+["3as_Barricade_Cover_2_Prop",20],
+["3as_Cover2",10],
+["3as_Cover1",10],
+["3as_Barricade_Cover_1_Prop",20],
+["3as_shield_3_prop",20],
+["3as_shield_5_prop",20],
+["3as_shield_1_prop",20],
+["3as_shield_C_prop",20],
+["442_barricade4",20],
+["442_barricade5",20],
+["442_barricade1_rep",20],
+["442_barricade2",20],
+["3as_Backless_Short_Trench",50]
 ]]call acex_fortify_fnc_registerObjects;
 };
