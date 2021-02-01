@@ -84,7 +84,7 @@ class MainSpawn
 			"BARC спидер",
 			"ls_ground_barc",
 			"vehicle_count_spawn_5",
-			5,
+			10,
 			"gui_spawner\images\vehicles\barc.paa"
 		}
 	};
@@ -108,8 +108,8 @@ class BigSpawn
 			"big_count_spawn_1",
 			4,
 			"gui_spawner\images\vehicles\av7.paa"
-		}
-		/*{
+		},
+		{
         "HAVw A6 Juggernaut",
 		"3as_Jug",
 		"big_count_spawn_3",
@@ -124,7 +124,7 @@ class BigSpawn
 			"RX200 Артиллерия",
 			"442_rx200_arty",
 			3
-		}*/
+		}
 		
 	};
 	spawnpoints[] = 
@@ -152,12 +152,12 @@ class AirSpawn
 			"laat_count_spawn_2",
 			1
 		},
-		/*{
+		{
 			"Z95",
 			"3as_Z95_Republic",
 			"z95_count_spawn_1",
 			2
-		},*/
+		},
 	};
 	spawnpoints[] = 
 	{
@@ -165,5 +165,45 @@ class AirSpawn
 		{"ВПП #2",{"air_spawn_1"},true},
 		{"ВПП #3",{"air_spawn_2"},true},
 		{"ВПП #4",{"air_spawn_3"},true}
+	};
+};
+
+class UkrainianSpawn
+{	
+	conditionToAccess = "true";
+
+	vehicles[] = 
+	{
+		{"=====Наземная техника=====","","","","",""},
+		{
+			"Warthog 2ух местный",
+			"OPTRE_M914_RV",
+			"vehicle_count_spawn_1",
+			5,
+		},
+		{
+			"Warthog 4ёх местный",
+			"OPTRE_M12_FAV",
+			"vehicle_count_spawn_2",
+			5,
+		},
+		{
+			"Warthog 8ми местный",
+			"OPTRE_M813_TT",
+			"vehicle_count_spawn_3",
+			5
+		},
+		{
+			"BARC спидер",
+			"ls_ground_barc",
+			"vehicle_count_spawn_4",
+			10,
+			"gui_spawner\images\vehicles\barc.paa"
+		}
+	};
+	spawnpoints[] = 
+	{
+		{"Точка #1",{"ukrainian_spawn_0"},true},
+		{"Точка #2",{"ukrainian_spawn_1"},true}
 	};
 };
