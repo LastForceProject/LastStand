@@ -185,7 +185,7 @@ arsNaimBuy = [] spawn {
 	private _boxes = [ars_naim_buy];
 	{
 	
-		[_x,["SWLW_WestarM5_skope","LW_WestarM5_low_Mag","LW_WestarM5","MEOP_8Rnd_Kraenntel_mag","SWLW_PLX1_AA","MEOP_kishockRifle","MEOP_1Rnd_Kishock_mag","SWLW_E5C","SWLW_E5C_mag","SWLW_plx1_aa_mag","Pipe_aluminium","ls_mandalorian_vizslaCaptan_armor", "ls_mandalorian_vizslaGrunt_armor", "ls_mandalorian_vizslaSergeant_armor", "ls_mandalorian_vizslaCaptan_helmet", "ls_mandalorian_vizslaGrunt_helmet", "ls_mandalorian_vizslaSergeant_helmet","MEOP_9Rnd_GethJav_mag", "MEOP_gethJavRifle", "MEOP_kraenntelRifle", "MEOP_8Rnd_kraenntelRifle_mag", "meop_archise_scope_2", "MEOP_gethJavRifle", "MEOP_9Rnd_GethJav_mag", "SWLW_PLX1_AA", "Pipe_aluminium", "MEOP_kishockRifle", "MEOP_kraenntelRifle", "MEOP_8Rnd_kraenntelRifle_mag", "meop_archise_scope_2"]] call ace_arsenal_fnc_initBox;
+		[_x,["swlw_westarm5_scope","LW_WestarM5_low_Mag","LW_WestarM5","MEOP_8Rnd_Kraenntel_mag","SWLW_PLX1_AA","MEOP_kishockRifle","MEOP_1Rnd_Kishock_mag","SWLW_E5C","SWLW_E5C_mag","SWLW_plx1_aa_mag","Pipe_aluminium","ls_mandalorian_vizslaCaptan_armor", "ls_mandalorian_vizslaGrunt_armor", "ls_mandalorian_vizslaSergeant_armor", "ls_mandalorian_vizslaCaptan_helmet", "ls_mandalorian_vizslaGrunt_helmet", "ls_mandalorian_vizslaSergeant_helmet","MEOP_9Rnd_GethJav_mag", "MEOP_gethJavRifle", "MEOP_kraenntelRifle", "MEOP_8Rnd_kraenntelRifle_mag", "meop_archise_scope_2", "MEOP_gethJavRifle", "MEOP_9Rnd_GethJav_mag", "SWLW_PLX1_AA", "Pipe_aluminium", "MEOP_kishockRifle", "MEOP_kraenntelRifle", "MEOP_8Rnd_kraenntelRifle_mag", "meop_archise_scope_2"]] call ace_arsenal_fnc_initBox;
 		
 	} forEach _boxes;
 };
