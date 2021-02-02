@@ -151,6 +151,29 @@ class AirSpawn
 			"laat_count_spawn_2",
 			1
 		},
+		/*{
+			"Z95",
+			"3as_Z95_Republic",
+			"z95_count_spawn_1",
+			2
+		},*/
+	};
+	spawnpoints[] = 
+	{
+		{"ВПП #1",{"air_spawn_0"},true},
+		{"ВПП #2",{"air_spawn_1"},true},
+		{"ВПП #3",{"air_spawn_2"},true},
+		{"ВПП #4",{"air_spawn_3"},true}
+	};
+};
+
+class Z95Spawn
+{	
+	conditionToAccess = "true";
+
+	vehicles[] = 
+	{
+		{"=====Воздушная техника=====","","","","",""},
 		{
 			"Z95",
 			"3as_Z95_Republic",
@@ -160,10 +183,7 @@ class AirSpawn
 	};
 	spawnpoints[] = 
 	{
-		{"ВПП #1",{"air_spawn_0"},true},
-		{"ВПП #2",{"air_spawn_1"},true},
-		{"ВПП #3",{"air_spawn_2"},true},
-		{"ВПП #4",{"air_spawn_3"},true}
+		{"ВПП #1",{"z95_spawn_1"},true}
 	};
 };
 
