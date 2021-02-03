@@ -143,7 +143,7 @@ class AirSpawn
 			"LAAT/I (Gunship)",
 			"ls_laat_ab",
 			"laat_count_spawn_1",
-			3
+			6
 		},
 		{
 			"LAAT/I Gunship (Medevac)",
@@ -155,7 +155,7 @@ class AirSpawn
 			"Z95",
 			"3as_Z95_Republic",
 			"z95_count_spawn_1",
-			2
+			6
 		},*/
 	};
 	spawnpoints[] = 
