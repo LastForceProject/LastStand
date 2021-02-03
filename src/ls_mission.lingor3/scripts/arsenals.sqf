@@ -68,15 +68,25 @@ ars501 = [] spawn // каблуки фульфа
 	} forEach _boxes;
 };
 
-ars127 = [] spawn // Летадло купил, а ездить не купил
+ars127 = [] spawn // каблуки фульфа
 {
 	_boxes = [ars_127];
 	{
 	_box = _x;
 	[_box,
-	["SWLB_P1_Pilot_Helmet_ATTE","SWLB_CEE_74th_Trooper_Helmet","SWLA_Ghost_RTO_Backpack","k_scout_pouches_medium","SWLB_clone_74thTrooper_Uniform","SWLA_74th_Cadet_Uniform","SWLA_74th_EODCadet_Uniform","SWLA_74th_Senior_Uniform","SWLA_74th_Sergeant_Uniform","SWLA_74th_Commander_Uniform","SWLB_CEE_P1_Visor","SWLB_clone_commander_binocular_night","SWLB_clone_commander_binocular_night","SWLB_clone_binocular","ItemMap","ItemGPS","SWLB_comlink","ItemCompass","ItemWatch,"ACE_Altimeter","ACE_epinephrine","ACE_EarPlugs","ACE_WaterBottle","ACE_Humanitarian_Ration","ACE_IR_Strobe_Item","ACE_MapTools","ToolKit","ACE_morphine","ACE_bodyBag","ACE_bloodIV_500","ACE_bloodIV_250","ACE_bloodIV","ACE_quikclot","ACE_elasticBandage","ACE_fieldDressing","ACE_EntrenchingTool","ACE_packingBandage","ACE_salineIV","ACE_salineIV_250","ACE_salineIV_500","ACE_splint","ACE_adenosine","ACE_tourniquet","ACE_CableTie","ACE_rope36","ACE_plasmaIV","ACE_plasmaIV_250","ACE_plasmaIV_500","3as_optic_red_dc15a","acc_pointer_ir","acc_flashlight","3AS_45Rnd_EC50_Mag","jlts_dc17sa_flashlight","JLTS_DC17SA_mag","3AS_DC15A_F","JLTS_DC17SA","ACE_HandFlare_White","ACE_HandFlare_Yellow","ACE_HandFlare_Green","ACE_HandFlare_Red","SmokeShell","SmokeShellGreen","SmokeShellRed","SmokeShellRed","SmokeShellOrange","SmokeShellPurple","SmokeShellBlue","SmokeShellYellow","SWLW_beltGrenade_mag"]] call ace_arsenal_fnc_initBox;
+	["SWLB_P1_Pilot_Helmet_ATTE","SWLB_CEE_74th_Trooper_Helmet","SWLA_Ghost_RTO_Backpack","k_scout_pouches_medium","SWLB_clone_74thTrooper_Uniform","SWLA_74th_Cadet_Uniform","SWLA_74th_EODCadet_Uniform","SWLA_74th_Senior_Uniform","SWLA_74th_Sergeant_Uniform","SWLA_74th_Commander_Uniform","SWLB_CEE_P1_Visor","SWLB_clone_commander_binocular_night","SWLB_clone_binocular","ItemMap","ItemGPS","SWLB_comlink","ItemCompass","ItemWatch"," ACE_Altimeter","ACE_epinephrine","ACE_EarPlugs","ACE_WaterBottle","ACE_Humanitarian_Ration","ACE_IR_Strobe_Item","ACE_MapTools","ToolKit","ACE_morphine","ACE_bodyBag","ACE_bloodIV_500","ACE_bloodIV_250","ACE_bloodIV","ACE_quikclot","ACE_elasticBandage","ACE_fieldDressing","ACE_EntrenchingTool","ACE_packingBandage","ACE_salineIV","ACE_salineIV_250","ACE_salineIV_500","ACE_splint","ACE_adenosine","ACE_tourniquet","ACE_CableTie","ACE_rope36","ACE_plasmaIV","ACE_plasmaIV_250","ACE_plasmaIV_500","3as_optic_red_dc15a","acc_pointer_ir","acc_flashlight","3AS_45Rnd_EC50_Mag","jlts_dc17sa_flashlight","JLTS_DC17SA_mag","3AS_DC15A_F","JLTS_DC17SA","ACE_HandFlare_White","ACE_HandFlare_Yellow","ACE_HandFlare_Green","ACE_HandFlare_Red","SmokeShell","SmokeShellGreen","SmokeShellRed","SmokeShellOrange","SmokeShellPurple","SmokeShellBlue","SmokeShellYellow","SWLW_beltGrenade_mag"]] call ace_arsenal_fnc_initBox;
 	} forEach _boxes;
 };
+
+// ars127 = [] spawn // Летадло купил, а ездить не купил
+// {
+// 	_boxes = [ars_127];
+// 	{
+// 	_box = _x;
+// 	[_box,
+// 	["SWLB_P1_Pilot_Helmet_ATTE","SWLB_CEE_74th_Trooper_Helmet","SWLA_Ghost_RTO_Backpack","k_scout_pouches_medium","SWLB_clone_74thTrooper_Uniform","SWLA_74th_Cadet_Uniform","SWLA_74th_EODCadet_Uniform","SWLA_74th_Senior_Uniform","SWLA_74th_Sergeant_Uniform","SWLA_74th_Commander_Uniform","SWLB_CEE_P1_Visor","SWLB_clone_commander_binocular_night","SWLB_clone_commander_binocular_night","SWLB_clone_binocular","ItemMap","ItemGPS","SWLB_comlink","ItemCompass","ItemWatch,"ACE_Altimeter","ACE_epinephrine","ACE_EarPlugs","ACE_WaterBottle","ACE_Humanitarian_Ration","ACE_IR_Strobe_Item","ACE_MapTools","ToolKit","ACE_morphine","ACE_bodyBag","ACE_bloodIV_500","ACE_bloodIV_250","ACE_bloodIV","ACE_quikclot","ACE_elasticBandage","ACE_fieldDressing","ACE_EntrenchingTool","ACE_packingBandage","ACE_salineIV","ACE_salineIV_250","ACE_salineIV_500","ACE_splint","ACE_adenosine","ACE_tourniquet","ACE_CableTie","ACE_rope36","ACE_plasmaIV","ACE_plasmaIV_250","ACE_plasmaIV_500","3as_optic_red_dc15a","acc_pointer_ir","acc_flashlight","3AS_45Rnd_EC50_Mag","jlts_dc17sa_flashlight","JLTS_DC17SA_mag","3AS_DC15A_F","JLTS_DC17SA","ACE_HandFlare_White","ACE_HandFlare_Yellow","ACE_HandFlare_Green","ACE_HandFlare_Red","SmokeShell","SmokeShellGreen","SmokeShellRed","SmokeShellRed","SmokeShellOrange","SmokeShellPurple","SmokeShellBlue","SmokeShellYellow","SWLW_beltGrenade_mag"]] call ace_arsenal_fnc_initBox;
+// 	} forEach _boxes;
+// };
 
 // arscerber = [] spawn // cerber
 // {
@@ -100,7 +110,7 @@ ars127 = [] spawn // Летадло купил, а ездить не купил
 
 arsRC = [] spawn // Жирничы
 {
-	_boxes = [ars_rc_1, ars_rc_2, ars_rc_3];
+	_boxes = [ars_rc];
 	{
 	_box = _x;
 	[_box,
@@ -110,7 +120,7 @@ arsRC = [] spawn // Жирничы
 
 arsARF = [] spawn // 
 {
-	_boxes = [ars_arf_1, ars_arf_2, ars_arf_3];
+	_boxes = [ars_arf];
 	{
 	_box = _x;
 	[_box,
@@ -120,7 +130,7 @@ arsARF = [] spawn //
 
 arsARC = [] spawn // 
 {
-	_boxes = [ars_arc_1, ars_arc_2, ars_arc_3];
+	_boxes = [ars_arc];
 	{
 	_box = _x;
 	[_box,
