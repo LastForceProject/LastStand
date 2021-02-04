@@ -86,6 +86,24 @@ class MainSpawn
 			"vehicle_count_spawn_5",
 			10,
 			"gui_spawner\images\vehicles\barc.paa"
+		},
+		{
+			"Транспортник - Накрытый",
+			"442_argon_covered",
+			"vehicle_count_spawn_6",
+			5
+		},
+		{
+			"Транспортник - Обычный",
+			"442_argon_transport",
+			"vehicle_count_spawn_7",
+			5
+		},
+		{
+			"Транспортник - Оружейный",
+			"442_argon_ammo",
+			"vehicle_count_spawn_8",
+			2
 		}
 	};
 	spawnpoints[] = 
