@@ -714,8 +714,8 @@ cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
 // CBA Weapons
-cba_disposable_dropUsedLauncher = 0;
-force force cba_disposable_replaceDisposableLauncher = false;
+cba_disposable_dropUsedLauncher = 2;
+force force cba_disposable_replaceDisposableLauncher = true;
 cba_events_repetitionMode = 2;
 cba_optics_usePipOptics = false;
 
