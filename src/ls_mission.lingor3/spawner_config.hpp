@@ -196,7 +196,7 @@ class Z95Spawn
 			"Z95",
 			"3as_Z95_Republic",
 			"z95_count_spawn_1",
-			2
+			6
 		},
 	};
 	spawnpoints[] = 
