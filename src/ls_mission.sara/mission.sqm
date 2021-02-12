@@ -8,18 +8,18 @@ class EditorData
 	toggles=558;
 	class ItemIDProvider
 	{
-		nextID=1198;
+		nextID=1205;
 	};
 	class LayerIndexProvider
 	{
-		nextID=48;
+		nextID=61;
 	};
 	class Camera
 	{
-		pos[]={2534.011,17.304283,2849.0186};
-		dir[]={-0.058472335,-0.11770778,0.99144566};
-		up[]={-0.0069364072,0.99301732,0.11761913};
-		aside[]={0.99835986,2.4023757e-007,0.05888091};
+		pos[]={2334.3052,74.630936,2794.7791};
+		dir[]={0.8755666,-0.43526155,-0.20964836};
+		up[]={0.42330089,0.90029866,-0.10135668};
+		aside[]={-0.23286238,2.0358129e-008,-0.97251731};
 	};
 };
 binarizationWanted=0;
@@ -120,13 +120,14 @@ addons[]=
 	"acex_field_rations",
 	"A3_Structures_F_Civ_Accessories",
 	"CUP_CAStructures_E_Misc_Misc_Market",
-	"ls_acclamator"
+	"ls_acclamator",
+	"A3_Modules_F_Curator_Curator"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=78;
+		items=79;
 		class Item0
 		{
 			className="A3_Props_F_Exp_A";
@@ -613,6 +614,13 @@ class AddonsMetaData
 			name="ls_acclamator";
 			author="kripto202";
 		};
+		class Item78
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=2766732;
@@ -717,7 +725,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=716;
+		items=721;
 		class Item0
 		{
 			dataType="Layer";
@@ -5200,8 +5208,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2499.875,26.240921,2910.875};
-				angles[]={0,4.7317667,0};
+				position[]={2495,26.240921,2910.875};
+				angles[]={0,0.83969975,-0};
 			};
 			side="Empty";
 			flags=5;
@@ -5211,7 +5219,7 @@ class Mission
 			};
 			id=127;
 			type="Land_MEOP_build_Colony_satDish";
-			atlOffset=0.022963524;
+			atlOffset=-0.0034303665;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10376,7 +10384,7 @@ class Mission
 			text="RS";
 			type="mil_box";
 			colorName="ColorWhite";
-			angle=179.99994;
+			angle=179.99992;
 			id=264;
 			atlOffset=2.3387508;
 		};
@@ -10388,7 +10396,7 @@ class Mission
 			text="501";
 			type="mil_box";
 			colorName="ColorBlue";
-			angle=179.99994;
+			angle=179.99992;
 			id=265;
 			atlOffset=2.2804489;
 		};
@@ -10400,7 +10408,7 @@ class Mission
 			text="16";
 			type="mil_box";
 			colorName="ColorBrown";
-			angle=179.99994;
+			angle=179.99992;
 			id=266;
 			atlOffset=2.4055424;
 		};
@@ -10412,7 +10420,7 @@ class Mission
 			text="Void";
 			type="mil_box";
 			colorName="ColorBlack";
-			angle=179.99994;
+			angle=179.99992;
 			id=267;
 			atlOffset=2.0778255;
 		};
@@ -10424,7 +10432,7 @@ class Mission
 			text="327";
 			type="mil_box";
 			colorName="ColorYellow";
-			angle=179.99994;
+			angle=179.99992;
 			id=268;
 			atlOffset=1.3285294;
 		};
@@ -10436,7 +10444,7 @@ class Mission
 			text="41";
 			type="mil_box";
 			colorName="ColorGreen";
-			angle=179.99994;
+			angle=179.99992;
 			id=269;
 			atlOffset=2.1993408;
 		};
@@ -10504,7 +10512,7 @@ class Mission
 			text="Кадетка";
 			type="mil_box";
 			colorName="ColorCIV";
-			angle=90.000023;
+			angle=90.000015;
 			id=275;
 			atlOffset=9.3727427;
 		};
@@ -10516,7 +10524,7 @@ class Mission
 			text="Карцер";
 			type="mil_box";
 			colorName="ColorUNKNOWN";
-			angle=90.000023;
+			angle=90.000015;
 			id=276;
 			atlOffset=8.9526453;
 		};
@@ -28491,17 +28499,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2500.7976,20.270517,2898.3701};
+				position[]={2493.75,19.895517,2892.75};
 				angles[]={0,1.553365,0};
 			};
 			side="Empty";
-			flags=1;
+			flags=5;
 			class Attributes
 			{
 			};
 			id=895;
 			type="3as_FOB_Light_Tall_Prop";
-			atlOffset=0.28167343;
+			atlOffset=0.0098304749;
 		};
 		class Item486
 		{
@@ -39437,6 +39445,269 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item716
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2519.25,19.895517,2892.75};
+				angles[]={0,1.5533605,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1198;
+			type="3as_FOB_Light_Tall_Prop";
+			atlOffset=-0.027299881;
+		};
+		class Item717
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2518.5,14.962385,2892.75};
+				angles[]={0,1.5707964,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1199;
+			type="3as_FOB_Banner_prop";
+			atlOffset=0.050000191;
+		};
+		class Item718
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2494.25,15.012785,2892.75};
+				angles[]={0,4.7123976,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1200;
+			type="3as_FOB_Banner_prop";
+			atlOffset=0.031673431;
+		};
+		class Item719
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2502.5691,19.987291,2902.75};
+				angles[]={0,1.5533605,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1201;
+			type="3as_FOB_Light_Tall_Prop";
+			atlOffset=0.086999893;
+		};
+		class Item720
+		{
+			dataType="Layer";
+			name="zeusadmin";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={-1721.6936,0.047801662,21436.928};
+					};
+					name="admin1";
+					id=1203;
+					type="ModuleCurator_F";
+					atlOffset=70.067795;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ModuleCurator_F_Owner";
+							expression="_this setVariable ['Owner',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="#adminLogged";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ModuleCurator_F_Forced";
+							expression="_this setVariable ['Forced',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ModuleCurator_F_Name";
+							expression="_this setVariable ['Name',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ModuleCurator_F_Addons";
+							expression="_this setVariable ['Addons',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+				class Item1
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={-1347.5,0,21154.75};
+					};
+					name="admin2";
+					id=1202;
+					type="ModuleCurator_F";
+					atlOffset=70.019997;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ModuleCurator_F_Owner";
+							expression="_this setVariable ['Owner',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="#adminLogged";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ModuleCurator_F_Forced";
+							expression="_this setVariable ['Forced',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ModuleCurator_F_Name";
+							expression="_this setVariable ['Name',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ModuleCurator_F_Addons";
+							expression="_this setVariable ['Addons',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			id=1204;
+			atlOffset=70.0439;
 		};
 	};
 };
