@@ -854,3 +854,6 @@ force force REPCOM_SHIELD_REGEN = 0.4;
 force force REPCOM_SHIELD_REGEN_AI = 0.4;
 force force REPCOM_SHOW_ACTIVATE = true;
 force force REPCOM_SHOW_DEACTIVATE = false;
+
+// Жидовская штучка
+IMS_BluntWeapon = true;
