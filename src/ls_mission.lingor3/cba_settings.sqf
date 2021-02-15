@@ -856,4 +856,4 @@ force force REPCOM_SHOW_ACTIVATE = true;
 force force REPCOM_SHOW_DEACTIVATE = false;
 
 // Жидовская штучка
-IMS_BluntWeapon = true;
+force force IMS_BluntWeapon = true;
