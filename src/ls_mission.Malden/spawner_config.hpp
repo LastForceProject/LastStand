@@ -198,6 +198,12 @@ class Z95Spawn
 			"z95_count_spawn_1",
 			6
 		},
+		{
+			"V19",
+			"lsd_air_v19",
+			"z95_count_spawn_2",
+			3
+		},
 	};
 	spawnpoints[] = 
 	{
