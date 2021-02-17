@@ -14,7 +14,6 @@ class Curators
 		,"76561198053534432"//Marr (Glavniy_RP_Nabl)
         ,"76561198077225328"//Mazafaker (Сur_jedi)
 		,"76561198351130485"//Буба (Сur_Naim)
-        ,"76561198920070747"//Quantos (CURATOR_BSO)
         ,"76561198166050664"//Foxxy (Curator_Event v2.0) 
         ,"76561198209489483"//Ars (Curator_Event)
         ,"76561198446980244"//Хозяйственное_MbIJIO  (Event)
