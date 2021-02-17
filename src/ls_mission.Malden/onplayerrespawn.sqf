@@ -127,11 +127,4 @@ cutText ["","BLACK IN",1];
 disableUserInput false;
 disableUserInput true;
 disableUserInput false;
-
-
-
-_tp_pos_w = getposASL w; 
-_tp_pos_g = getposASL g; 
-if (side player == resistance) then { player setposASL _tp_pos_g}; 
-if (side player == west) then { player setposASL _tp_pos_w}; 
 hintsilent "Напоминание: НЛР 5 минут, тяжелые ранения";
