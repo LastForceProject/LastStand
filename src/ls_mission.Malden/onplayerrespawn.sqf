@@ -54,6 +54,7 @@ player setVariable ["Last_Jump", 0, true];
 player addAction ["<t color='#00FF00'>Прыгнуть</t>", "[] execVM 'scripts\fn_jump.sqf'", [], 6, false, true,"User11","((vehicle player == player) && (uniform player in UsableUniformsJump))"];
 
 UniformList = [
+    "RC_Nemesis_Uniform_Tech","RC_Nemesis_Uniform_Scroll","RC_Nemesis_Uniform_Gordon","RC_Nemesis_Uniform_EOD",
 	"RC_Uniform","RC_Uniform_13","SWLB_CEE_Gregor_Uniform",
 	"RC_Solus_Uniform_47","RC_Solus_Uniform_66","RC_Solus_Uniform_Forest","RC_Solus_Uniform_Sand","RC_Solus_Uniform_Clever","RC_Solus_Uniform_Tox",
 	"RC_AiwhaDikut_Uniform","RC_AiwhaSarge_Uniform","RC_AiwhaTyto_Uniform","RC_AiwhaZag_Uniform",
@@ -127,4 +128,11 @@ cutText ["","BLACK IN",1];
 disableUserInput false;
 disableUserInput true;
 disableUserInput false;
+
+
+
+_tp_pos_w = getposASL w; 
+_tp_pos_g = getposASL g; 
+if (side player == resistance) then { player setposASL _tp_pos_g}; 
+if (side player == west) then { player setposASL _tp_pos_w}; 
 hintsilent "Напоминание: НЛР 5 минут, тяжелые ранения";
