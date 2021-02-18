@@ -204,6 +204,12 @@ class Z95Spawn
 			"z95_count_spawn_2",
 			3
 		},
+		{
+			"[Jedi] Aircar",
+			"MEOP_veh_aerocar_MercBlue",
+			"z95_count_spawn_3",
+			3
+		},
 	};
 	spawnpoints[] = 
 	{
