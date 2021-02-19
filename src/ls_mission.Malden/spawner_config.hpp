@@ -210,6 +210,12 @@ class Z95Spawn
 			"z95_count_spawn_3",
 			3
 		},
+		{
+			"[Jedi] Codiak",
+			"MEOP_veh_kodiakArm_old_blue",
+			"z95_count_spawn_4",
+			2
+		},
 	};
 	spawnpoints[] = 
 	{
