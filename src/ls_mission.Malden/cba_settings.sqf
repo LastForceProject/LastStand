@@ -861,4 +861,4 @@ force force IMS_BluntWeapon = true;
 // ТаскФорс фикс и фишка
 force force TFAR_voiceCone = false;
 force force TFAR_allowDebugging = false;
-force force TFAR_AlCanHearPlayer = true;
+force force TFAR_AICanHearPlayer = true;
