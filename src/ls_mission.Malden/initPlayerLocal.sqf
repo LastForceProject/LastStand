@@ -32,23 +32,6 @@ z6_notSuck = [player] spawn
 	}
 };
 
-SquadShield = [player] spawn 
-{
-	while {true} do 
-	{
-		_nameplayer = name player; 
-		if (_nameplayer find "|G" !=-1) then {} 
-		else 
-		{
-			if (("SW_SquadShield_Mag" in (backpackItems player)) or ("SW_SquadShield_Mag" in (vestItems player)) or ("SW_SquadShield_Mag" in (uniformItems player))) 
-			then 
-			{
-				player removeItem "SW_SquadShield_Mag";
-			}
-		}
-	}
-};
-
 RC_ARC_power = [player] spawn 
 {
 	while {true} do 
@@ -85,4 +68,68 @@ player setVariable ["Heal_Used",0,true];
 player setVariable ["Last_Used",0,true];
 player addAction ["<t color='#2ECC71'> Использовать бакту </t>", "[] execVM 'scripts\fn_bacta.sqf'", [], -1, false, true,"User10", "((uniform player in UniformList) && ('ACE_personalAidKit' in (items _this)))"];
 
+waitUntil {player == player};
+waitUntil{!isNull player};
+waituntil {!isnull (finddisplay 46)};
+sleep 10; // Обязательно ждём пока мили система загрузиться и уже после меняем функцию.
+SW_AdditionalDamage = {
+_unitToPlay = _this select 0;
+if (lifeState _unitToPlay == "INCAPACITATED") exitWith {};
+_var = player getVariable "IMS_LaF_ShotsToTakeOutOneGuy";
+_var = _var - 1;
+hintSilent str _var;
+if (_var <= 0) exitWith {
+[_unitToPlay, 0.1, "body", "bullet"] remoteExec ["ace_medical_fnc_addDamageToUnit", _unitToPlay];
+[_unitToPlay, true] remoteExec ["ace_medical_fnc_setUnconscious", _unitToPlay];
+};
+player setVariable ["IMS_LaF_ShotsToTakeOutOneGuy",_var,true];
+}; 
+
+
+
+if (typeOf player == "B_recon_F") exitWith { 
+player setVariable ["IMS_LaF_ShotsToTakeOutOneGuy",25,true]; ///Падаван
+removeAllWeapons player;
+removeAllItems player;
+removeAllAssignedItems player;
+removeVest player;
+removeBackpack player;
+removeHeadgear player;
+removeGoggles player;
+player forceAddUniform "SS_JEDIBA_U";
+};
+if (typeOf player == "B_recon_medic_F") exitWith { 
+player setVariable ["IMS_LaF_ShotsToTakeOutOneGuy",50,true]; ///Рыцарь
+player setVariable ["LaF_HitCountToKill",2,true];
+removeAllWeapons player;
+removeAllItems player;
+removeAllAssignedItems player;
+removeVest player;
+removeBackpack player;
+removeHeadgear player;
+removeGoggles player;
+player forceAddUniform "SS_JEDIBA_U";
+};
+if (typeOf player == "B_sniper_F") exitWith { 
+player setVariable ["IMS_LaF_ShotsToTakeOutOneGuy",100,true]; ///Мастер
+player setVariable ["LaF_HitCountToKill",3,true];
+removeAllWeapons player;
+removeAllItems player;
+removeAllAssignedItems player;
+removeVest player;
+removeBackpack player;
+removeHeadgear player;
+removeGoggles player;
+player forceAddUniform "SS_JEDIBA_U";
+};
+if (typeOf player == "I_Soldier_AR_F") exitWith { 
+player setVariable ["IMS_LaF_ShotsToTakeOutOneGuy",100,true]; ///Серые джедаи
+player setVariable ["LaF_HitCountToKill",3,true];
+};
+if (typeOf player == "I_Soldier_M_F") exitWith { 
+player setVariable ["IMS_LaF_ShotsToTakeOutOneGuy",150,true]; /// Кредо-Данжен-Мастер
+player setVariable ["LaF_HitCountToKill",5,true];
+player addWeapon "LFP_lightsaber";
+player addWeapon "LFP_lightsaber_Second";
+};
 
