@@ -41,12 +41,15 @@ _reserved_uids_jedi =
 "76561198801222573",//Valeska
 "76561198166448129",//Kira
 "76561198102983006",//Joker
-"76561198309313248"//Thorin
+"76561198309313248",//Thorin
+"76561198084192447",//Irai
+"	76561198136308916"//Gorza
 ];
 _reserved_uids_jedi_g = [
 "76561198053534432",//Marr (XUI KREDO VO RTU)
 "76561198150488400",//Mephisto(Svez)
-"76561198045507912"//August(Dolbaeb blyat)
+"76561198045507912",//August(Dolbaeb blyat)
+"76561199028516754"//Desire
 ];
 _reserved_uid_kredo = [
 "76561198121927537"//Kredo
