@@ -26,7 +26,6 @@ class Curators
         ,"76561198341622503"//Draxler (Event)
         ,"76561198102983006"//liming (Event)
         ,"76561198335619075"//Anvil (Event)
-        ,"76561198194246470"//Bluber (Event)
 		,"76561198796417870"//German (Event)
         ,"76561198139144056"//Farsight (Event) 
         ,"76561198130795873"//Silv (Event)
