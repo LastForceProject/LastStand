@@ -8,18 +8,18 @@ class EditorData
 	toggles=106;
 	class ItemIDProvider
 	{
-		nextID=4048;
+		nextID=4062;
 	};
 	class LayerIndexProvider
 	{
-		nextID=354;
+		nextID=376;
 	};
 	class Camera
 	{
-		pos[]={1064.0398,19.196619,707.79028};
-		dir[]={-0.91789031,-0.35164717,-0.18437751};
-		up[]={-0.34482196,0.93610525,-0.06926436};
-		aside[]={-0.19694912,-1.3591489e-007,0.98049051};
+		pos[]={865.27692,36.651569,12140.286};
+		dir[]={-0.76435423,-0.62490749,0.15969338};
+		up[]={-0.61173505,0.78066438,0.12780958};
+		aside[]={0.20454089,2.2828171e-006,0.97898209};
 	};
 };
 binarizationWanted=0;
@@ -826,7 +826,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=800;
+		items=805;
 		class Item0
 		{
 			dataType="Layer";
@@ -12303,7 +12303,7 @@ class Mission
 					name="capsule";
 					class Entities
 					{
-						items=7;
+						items=15;
 						class Item0
 						{
 							dataType="Object";
@@ -12316,7 +12316,7 @@ class Mission
 							flags=1;
 							class Attributes
 							{
-								init="call{this addAction [""Разблокировать консоль управления"",OPTRE_Fnc_Menu,[""UNSC_HEV"",""UNSC_DATABASE""]]; this setVariable [""OPTRE_PodsLaunchIn"",-1,true];this setVariable [""OPTRE_PodsLinkedToConsole"",([HEV_0_1,HEV_0_2,HEV_0_3,HEV_0_4,HEV_0_5,HEV_0_6,objNull]- [objNull]),true];}";
+								init="call{this addAction [""Разблокировать консоль управления"",OPTRE_Fnc_Menu,[""UNSC_HEV"",""UNSC_DATABASE""]]; this setVariable [""OPTRE_PodsLaunchIn"",-1,true];this setVariable [""OPTRE_PodsLinkedToConsole"",([HEV_0_1,HEV_0_2,HEV_0_3,HEV_0_4,HEV_0_5,HEV_0_6,HEV_0_7,HEV_0_8,HEV_0_9,HEV_0_10,HEV_0_11,HEV_0_12,HEV_0_13,HEV_0_14,objNull]- [objNull]),true];}";
 							};
 							id=3017;
 							type="OPTRE_RS_ConsoleDoor";
@@ -12432,7 +12432,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={854.35034,30.678255,12143.349};
+								position[]={854.33698,30.678255,12143.542};
 								angles[]={0,4.4607868,0};
 							};
 							side="Empty";
@@ -12514,7 +12514,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={855.13458,30.678255,12140.494};
+								position[]={855.09229,30.678255,12140.767};
 								angles[]={0,4.4607868,0};
 							};
 							side="Empty";
@@ -12555,7 +12555,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={853.6377,30.678255,12146.062};
+								position[]={853.5918,30.678255,12146.231};
 								angles[]={0,4.4607868,0};
 							};
 							side="Empty";
@@ -12591,13 +12591,347 @@ class Mission
 								nAttributes=1;
 							};
 						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={850.65179,30.705326,12137.119};
+								angles[]={0,1.3366364,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_7";
+							};
+							id=4051;
+							type="OPTRE_HEV";
+							atlOffset=0.026695251;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={851.76947,30.705326,12131.85};
+								angles[]={0,1.3366364,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_8";
+							};
+							id=4052;
+							type="OPTRE_HEV";
+							atlOffset=0.026695251;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={851.1391,30.705326,12134.695};
+								angles[]={0,1.3366364,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_9";
+							};
+							id=4053;
+							type="OPTRE_HEV";
+							atlOffset=0.026695251;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={856.72205,30.705324,12133.066};
+								angles[]={0,4.4956827,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_10";
+							};
+							id=4055;
+							type="OPTRE_HEV";
+							atlOffset=0.026695251;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={855.58868,30.705324,12138.323};
+								angles[]={0,4.4956827,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_11";
+							};
+							id=4056;
+							type="OPTRE_HEV";
+							atlOffset=0.026695251;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={856.07086,30.705324,12135.808};
+								angles[]={0,4.4956827,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_12";
+							};
+							id=4057;
+							type="OPTRE_HEV";
+							atlOffset=0.026695251;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={852.43872,30.678631,12129.491};
+								angles[]={0,1.3191836,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_13";
+							};
+							id=4058;
+							type="OPTRE_HEV";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={857.37189,30.678629,12130.625};
+								angles[]={0,4.4956827,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="this setVariable [""OPTRE_PlayerControled"",true,true];	this animate [""main_door_rotation"",1]; this animate [""left_door_rotation"",1]; this animate [""right_door_rotation"",1];";
+								name="HEV_0_14";
+							};
+							id=4059;
+							type="OPTRE_HEV";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
 					};
 					id=3016;
-					atlOffset=0.68159103;
+					atlOffset=0.0065670013;
 				};
 			};
 			id=3015;
-			atlOffset=0.68159103;
+			atlOffset=0.0065670013;
 		};
 		class Item147
 		{
@@ -15831,8 +16165,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={856.04755,31.335443,12140.026};
-				angles[]={0,2.9074354,0};
+				position[]={858.8277,31.358637,12128.695};
+				angles[]={0,2.9248888,0};
 			};
 			side="Empty";
 			class Attributes
@@ -15841,7 +16175,7 @@ class Mission
 			};
 			id=3116;
 			type="3as_prop_fob_sh_wall_corner";
-			atlOffset=0.65544319;
+			atlOffset=0.67863655;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15871,7 +16205,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={849.6651,31.335443,12137.647};
+				position[]={853.56226,31.309841,12126.693};
 				angles[]={0,1.3366379,0};
 			};
 			side="Empty";
@@ -15881,7 +16215,7 @@ class Mission
 			};
 			id=3117;
 			type="3as_prop_fob_sh_wall_short";
-			atlOffset=0.65544319;
+			atlOffset=0.62984085;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18775,7 +19109,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={849.2757,31.335443,12137.581};
+				position[]={851.7984,31.335443,12126.254};
 				angles[]={0,1.3366379,0};
 			};
 			side="Empty";
@@ -47748,6 +48082,176 @@ class Mission
 			};
 			id=4021;
 			atlOffset=0.0001373291;
+		};
+		class Item800
+		{
+			dataType="Marker";
+			position[]={16225.775,0.0020000001,12086.621};
+			name="marker_32";
+			text="ПБР - Цербер";
+			type="mil_objective";
+			id=4048;
+			atlOffset=69.927078;
+		};
+		class Item801
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={857.22937,31.36236,12139.155};
+				angles[]={0,2.9074354,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=4049;
+			type="3as_prop_fob_sh_wall_long";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item802
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={850.96985,31.36236,12151.214};
+				angles[]={0,4.4258709,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=4054;
+			type="3as_prop_fob_sh_wall_short";
+			atlOffset=0.6823597;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item803
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={858.14618,31.36236,12135.448};
+				angles[]={0,2.9074354,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=4060;
+			type="3as_prop_fob_sh_wall_long";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item804
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={859.0451,31.36236,12131.694};
+				angles[]={0,2.9074354,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=4061;
+			type="3as_prop_fob_sh_wall_long";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
