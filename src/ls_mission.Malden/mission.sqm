@@ -1,4 +1,4 @@
-version=53;
+version=54;
 class EditorData
 {
 	moveGridStep=1;
@@ -12,17 +12,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=376;
+		nextID=398;
 	};
 	class Camera
 	{
-		pos[]={865.27692,36.651569,12140.286};
-		dir[]={-0.76435423,-0.62490749,0.15969338};
-		up[]={-0.61173505,0.78066438,0.12780958};
-		aside[]={0.20454089,2.2828171e-006,0.97898209};
+		pos[]={861.50562,33.427917,12148.681};
+		dir[]={-0.91690028,-0.28771967,-0.27705407};
+		up[]={-0.27552652,0.95767236,-0.083251499};
+		aside[]={-0.289276,-4.2344618e-007,0.95736939};
 	};
 };
 binarizationWanted=0;
+sourceName="ls_mission";
 addons[]=
 {
 	"MEOP_st_objectsCol",
@@ -826,7 +827,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=805;
+		items=804;
 		class Item0
 		{
 			dataType="Layer";
@@ -48138,46 +48139,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={850.96985,31.36236,12151.214};
-				angles[]={0,4.4258709,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=4054;
-			type="3as_prop_fob_sh_wall_short";
-			atlOffset=0.6823597;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item803
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={858.14618,31.36236,12135.448};
 				angles[]={0,2.9074354,0};
 			};
@@ -48213,7 +48174,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item804
+		class Item803
 		{
 			dataType="Object";
 			class PositionInfo
