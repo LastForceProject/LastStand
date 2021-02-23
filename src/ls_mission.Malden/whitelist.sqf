@@ -44,6 +44,7 @@ _reserved_uids_jedi =
 "76561198309313248",//Thorin
 "76561198084192447",//Irai
 "	76561198136308916"//Gorza
+"76561198058754300",//Zig Stroi
 ];
 _reserved_uids_jedi_g = [
 "76561198053534432",//Marr (XUI KREDO VO RTU)
