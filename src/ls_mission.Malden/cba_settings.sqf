@@ -859,6 +859,6 @@ force force REPCOM_SHOW_DEACTIVATE = false;
 force force IMS_BluntWeapon = true;
 
 // ТаскФорс фикс и фишка
-force force TFAR_voiceCone = false;
-force force TFAR_allowDebugging = false;
-force force TFAR_AICanHearPlayer = true;
+TFAR_voiceCone = false;
+TFAR_allowDebugging = false;
+TFAR_AICanHearPlayer = true;

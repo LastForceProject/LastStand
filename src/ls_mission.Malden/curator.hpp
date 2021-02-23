@@ -20,7 +20,6 @@ class Curators
         ,"76561198247446122"//КапитанБля (Event) - ARS
         ,"76561198062589102"//Doki Dok (Event)
         ,"76561198160053406"//Oni (Event)
-        ,"76561198046918009"//Shotgun (Event)
         ,"76561198093467695"//Nelson (Event) - ARS
         ,"76561198341622503"//Draxler (Event)
         ,"76561198102983006"//liming (Event)
