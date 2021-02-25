@@ -1,4 +1,4 @@
-﻿arsRS = [] spawn // печеньки
+﻿arsRS = [] spawn // педики.
 {
 	_boxes = [ars_rs]; 
 	{
